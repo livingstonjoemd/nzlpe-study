@@ -281,7 +281,7 @@ window.CARDS = [
    ],
    [
     "Use",
-    "Urgency compresses or skips stages, including select committee, the main check; Standing Orders are internal and courts do not look behind a passed Act. Parliament's five functions: provide a government; represent; consent to tax and spending; legislate; scrutinise the executive."
+    "Urgency compresses or skips stages, including select committee, the main check; Standing Orders are the House's own rules of procedure, which it can suspend at will; a court will not look behind a passed Act to check them (Pickin; Bill of Rights 1688 art 9). Parliament's five functions: provide a government; represent; consent to tax and spending; legislate; scrutinise the executive."
    ]
   ],
   "binder": "Tab 5, p 2 (exam sheet); p 4 (Joseph notes)",
