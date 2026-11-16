@@ -253,7 +253,7 @@ window.ESSAYS = [
  limbs:["Parliamentary supremacy","Separation of powers","Rule of law","Conclusion: legality v legitimacy"],
  route:["8.5","2.7","1.1","2.8","2.1","4.5","8.4","1.10"],core:["8.5","2.7","1.1","2.1"],
  tension:"Valid law v a legislative judgment that ends a live case.",
- land:[["Valid but constitutionally troubling: it breaches the convention against legislative judgments and removes access to court.","You weigh the Clyde Dam convention and the rule of law above policy convenience."],["Valid and defensible: climate policy is polycentric and belongs to Parliament, not tort litigation.","You accept Parliament's institutional advantage."]],
+ land:[["Valid but constitutionally troubling: it breaches the convention against legislative judgments and removes access to court.","You weigh the convention against legislative judgments (breached by the Clyde Dam Act 1982) and the rule of law above policy convenience."],["Valid and defensible: climate policy is polycentric and belongs to Parliament, not tort litigation.","You accept Parliament's institutional advantage."]],
  traps:["Verify s 271 and Sch 1AA cl 53 before citing (the card is flagged).","Retrospectivity: link to Pora and legality (card 4.5)."]},
 {id:"P2",sit:"Practice",q:0,topic:"Bill of Rights",title:"Prisoner voting 2025 and the dialogue model",
  prompt:"In 2025 Parliament reinstated a ban on prisoner voting, despite the declaration in Taylor and an Attorney-General's s 7 report. How far does the Bill of Rights restrain Parliament?",

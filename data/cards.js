@@ -13,11 +13,11 @@ window.CARDS = [
   "back": [
    [
     "For",
-    "Constitution Act 1986 s 15(1): full power to make laws. NZBORA s 4: no court may decline to apply an Act for inconsistency. Senior Courts Act 2016 s 3(2) preserves sovereignty. Westco Lagan Ltd v Attorney-General [2001] 1 NZLR 40 (HC): Parliament may expropriate without compensation if manner and form is followed. Climate Change Response (Tort Liability) Amendment Act 2026 ended Smith v Fonterra, a claim the Supreme Court had sent to trial [new law]."
+    "Constitution Act 1986 s 15(1): full power to make laws. NZBORA s 4: no court may decline to apply an Act for inconsistency. Senior Courts Act 2016 s 3(2) preserves sovereignty. Westco Lagan Ltd v Attorney-General [2001] 1 NZLR 40 (HC): Parliament may expropriate without compensation; courts police only mandatory manner and form, never content. Climate Change Response (Tort Liability) Amendment Act 2026 ended Smith v Fonterra, a claim the Supreme Court had sent to trial [new law]."
    ],
    [
     "Against",
-    "Electoral Act 1993 s 268 entrenches core electoral rules (card 1.2). Courts may enforce mandatory manner and form (Westco). Cooke J in Taylor v NZ Poultry Board [1984] 1 NZLR 394 (CA) at 398: \"some common law rights presumably lie so deep that even Parliament could not override them\" (dicta only; never applied). Courts read statutes to protect rights (NZBORA s 6; Pora)."
+    "Electoral Act 1993 s 268 entrenches core electoral rules (card 1.2). Courts might enforce mandatory manner and form (Westco, obiter). Cooke J in Taylor v NZ Poultry Board [1984] 1 NZLR 394 (CA) at 398: \"some common law rights presumably lie so deep that even Parliament could not override them\" (dicta only; never applied). Courts read statutes to protect rights (NZBORA s 6; Pora)."
    ],
    [
     "Verdict",
@@ -174,7 +174,7 @@ window.CARDS = [
   "name": "Declaration and response",
   "line": "What can a court do when an Act breaches the Bill of Rights?",
   "style": "CASE",
-  "picture": "A bell in a tower, rope slack: the court rings the bell; Parliament decides whether to answer.",
+  "picture": "A bell in a tower, rope slack: the court rings the bell; the Government must answer; Parliament decides what to do.",
   "back": [
    [
     "Facts",
@@ -302,7 +302,7 @@ window.CARDS = [
    ],
    [
     "Applied",
-    "Cardinal convention: the Governor-General acts on ministerial advice (card 9.1). The Prime Minister is whoever commands the confidence of the House. Collective responsibility: confidence, unanimity, confidentiality (\"agree to disagree\" under coalitions). Individual ministerial responsibility. Caretaker convention (card 9.11). No legislative judgments (Clutha Development (Clyde Dam) Empowering Act 1982; card 8.5). MPs do not attack judges (card 9.8)."
+    "Cardinal convention: the Governor-General acts on ministerial advice (card 9.1). The Prime Minister is whoever commands the confidence of the House. Collective responsibility: confidence, unanimity, confidentiality (\"agree to disagree\" under coalitions). Individual ministerial responsibility. Caretaker convention (card 9.11). No legislative judgments (classic breach: Clutha Development (Clyde Dam) Empowering Act 1982; card 8.5). MPs do not attack judges (card 9.8)."
    ],
    [
     "Statutes",
@@ -583,7 +583,7 @@ window.CARDS = [
   "back": [
    [
     "Steps",
-    "Sovereignty: is the measure valid law? Constitution Act 1986 s 15(1); NZBORA s 4; Westco Lagan (card 1.1) | Separation of powers: does one branch do another's job? Fitzgerald; legislating to decide a pending case (Clyde Dam convention); comity (card 2.8) | Rule of law: legal source, clarity, equality, access to courts (card 2.1) | Rights: NZBORA s 7 report, s 5 justification, declaration (cards 4.7, 1.6) | Weigh legality against legitimacy and answer the question's words"
+    "Sovereignty: is the measure valid law? Constitution Act 1986 s 15(1); NZBORA s 4; Westco Lagan (card 1.1) | Separation of powers: does one branch do another's job? Fitzgerald; legislating to decide a pending case (convention breached by the Clyde Dam Act 1982); comity (card 2.8) | Rule of law: legal source, clarity, equality, access to courts (card 2.1) | Rights: NZBORA s 7 report, s 5 justification, declaration (cards 4.7, 1.6) | Weigh legality against legitimacy and answer the question's words"
    ],
    [
     "Applied",
@@ -604,7 +604,7 @@ window.CARDS = [
   "back": [
    [
     "For",
-    "The judiciary is independent: Constitution Act 1986 ss 23–24 (card 9.8). The executive cannot legislate (Fitzgerald). Courts stay out of Parliament (Westco; Parliament Act 2025). Taylor (CA): government is a \"collaborative enterprise\", each branch sovereign in its sphere. Convention against legislative judgments (Clutha Development (Clyde Dam) Empowering Act 1982)."
+    "The judiciary is independent: Constitution Act 1986 ss 23–24 (card 9.8). The executive cannot legislate (Fitzgerald). Courts stay out of Parliament (Westco; Parliament Act 2025). Taylor (CA): government is a \"collaborative enterprise\", each branch sovereign in its sphere. Convention against legislative judgments (classic breach: Clutha Development (Clyde Dam) Empowering Act 1982)."
    ],
    [
     "Against",
@@ -790,7 +790,7 @@ window.CARDS = [
   "back": [
    [
     "For staying out",
-    "GCHQ: Lord Roskill listed prerogatives not reviewable by nature (treaties, defence, mercy, honours, dissolution, appointing ministers). Matters inside Parliament (card 1.5). Polycentric policy and security need political answers. Milroy v A-G (CA 2003): policy preparing legislation non-justiciable."
+    "GCHQ: Lord Roskill listed prerogatives not reviewable by nature (treaties, defence, mercy, honours, dissolution, appointing ministers). Matters inside Parliament (card 1.5). Polycentric policy and security need political answers. Milroy v A-G [2005] NZAR 562 (CA): policy preparing legislation non-justiciable."
    ],
    [
     "Against",
@@ -1042,7 +1042,7 @@ window.CARDS = [
   "back": [
    [
     "What",
-    "Electoral Amendment Act 2025 (assent 19 December 2025) reinstated a ban on voting by sentenced prisoners and closed enrolment 13 days before election day [new law]. The Attorney-General's NZBORA s 7 report found parts inconsistent with NZBORA s 12 (news reports). Taylor (card 1.6) had declared the 2010 ban inconsistent; NZBORA ss 7A–7B require a Government response."
+    "Electoral Amendment Act 2025 (assent 19 December 2025) reinstated a ban on voting by sentenced prisoners and closed enrolment 13 days before election day [new law]. The Attorney-General's NZBORA s 7 report found parts inconsistent with NZBORA s 12 (news reports). Taylor (card 1.6) had declared the 2010 ban inconsistent; Parliament responded with the Electoral (Registration of Sentenced Prisoners) Amendment Act 2020, restoring the vote for sentences under 3 years."
    ],
    [
     "Sov",
@@ -1050,7 +1050,7 @@ window.CARDS = [
    ],
    [
     "Sep",
-    "Parliament answered the courts' declaration with legislation: dialogue, with Parliament having the last word."
+    "Parliament answered the declaration in 2020, then reversed course in 2025: dialogue, with Parliament having the last word."
    ],
    [
     "RoL",
@@ -1822,7 +1822,7 @@ window.CARDS = [
   "back": [
    [
     "What",
-    "Smith v Fonterra Co-operative Group Ltd [2024] NZSC 5: Mr Smith (Ngāpuhi, Ngāti Kahu) sued seven large emitters in public nuisance, negligence and a new climate duty. the Supreme Court reinstated all three after the lower courts struck claims out: not clearly untenable; tikanga may inform the torts. Then the Climate Change Response (Tort Liability) Amendment Act 2026 (assent 24 August 2026) inserted Climate Change Response Act 2002 s 271 (no tort liability for emissions harm) and Sch 1AA cl 53 (applies the bar to the Smith proceedings) [new law]."
+    "Smith v Fonterra Co-operative Group Ltd [2024] NZSC 5: Mr Smith (Ngāpuhi, Ngāti Kahu) sued seven large emitters in public nuisance, negligence and a new climate duty. The Supreme Court reinstated all three after the lower courts struck claims out: not clearly untenable; tikanga may inform the torts. Then the Climate Change Response (Tort Liability) Amendment Act 2026 (assent 24 August 2026) inserted Climate Change Response Act 2002 s 271 (no tort liability for emissions harm) and Sch 1AA cl 53 (applies the bar to the Smith proceedings) [new law]."
    ],
    [
     "Sov",
@@ -1830,7 +1830,7 @@ window.CARDS = [
    ],
    [
     "Sep",
-    "Parliament decided a pending case; the convention against legislative judgments (Clutha Development (Clyde Dam) Empowering Act 1982) is breached (card 2.8)."
+    "Parliament decided a pending case, breaching the convention against legislative judgments, as the Clutha Development (Clyde Dam) Empowering Act 1982 did (card 2.8)."
    ],
    [
     "RoL",
