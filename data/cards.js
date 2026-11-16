@@ -17,7 +17,7 @@ window.CARDS = [
    ],
    [
     "Against",
-    "Electoral Act 1993 s 268 entrenches core electoral rules (card 1.2). Courts may enforce mandatory manner and form (Westco). Cooke J in Taylor v NZ Poultry Board: some common law rights may lie too deep for Parliament to override (dicta only; never applied). Courts read statutes to protect rights (NZBORA s 6; Pora)."
+    "Electoral Act 1993 s 268 entrenches core electoral rules (card 1.2). Courts may enforce mandatory manner and form (Westco). Cooke J in Taylor v NZ Poultry Board [1984] 1 NZLR 394 (CA) at 398: \"some common law rights presumably lie so deep that even Parliament could not override them\" (dicta only; never applied). Courts read statutes to protect rights (NZBORA s 6; Pora)."
    ],
    [
     "Verdict",
@@ -46,7 +46,7 @@ window.CARDS = [
    ],
    [
     "Applied",
-    "Single entrenchment means a two-step repeal is possible on the orthodox view; obeyed since 1956 as a matter of political obligation. Manner and form theory (Trethowan, Harris, Ranasinghe) and Westco Lagan suggest a court could enforce a mandatory procedure. Make It 16 (card 1.8) declared the reserved voting age inconsistent with NZBORA s 19."
+    "Single entrenchment means a two-step repeal is possible on the orthodox view; obeyed since 1956 as a matter of political obligation. Manner and form theory (Trethowan [1932] AC 526 (PC); Harris 1952 (2) SA 428 (AD); Ranasinghe [1965] AC 172 (PC)) and Westco Lagan suggest a court could enforce a mandatory procedure. Make It 16 (card 1.8) declared the reserved voting age inconsistent with NZBORA s 19."
    ],
    [
     "Changed",
@@ -153,7 +153,7 @@ window.CARDS = [
    ],
    [
     "Why",
-    "A principle wider than Bill of Rights 1688 art 9 (from Pickin) keeps courts out; comity is \"a two-way street\"."
+    "A principle wider than Bill of Rights 1688 art 9 (British Railways Board v Pickin [1974] AC 765 (HL)) keeps courts out; comity is \"a two-way street\"."
    ],
    [
     "Applied",
@@ -298,7 +298,7 @@ window.CARDS = [
   "back": [
    [
     "Steps",
-    "Jennings test: are there precedents? | Did the actors believe they were bound? | Is there a constitutional reason for the rule? (Joseph: the last two are essential; one precedent can suffice, e.g. 1984 → caretaker convention) | If a convention: courts recognise but will not enforce it | Breach brings political, not legal, consequences"
+    "Jennings test (The Law and the Constitution (5th ed, 1959) at 136): are there precedents? | Did the actors believe they were bound? | Is there a constitutional reason for the rule? (Joseph: the last two are essential; one precedent can suffice, e.g. 1984 → caretaker convention) | If a convention: courts recognise but will not enforce it | Breach brings political, not legal, consequences"
    ],
    [
     "Applied",
@@ -377,7 +377,7 @@ window.CARDS = [
   "back": [
    [
     "Steps",
-    "Is there a legal source for the power? (Fitzgerald, Payn) | Was the power used for its purpose and within its limits? (Christiansen) | Is the law clear, public and prospective, so people know what to do? (Borrowdale; Bingham) | Are officials subject to the ordinary law and courts? (Dotcom: the unlawful removal of the clones) | Do common law freedoms give way only to clear statute? (Pora, Payn) | Is access to the courts preserved? (the 2026 Climate Act)"
+    "Is there a legal source for the power? (Fitzgerald, Payn) | Was the power used for its purpose and within its limits? (Christiansen) | Is the law clear, public and prospective, so people know what to do? (Borrowdale; Lord Bingham, The Rule of Law (2010): law must be \"accessible and so far as possible intelligible, clear and predictable\") | Are officials subject to the ordinary law and courts? (Dotcom: the unlawful removal of the clones) | Do common law freedoms give way only to clear statute? (Pora, Payn) | Is access to the courts preserved? (the 2026 Climate Act)"
    ],
    [
     "Other",
@@ -525,7 +525,7 @@ window.CARDS = [
    ],
    [
     "Why",
-    "Law must be clear enough for people to know what it requires (Bingham)."
+    "Law must be clear enough for people to know what it requires (Lord Bingham; card 2.1)."
    ],
    [
     "Applied",
@@ -1496,7 +1496,7 @@ window.CARDS = [
    ],
    [
     "Why",
-    "Cooke P: the Treaty \"signified a partnership between races\". The principles: partnership, acting reasonably and in utmost good faith; responsibilities analogous to fiduciary duties; active protection to the fullest extent reasonably practicable; redress. Not an absolute duty to consult."
+    "Cooke P (at 664): the Treaty \"signified a partnership between races\". The principles: partnership, acting reasonably and in utmost good faith; responsibilities analogous to fiduciary duties; active protection to the fullest extent reasonably practicable; redress. Not an absolute duty to consult."
    ],
    [
     "Applied",
@@ -1888,7 +1888,7 @@ window.CARDS = [
    ],
    [
     "Other",
-    "He Poutama (Law Commission study paper, 2023): tikanga understood on its own terms."
+    "Law Commission, He Poutama (2023) at 15: \"Tikanga and state law now co-exist\"; tikanga understood on its own terms."
    ],
    [
     "Use",
