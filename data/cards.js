@@ -24,7 +24,6 @@ window.CARDS = [
     "Legally unlimited; the real limits are political: MMP, elections, NZBORA s 7 reports, declarations, conventions."
    ]
   ],
-  "exam": "Principles lens: Nov 24 NZ Q2 (Māori wards, civil disobedience); Nov 25 NZ Q1 (Māori parliament); Jul 26 NZ Q2 (comity); Jul 25 NZ Q1 (US-style review)",
   "binder": "Tab 2, p 5 (exam sheet); p 14 (Joseph notes)",
   "links": "1.2 manner and form · 1.5 non-interference · 8.5 override",
   "note": ""
@@ -58,7 +57,6 @@ window.CARDS = [
     "Entrenchment problems: Electoral Act 1993 s 268(2), then single entrenchment, then manner and form, then the political reality."
    ]
   ],
-  "exam": "Jul 23 NZ Q2 (entrenchment); Nov 25 NZ Q2 (written constitution)",
   "binder": "Tab 2, p 6 (exam sheet); p 14 (Joseph notes)",
   "links": "1.11 reform · 1.3 contrast · 1.8 voting age",
   "note": "Time-sensitive: the Term of Parliament Bill and the Feb 2026 referendum decision are from news reports. Check the current status before the exam."
@@ -96,7 +94,6 @@ window.CARDS = [
     "The test for any procedural rule is words, purpose and consequences. Contrast entrenchment, which is drafted to be mandatory."
    ]
   ],
-  "exam": "Jul 23 NZ Q2 (entrenchment: the contrast)",
   "binder": "Tab 7, p 2 (exam sheet)",
   "links": "1.2 contrast · 9.1 summoning",
   "note": ""
@@ -130,7 +127,6 @@ window.CARDS = [
     "Privilege is the separation of powers seen from Parliament's side. Counter: members can defame without remedy."
    ]
   ],
-  "exam": "Jul 26 NZ Q2 (comity)",
   "binder": "Tab 5, p 2 (exam sheet); p 8 (Joseph notes)",
   "links": "1.5 non-interference · 2.8 comity",
   "note": ""
@@ -168,7 +164,6 @@ window.CARDS = [
     "Separation of powers. Counter: by the time the Act passes, the right may be gone."
    ]
   ],
-  "exam": "Jul 26 NZ Q2 (comity); Jul 25 NZ Q1 (US-style review)",
   "binder": "Tab 2, p 5 (exam sheet); p 14 (Joseph notes)",
   "links": "1.4 privilege · 7.4 settlements · 1.2 manner and form",
   "note": ""
@@ -210,7 +205,6 @@ window.CARDS = [
     "Dialogue model: the court rings the bell, Parliament decides. In 2025 Parliament reinstated a prisoner ban (card 4.7)."
    ]
   ],
-  "exam": "Jul 25 NZ Q1 (US-style review); Jul 23 OS Q2 (Make It 16); Nov 23 NZ Q1 (voting rights)",
   "binder": "Tab 9, p 3 (exam sheet); p 8 (Joseph notes)",
   "links": "4.7 response · 1.8 Make It 16 · 4.2 step 6",
   "note": ""
@@ -232,7 +226,6 @@ window.CARDS = [
     "Flexibility lets the constitution adapt; almost all of it can be changed by simple majority except Electoral Act 1993 s 268 (card 1.2)."
    ]
   ],
-  "exam": "Nov 25 NZ Q2 (written constitution); Nov 22 NZ Q1 (Queen's death)",
   "binder": "Tab 1, p 2 (exam sheet); p 11 (Joseph notes)",
   "links": "1.10 conventions · 6.2 Imperial law · 1.11 codify?",
   "note": ""
@@ -270,7 +263,6 @@ window.CARDS = [
     "Courts can speak on political questions without deciding them. Counter: the voting age is reserved (card 1.2); voters should decide."
    ]
   ],
-  "exam": "Jul 23 OS Q2 (Make It 16); Nov 23 NZ Q1 (voting rights)",
   "binder": "Tab 5, p 2 (exam sheet)",
   "links": "1.6 declarations · 1.2 reserved · 4.3 discrimination",
   "note": ""
@@ -292,7 +284,6 @@ window.CARDS = [
     "Urgency compresses or skips stages (July 2024 paper); Standing Orders are internal and courts do not look behind a passed Act. Parliament's five functions: provide a government; represent; consent to tax and spending; legislate; scrutinise the executive."
    ]
   ],
-  "exam": "Jul 24 NZ Q1 (urgency); Jul 25 UK Q1 (Treaty Principles Bill, MMP, select committees)",
   "binder": "Tab 5, p 2 (exam sheet); p 4 (Joseph notes)",
   "links": "4.7 vetting · 1.2 special majority · 9.3 supply",
   "note": ""
@@ -322,7 +313,6 @@ window.CARDS = [
     "The constitution runs on rules no court enforces; strength is flexibility, weakness is uncertainty."
    ]
   ],
-  "exam": "Nov 22 NZ Q1 (Queen's death); Nov 23 OS Q2 (Ministers); Nov 25 NZ Q2 (written constitution)",
   "binder": "Tab 1, p 2 (exam sheet); p 11 (Joseph ch 10 notes)",
   "links": "9.11 caretaker · 1.11 codify? · 6.7 Cabinet Manual",
   "note": ""
@@ -348,7 +338,6 @@ window.CARDS = [
     "The honest answer turns on trust: in courts to protect rights, or in voters and conventions to restrain Parliament."
    ]
   ],
-  "exam": "Nov 25 NZ Q2 (written constitution); Jul 23 NZ Q2 (entrenchment)",
   "binder": "Tab 1, p 2 (exam sheet); p 8 (written constitution notes)",
   "links": "1.2 entrenchment · 1.6 dialogue · 7.6 Treaty's place",
   "note": ""
@@ -374,7 +363,6 @@ window.CARDS = [
     "For: protects voters' MMP choice of party. Against: chills dissent, strengthens party leaders over members and voters, and puts a party's view behind a vacancy in Parliament."
    ]
   ],
-  "exam": "No past question yet; prescribed, so still examinable",
   "binder": "Tab 5, p 2 (exam sheet); p 7 (waka-jumping notes)",
   "links": "1.9 Parliament · 1.2 MMP rules",
   "note": ""
@@ -400,7 +388,6 @@ window.CARDS = [
     "Run the checklist against any measure in a principles-lens question (card 2.7)."
    ]
   ],
-  "exam": "Principles lens: Nov 24 NZ Q2 (Māori wards, civil disobedience); Nov 25 NZ Q1 (Māori parliament); Jul 26 NZ Q2 (comity); Nov 21 Q1 (MIQ advice)",
   "binder": "Tab 2, p 4 (exam sheet); p 7 (Joseph notes)",
   "links": "2.7 lens · 1.1 tension",
   "note": ""
@@ -438,7 +425,6 @@ window.CARDS = [
     "Rule of law and separation of powers in one case. Counter: only declaratory; Parliament soon passed the change."
    ]
   ],
-  "exam": "Principles lens: Nov 24 NZ Q2 (Māori wards, civil disobedience); Nov 25 NZ Q1 (Māori parliament); Jul 26 NZ Q2 (comity)",
   "binder": "Tab 2, p 6 (exam sheet); p 8 (Joseph notes)",
   "links": "2.5 distinguished · 2.8 separation · 6.2 Imperial law",
   "note": ""
@@ -480,7 +466,6 @@ window.CARDS = [
     "Legality starts with a legal source. Counter: the split shows \"necessary implication\" is contestable."
    ]
   ],
-  "exam": "Principles lens: Nov 24 NZ Q2 (Māori wards, civil disobedience); Nov 25 NZ Q1 (Māori parliament); Jul 26 NZ Q2 (comity)",
   "binder": "Tab 2, p 4 (exam sheet); p 8 (Joseph notes)",
   "links": "2.4 defect, not absence · 5.1 search",
   "note": ""
@@ -514,7 +499,6 @@ window.CARDS = [
     "Substance over form for validity; legality judged act by act. Counter: tolerating vague warrants weakens NZBORA s 21."
    ]
   ],
-  "exam": "Principles lens: Nov 24 NZ Q2 (Māori wards, civil disobedience); Nov 25 NZ Q1 (Māori parliament); Jul 26 NZ Q2 (comity)",
   "binder": "Tab 2, p 4 (exam sheet); p 8 (Joseph notes)",
   "links": "2.3 contrast · 5.1 search",
   "note": ""
@@ -552,7 +536,6 @@ window.CARDS = [
     "Courts police legality even when the policy is right. Counter: technical, remedied, and relief nearly refused."
    ]
   ],
-  "exam": "Nov 21 Q1 (MIQ advice); Jul 22 Q1 (protest, mandates)",
   "binder": "Tab 8, p 3 (exam sheet); p 7 (Joseph notes)",
   "links": "2.2 distinguished · 4.8 prescribed by law · 3.5 declaration",
   "note": ""
@@ -586,7 +569,6 @@ window.CARDS = [
     "A policy cannot replace the discretion Parliament gave; urgency does not change the test."
    ]
   ],
-  "exam": "Nov 21 Q1 (MIQ advice)",
   "binder": "Tab 8, p 3 (exam sheet); p 7 (Joseph notes)",
   "links": "3.1 illegality · 3.5 interim relief",
   "note": ""
@@ -608,7 +590,6 @@ window.CARDS = [
     "Climate Change Response (Tort Liability) Amendment Act 2026 (card 8.5); Treaty clause review 2026 (card 7.7); Electoral Amendment Act 2025 (card 4.7)."
    ]
   ],
-  "exam": "Nov 24 NZ Q2 (Māori wards, civil disobedience); Nov 25 NZ Q1 (Māori parliament); Jul 26 NZ Q2 (comity)",
   "binder": "Tab 2, p 4 (exam sheet); pp 2–3 (current issues and ready plan)",
   "links": "2.1 rule of law · 2.8 separation · 1.1 sovereignty",
   "note": ""
@@ -642,7 +623,6 @@ window.CARDS = [
     "Strong between the political branches and the courts; weak between executive and legislature."
    ]
   ],
-  "exam": "Nov 24 NZ Q1 (judicial independence); Jul 26 NZ Q2 (comity); Nov 25 NZ Q1 (Māori parliament)",
   "binder": "Tab 2, p 5 (exam sheet); p 8 (Joseph notes)",
   "links": "9.8 independence · 1.4 comity · 8.5 legislative judgment",
   "note": ""
@@ -657,7 +637,7 @@ window.CARDS = [
   "back": [
    [
     "Steps",
-    "Illegality: wrong law, outside the power, wrong purpose, irrelevant considerations, ignoring mandatory ones, fettering (Christiansen) | Irrationality (Wednesbury unreasonableness: Associated Provincial Picture Houses Ltd v Wednesbury Corporation [1948] 1 KB 223): so unreasonable that no reasonable decision-maker could reach it; intensity varies with context | Procedural impropriety: hearing rule, bias, required procedure, legitimate expectation (GCHQ; University of Auckland v TEC) | Take each ground separately: a claim can win on one and lose another (card 3.4)"
+    "Illegality: wrong law, outside the power, wrong purpose, irrelevant considerations, ignoring mandatory ones, fettering (Christiansen) | Irrationality (Wednesbury unreasonableness: Associated Provincial Picture Houses Ltd v Wednesbury Corporation [1948] 1 KB 223): so unreasonable that no reasonable decision-maker could reach it; intensity varies with context | Procedural impropriety (natural justice): hearing rule (audi alteram partem: notice and a fair chance to respond); rule against bias (nemo judex in causa sua: no one judges their own cause); required procedure; legitimate expectation (GCHQ; University of Auckland v TEC) | Take each ground separately: a claim can win on one and lose another (card 3.4)"
    ],
    [
     "Case",
@@ -672,7 +652,6 @@ window.CARDS = [
     "Unreasonableness is the hardest ground; lead with illegality and procedure where you can."
    ]
   ],
-  "exam": "Nov 21 Q1 (MIQ advice); Nov 23 NZ Q2 (unreasonableness); Jul 26 UK Q2 (natural justice)",
   "binder": "Tab 8, p 2 (exam sheet); p 7 (Joseph notes)",
   "links": "3.4 grounds split · 2.6 illegality · 9.4 wider grounds",
   "note": ""
@@ -698,7 +677,6 @@ window.CARDS = [
     "Deference is about appropriateness, not jurisdiction; in principle no power is unreviewable."
    ]
   ],
-  "exam": "Jul 23 OS Q1 (review not appeal); Nov 23 NZ Q2 (unreasonableness)",
   "binder": "Tab 8, p 3 (exam sheet); p 5 (Joseph notes)",
   "links": "3.6 whether at all · 6.6 security",
   "note": ""
@@ -736,7 +714,6 @@ window.CARDS = [
     "Amenability: a decision \"in substance public\" is reviewable whatever its source; intensity is another matter."
    ]
   ],
-  "exam": "Nov 24 UK Q2 (is review worth it?); Jul 23 OS Q1 (review not appeal)",
   "binder": "Tab 8, p 3 (exam sheet); p 7 (Joseph notes)",
   "links": "3.4 amenability · 3.2 restraint",
   "note": ""
@@ -770,7 +747,6 @@ window.CARDS = [
     "The model for taking grounds one at a time; the remedy matched the ground won (consultation first, not a ban)."
    ]
   ],
-  "exam": "Jul 23 OS Q1 (review not appeal); Nov 24 UK Q2 (is review worth it?)",
   "binder": "Tab 8, p 2 (exam sheet); p 9 (Joseph notes)",
   "links": "3.1 heads split · 3.3 amenability · 3.5 interim orders",
   "note": ""
@@ -800,7 +776,6 @@ window.CARDS = [
     "\"Is review worth it?\": interim relief and declarations shape conduct; but the decision can often be remade."
    ]
   ],
-  "exam": "Nov 24 UK Q2 (is review worth it?); Nov 21 Q1 (MIQ advice)",
   "binder": "Tab 8, p 3 (exam sheet); p 6 (Joseph notes)",
   "links": "3.4 interim orders · 5.3 compensation · 9.12 declarations",
   "note": ""
@@ -830,7 +805,6 @@ window.CARDS = [
     "The line is moving outward; deference (card 3.2) now does more work than non-justiciability."
    ]
   ],
-  "exam": "Jul 25 NZ Q1 (US-style review); Jul 23 OS Q1 (review not appeal)",
   "binder": "Tab 8, p 2 (exam sheet); p 5 (Joseph notes)",
   "links": "3.2 how much · 1.5 Parliament · 7.4 NWO 2018",
   "note": ""
@@ -852,7 +826,6 @@ window.CARDS = [
     "Nov 21 Q1 (MIQ booking system) is the model problem."
    ]
   ],
-  "exam": "Nov 21 Q1 (MIQ advice); Nov 24 UK Q2 (is review worth it?)",
   "binder": "Tab 8, p 2 (exam sheet); p 5 (Joseph notes)",
   "links": "3.1 grounds · 3.5 remedies · 4.8 MIQ",
   "note": ""
@@ -882,7 +855,6 @@ window.CARDS = [
     "NZBORA s 6 protects rights without striking down law. Counter: strained readings become legislation; Hansen shows the limit."
    ]
   ],
-  "exam": "NZBORA questions: Jul 22 Q1 (protest, mandates); Nov 23 NZ Q1 (voting rights)",
   "binder": "Tab 9, p 2 (exam sheet); p 6 (Joseph notes)",
   "links": "4.2 method · 6.5 parallel presumption",
   "note": ""
@@ -908,7 +880,6 @@ window.CARDS = [
     "A reverse onus risks convicting despite a reasonable doubt; the order of steps is still contested."
    ]
   ],
-  "exam": "NZBORA questions: Jul 22 Q1 (protest, mandates); Nov 23 NZ Q1 (voting rights)",
   "binder": "Tab 9, p 2 (exam sheet); p 7 (Joseph notes)",
   "links": "4.1 NZBORA s 6 · 4.8 proportionality · 1.6 step 6",
   "note": ""
@@ -954,7 +925,6 @@ window.CARDS = [
     "NZBORA s 19 reaches funding decisions. Counter: funding is polycentric, and Parliament had the last word."
    ]
   ],
-  "exam": "NZBORA questions: Jul 22 Q1 (protest, mandates); Nov 23 NZ Q1 (voting rights)",
   "binder": "Tab 9, p 3 (exam sheet); p 8 (Joseph notes)",
   "links": "1.8 age ground · 2.8 override",
   "note": "Updated 14 Nov 2026: new front line, picture and authority. The master text's picture and authority lines are superseded by the update. Checked against NZLII on 14 Nov 2026."
@@ -988,7 +958,6 @@ window.CARDS = [
     "Threshold first: is the conduct within the right? Only then NZBORA s 5. Contrast Moonen and Brooker, where expression was plainly engaged."
    ]
   ],
-  "exam": "Jul 22 Q1 (protest, mandates)",
   "binder": "Tab 9, p 3 (exam sheet)",
   "links": "4.1 Moonen · 4.8 limits",
   "note": ""
@@ -1030,7 +999,6 @@ window.CARDS = [
     "The strongest NZ example of the principle of legality. Counter: Parliament had meant retrospectivity; the Court avoided its words."
    ]
   ],
-  "exam": "NZBORA questions: Jul 22 Q1 (protest, mandates); Nov 23 NZ Q1 (voting rights)",
   "binder": "Tab 9, p 4 (exam sheet)",
   "links": "8.5 retrospectivity · 9.7 legality",
   "note": ""
@@ -1060,7 +1028,6 @@ window.CARDS = [
     "The first question in any Bill of Rights problem. Counter: the boundary is unclear for contractors and state enterprises."
    ]
   ],
-  "exam": "Jul 22 Q1 (protest, mandates)",
   "binder": "Tab 9, p 2 (exam sheet); p 6 (Joseph notes)",
   "links": "5.3 liability · 3.3 public power",
   "note": ""
@@ -1094,7 +1061,6 @@ window.CARDS = [
     "The clearest current example of how far the Bill of Rights restrains Parliament."
    ]
   ],
-  "exam": "Jul 24 NZ Q1 (urgency); Jul 25 UK Q1 (Treaty Principles Bill)",
   "binder": "Tab 9, p 2 (exam sheet); p 7 (Joseph notes)",
   "links": "1.6 Taylor · 1.2 not reserved · 2.7 lens",
   "note": "Current-events card: the 2025 Act and the s 7 report come from news reports. Verify the details before the exam."
@@ -1128,7 +1094,6 @@ window.CARDS = [
     "Test each component of a measure separately. Compare Borrowdale (card 2.5): failed at \"prescribed by law\"."
    ]
   ],
-  "exam": "Jul 22 Q1 (protest, mandates); Nov 21 Q1 (MIQ advice)",
   "binder": "Tab 9, p 3 (exam sheet)",
   "links": "2.5 prescribed · 4.2 method · 3.7 advice",
   "note": ""
@@ -1166,7 +1131,6 @@ window.CARDS = [
     "Privacy, not property, is the touchstone. Counter: police need workable powers; exclusion is a balance (card 5.2)."
    ]
   ],
-  "exam": "No past question yet; prescribed, so still examinable. Use in NZBORA questions: Jul 22 Q1 (protest, mandates); Nov 23 NZ Q1 (voting rights)",
   "binder": "Tab 9, p 3 (exam sheet); p 8 (Joseph notes)",
   "links": "2.3 lawful power · 2.4 warrants · 5.2 exclusion",
   "note": ""
@@ -1196,7 +1160,6 @@ window.CARDS = [
     "Balancing keeps reliable evidence for minor breaches. Counter: the graver the crime, the more the balance admits evidence, weakening the right where it matters most."
    ]
   ],
-  "exam": "No past question yet; prescribed, so still examinable. Use in NZBORA questions: Jul 22 Q1 (protest, mandates); Nov 23 NZ Q1 (voting rights)",
   "binder": "Tab 9, p 2 (exam sheet); p 8 (Joseph notes)",
   "links": "5.1 search · 5.4 lawyer",
   "note": ""
@@ -1238,7 +1201,6 @@ window.CARDS = [
     "A right needs a remedy. Counter: no remedies clause was chosen; awards are discretionary and modest."
    ]
   ],
-  "exam": "No past question yet; prescribed, so still examinable. Use in NZBORA questions: Jul 22 Q1 (protest, mandates); Nov 23 NZ Q1 (voting rights)",
   "binder": "Tab 9, p 3 (exam sheet); p 8 (Joseph notes)",
   "links": "4.6 who is bound · 3.5 remedies",
   "note": ""
@@ -1272,7 +1234,6 @@ window.CARDS = [
     "The safeguards bite through exclusion of evidence (card 5.2)."
    ]
   ],
-  "exam": "No past question yet; prescribed, so still examinable. Use in NZBORA questions: Jul 22 Q1 (protest, mandates); Nov 23 NZ Q1 (voting rights)",
   "binder": "Tab 9, p 3 (exam sheet); p 6 (Joseph notes)",
   "links": "5.2 exclusion · 4.1 earlier statutes",
   "note": ""
@@ -1298,7 +1259,6 @@ window.CARDS = [
     "Walk the ladder rung by rung; Richardson J in Ashby (clear legislation prevails) is the anchor at the bottom."
    ]
   ],
-  "exam": "No past question yet on international law; prescribed, so still examinable",
   "binder": "Tab 10, p 2 (exam sheet); p 4 (Joseph notes)",
   "links": "6.4 must consider · 6.5 presumption · 7.6 Treaty's status",
   "note": ""
@@ -1328,7 +1288,6 @@ window.CARDS = [
     "Old texts still protect liberty. Counter: a scattered constitution is hard to find and easy to change."
    ]
   ],
-  "exam": "Nov 25 NZ Q2 (written constitution)",
   "binder": "Tab 1, p 2 (exam sheet); p 4 (Joseph notes)",
   "links": "2.2 art 1 · 1.4 art 9 · 1.7 sources",
   "note": ""
@@ -1358,7 +1317,6 @@ window.CARDS = [
     "The bottom of the ladder: a presumption of consistency cannot override a clear power. Contrast Sellers (card 6.5)."
    ]
   ],
-  "exam": "No past question yet; prescribed, so still examinable",
   "binder": "Tab 10, p 2 (exam sheet)",
   "links": "6.5 contrast · 6.1 ladder",
   "note": ""
@@ -1392,7 +1350,6 @@ window.CARDS = [
     "Obligations to children are, in practice, mandatory considerations. Counter: Ashby and Pilots: treaties are not law."
    ]
   ],
-  "exam": "No past question yet; prescribed, so still examinable",
   "binder": "Tab 10, p 2 (exam sheet)",
   "links": "6.1 ladder · 9.9 status of the Committee",
   "note": ""
@@ -1426,7 +1383,6 @@ window.CARDS = [
     "Where the words allow, read them to fit international law. Counter: it yields to clear words (card 6.3)."
    ]
   ],
-  "exam": "No past question yet; prescribed, so still examinable",
   "binder": "Tab 10, p 2 (exam sheet)",
   "links": "6.3 contrast · 4.1 parallel",
   "note": ""
@@ -1456,7 +1412,6 @@ window.CARDS = [
     "Security attracts deference, not immunity."
    ]
   ],
-  "exam": "No past question yet; prescribed, so still examinable",
   "binder": "Tab 10, p 2 (exam sheet)",
   "links": "3.2 deference · 6.1 ladder",
   "note": ""
@@ -1486,7 +1441,6 @@ window.CARDS = [
     "Parliament's view before binding action answers dualism's democratic gap. Counter: the executive still decides; the House cannot block ratification."
    ]
   ],
-  "exam": "Nov 23 OS Q2 (Ministers); Nov 25 NZ Q2 (written constitution)",
   "binder": "Tab 10, p 2 (exam sheet)",
   "links": "1.10 conventions · 6.1 ladder",
   "note": ""
@@ -1516,7 +1470,6 @@ window.CARDS = [
     "A specialist forum with tikanga expertise. Counter: recommendations can be ignored, as 2026 showed."
    ]
   ],
-  "exam": "Jul 22 Q2 (Green proposals); Jul 23 NZ Q1 (Jackson)",
   "binder": "Tab 3, p 2 (exam sheet); p 6 (Joseph notes)",
   "links": "7.6 texts · 7.7 review",
   "note": ""
@@ -1554,7 +1507,6 @@ window.CARDS = [
     "Principles bind only through statute (Te Heuheu, card 6.1)."
    ]
   ],
-  "exam": "Nov 23 OS Q1 (partnership); Nov 24 UK Q1 (ACT principles); Jul 26 NZ Q1 (Treaty clauses)",
   "binder": "Tab 3, p 3 (exam sheet); p 5 (Joseph notes)",
   "links": "7.3 generous reading · 7.7 review · 6.1 Te Heuheu",
   "note": ""
@@ -1592,7 +1544,6 @@ window.CARDS = [
     "What a generous Treaty clause can do, and what the 2026 review narrows. Counter: consideration is not a veto."
    ]
   ],
-  "exam": "Jul 26 NZ Q1 (Treaty clauses); Nov 23 OS Q1 (partnership)",
   "binder": "Tab 3, p 3 (exam sheet)",
   "links": "7.2 principles · 8.3 tikanga · 7.7 review",
   "note": ""
@@ -1634,7 +1585,6 @@ window.CARDS = [
     "Courts can protect rights before settlement legislation passes. Counter: Parliament can still legislate; courts are wary of choosing between iwi."
    ]
   ],
-  "exam": "Nov 22 OS Q2 (overlapping claims); Jul 22 Q2 (Green proposals)",
   "binder": "Tab 3, p 3 (exam sheet)",
   "links": "7.5 the trial · 1.5 Parliament · 3.6 justiciability",
   "note": ""
@@ -1668,7 +1618,6 @@ window.CARDS = [
     "Tikanga guides the Crown's process. Counter: courts may not be the right forum to decide mana whenua."
    ]
   ],
-  "exam": "Nov 22 OS Q2 (overlapping claims)",
   "binder": "Tab 3, p 4 (exam sheet)",
   "links": "7.4 2018 · 8.3 Takamore",
   "note": ""
@@ -1690,7 +1639,6 @@ window.CARDS = [
     "The principles approach lets courts avoid choosing a text; critics say it dilutes te Tiriti."
    ]
   ],
-  "exam": "Jul 26 NZ Q1 (Treaty clauses); Nov 24 UK Q1 (ACT principles)",
   "binder": "Tab 3, p 2 (exam sheet); p 5 (Joseph notes)",
   "links": "7.1 Tribunal · 7.2 principles",
   "note": ""
@@ -1716,7 +1664,6 @@ window.CARDS = [
     "Legally Parliament can; the argument is legitimacy, and the shift from \"give effect to\" to \"take into account\" reverses the line from the Lands case to Trans-Tasman."
    ]
   ],
-  "exam": "Nov 24 UK Q1 (ACT principles); Jul 25 UK Q1 (Treaty Principles Bill)",
   "binder": "Tab 3, p 2 (exam sheet); p 6 (Joseph notes)",
   "links": "7.2 Lands case · 7.3 Trans-Tasman · 2.7 lens",
   "note": "Time-sensitive: the 23 Feb and 15 May 2026 Cabinet changes are marked [current]. Check for later changes before the exam."
@@ -1750,7 +1697,6 @@ window.CARDS = [
     "Requirements: grounded in tikanga before 1840 and continued; reasonable; certain; not extinguished. Counter: Parliament can extinguish with clear words (card 8.2)."
    ]
   ],
-  "exam": "Nov 21 Q2 (Takamore); Jul 25 NZ Q2 (\"fabric\")",
   "binder": "Tab 4, p 2 (exam sheet); p 5 (Joseph notes)",
   "links": "8.2 extinguishment · 9.7 clear words",
   "note": ""
@@ -1788,7 +1734,6 @@ window.CARDS = [
     "Courts recognise surviving rights; Parliament has the last word, three times over."
    ]
   ],
-  "exam": "Jul 25 NZ Q2 (\"fabric\"); Nov 21 Q2 (Takamore)",
   "binder": "Tab 4, p 3 (exam sheet); p 5 (Joseph notes)",
   "links": "8.6 test · 1.1 sovereignty",
   "note": ""
@@ -1826,7 +1771,6 @@ window.CARDS = [
     "Tikanga enters as a relevant consideration, not an overriding rule."
    ]
   ],
-  "exam": "Nov 21 Q2 (Takamore); Jul 25 NZ Q2 (\"fabric\")",
   "binder": "Tab 4, p 2 (exam sheet); p 5 (Joseph notes)",
   "links": "8.4 Ellis · 7.5 evidence",
   "note": ""
@@ -1864,7 +1808,6 @@ window.CARDS = [
     "Judicial law-making is legitimate common law method (Donoghue v Stevenson). Counter: legitimacy; Parliament can respond (card 8.5)."
    ]
   ],
-  "exam": "Nov 22 NZ Q2 (Ellis); Jul 25 NZ Q2 (\"fabric\")",
   "binder": "Tab 4, p 2 (exam sheet); p 4 (Joseph notes)",
   "links": "8.3 Takamore · 8.7 three routes · 8.5 Parliament replies",
   "note": ""
@@ -1898,7 +1841,6 @@ window.CARDS = [
     "The model \"principles lens\" answer (card 2.7). Counter: climate policy is polycentric and belongs to Parliament."
    ]
   ],
-  "exam": "Jul 25 NZ Q2 (\"fabric\"); Principles lens: Nov 24 NZ Q2 (Māori wards, civil disobedience); Nov 25 NZ Q1 (Māori parliament); Jul 26 NZ Q2 (comity)",
   "binder": "Tab 4, p 2 (exam sheet); p 4 (Joseph notes)",
   "links": "2.7 lens · 1.1 sovereignty · 8.4 Ellis",
   "note": "Current-events card: the 2026 Act and its s 271 and Sch 1AA cl 53 come from recent sources. Verify the section numbers before the exam."
@@ -1928,7 +1870,6 @@ window.CARDS = [
     "The statutory route to recognition after Ngāti Apa. Counter: the test, especially after 2025, is hard to meet."
    ]
   ],
-  "exam": "Jul 25 NZ Q2 (\"fabric\")",
   "binder": "Tab 4, p 2 (exam sheet); p 5 (Joseph notes)",
   "links": "8.2 Ngāti Apa · 2.7 lens",
   "note": ""
@@ -1954,7 +1895,6 @@ window.CARDS = [
     "Glazebrook J's three routes are the structure for any tikanga essay."
    ]
   ],
-  "exam": "Nov 25 UK Q1 (He Poutama)",
   "binder": "Tab 4, p 2 (exam sheet); p 4 (Joseph notes)",
   "links": "8.4 Ellis · 7.5 pūkenga",
   "note": ""
@@ -1984,7 +1924,6 @@ window.CARDS = [
     "Wide legal powers, narrow by convention; no court enforces the limit."
    ]
   ],
-  "exam": "Nov 22 NZ Q1 (Queen's death)",
   "binder": "Tab 6, p 2 (exam sheet); p 4 (Joseph notes)",
   "links": "1.10 conventions · 9.11 formation",
   "note": ""
@@ -2014,7 +1953,6 @@ window.CARDS = [
     "Constitution Act 1986 s 6 codifies responsible government and fuses executive and legislature (card 2.8)."
    ]
   ],
-  "exam": "Nov 23 OS Q2 (Ministers)",
   "binder": "Tab 6, p 2 (exam sheet); p 6 (Joseph notes)",
   "links": "9.11 after the election · 2.8 fusion",
   "note": "Recent law: the Constitution Amendment Act 2026 (in force 10 July 2026) is marked [new law]. Check the section numbers."
@@ -2044,7 +1982,6 @@ window.CARDS = [
     "Supply is a matter of confidence; neutrality questions (Jul 24 NZ Q2) start with Public Service Act 2020 s 12."
    ]
   ],
-  "exam": "Nov 22 OS Q1 (Crown entities); Jul 24 NZ Q2 (public service neutrality)",
   "binder": "Tab 6, p 3 (exam sheet); p 12 (Joseph notes)",
   "links": "2.2 Fitzgerald · 9.10 Auditor-General",
   "note": ""
@@ -2074,7 +2011,6 @@ window.CARDS = [
     "Wider grounds than review (\"unjust\", \"wrong\"), but recommendations only."
    ]
   ],
-  "exam": "No past question yet; prescribed, so still examinable",
   "binder": "Tab 6, p 3 (exam sheet); p 13 (Joseph notes)",
   "links": "3.1 narrower grounds · 9.10 Officers",
   "note": ""
@@ -2104,7 +2040,6 @@ window.CARDS = [
     "Openness is the rule; withholding must be justified. Counter: broad grounds and routine delay."
    ]
   ],
-  "exam": "No past question yet; prescribed, so still examinable",
   "binder": "Tab 6, p 3 (exam sheet); p 13 (Joseph notes)",
   "links": "9.4 review · 9.6 privacy",
   "note": ""
@@ -2130,7 +2065,6 @@ window.CARDS = [
     "Both regimes support accountability. Counter: privacy and transparency pull against each other."
    ]
   ],
-  "exam": "No past question yet; prescribed, so still examinable",
   "binder": "Tab 6, p 3 (exam sheet); p 13 (Joseph notes)",
   "links": "9.5 OIA · 9.4 Ombudsman",
   "note": ""
@@ -2152,7 +2086,6 @@ window.CARDS = [
     "On meaning there is one right answer, the court's (Joseph ch 22)."
    ]
   ],
-  "exam": "Nov 25 UK Q2 (Legislation Act 2019)",
   "binder": "Tab 10, p 2 (exam sheet); p 4 (Joseph notes)",
   "links": "4.1 NZBORA s 6 · 4.5 legality",
   "note": ""
@@ -2182,7 +2115,6 @@ window.CARDS = [
     "Independence is the precondition of the rule of law. Counter: independence needs accountability; comity runs both ways."
    ]
   ],
-  "exam": "Nov 24 NZ Q1 (judicial independence); Jul 26 NZ Q2 (comity); Jul 25 UK Q2 (courts)",
   "binder": "Tab 7, p 2 (exam sheet); p 6 (Joseph notes)",
   "links": "2.8 separation · 9.12 courts",
   "note": ""
@@ -2220,7 +2152,6 @@ window.CARDS = [
     "A court is part of the coercive legal system. Counter: access to international remedies matters, especially for Māori."
    ]
   ],
-  "exam": "Jul 25 UK Q2 (courts and access to justice)",
   "binder": "Tab 7, p 2 (exam sheet)",
   "links": "6.4 Tavita · 9.12 courts",
   "note": ""
@@ -2250,7 +2181,6 @@ window.CARDS = [
     "Independent watchdogs strengthen accountability. Counter: they report but cannot compel."
    ]
   ],
-  "exam": "No past question yet; prescribed, so still examinable",
   "binder": "Tab 6, p 3 (exam sheet); p 10 (Joseph notes)",
   "links": "9.4 Ombudsman · 9.3 public money",
   "note": ""
@@ -2284,7 +2214,6 @@ window.CARDS = [
     "Argue conventions work because the actors accept them; the risk is uncertainty under MMP."
    ]
   ],
-  "exam": "Nov 23 OS Q2 (Ministers); Nov 22 NZ Q1 (Queen's death)",
   "binder": "Tab 6, p 2 (exam sheet); p 9 (government formation)",
   "links": "1.10 conventions · 9.2 s 6 · 9.1 Governor-General",
   "note": "Time-sensitive: the vote count is from preliminary reports, and official results are due 27 November 2026. Update this card after the official result, and re-check the seat numbers."
@@ -2314,7 +2243,6 @@ window.CARDS = [
     "Declarations are how public law rights reach court without coercive relief."
    ]
   ],
-  "exam": "Jul 25 UK Q2 (courts and access to justice); Nov 24 NZ Q1 (judicial independence)",
   "binder": "Tab 7, p 2 (exam sheet)",
   "links": "3.5 remedies · 9.8 independence · 9.9 what a court is",
   "note": ""
