@@ -115,8 +115,9 @@ button.small { padding: 6px 10px; font-size: 0.85rem; }
 .linkbtn { background: none; border: 0; color: var(--accent); padding: 0; text-align: left; font-weight: 600; }
 .suitrow { display: grid; grid-template-columns: 70px 1fr 44px; gap: 8px; align-items: center; margin: 6px 0; }
 .suitrow .suitname { grid-column: 2 / 4; color: var(--muted); font-size: 0.8rem; margin-top: -4px; }
-.bar { background: #ece8e1; border-radius: 999px; height: 10px; overflow: hidden; }
+.bar { background: #ece8e1; border-radius: 999px; height: 10px; overflow: hidden; display: flex; }
 .bar .fill { background: var(--right); height: 100%; }
+.bar .fill.once { opacity: 0.35; }
 .pct { font-size: 0.85rem; text-align: right; }
 .steplist { padding-left: 22px; }
 .steplist li { margin: 4px 0; }
