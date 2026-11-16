@@ -657,6 +657,7 @@
       h('h2', { text: 'Route checked' }),
       h('p', { class: 'big', text: r.coreHit.length + ' of ' + e.core.length + ' essential cards · ' + r.routeHit.length + ' of ' + e.route.length + ' in the model route' }),
       h('h3', { text: 'Model route' }),
+      h('p', { class: 'hint', text: 'Green: in the model route and you picked it. Red: essential and you missed it. Amber: useful but not essential, not picked. Cards you picked that are not in the route are listed below; they are not wrong if you can say why.' }),
       h('ul', { class: 'routelist' }, rows),
       r.extra.length ? h('p', { class: 'hint', text: 'Also ticked (not in the model route; fine if you can say why): ' + r.extra.map(cardLabel).join('; ') }) : null,
       h('div', { class: 'tension' }, h('b', { text: 'The tension it turns on: ' }), e.tension),
