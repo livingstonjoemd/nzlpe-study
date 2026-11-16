@@ -587,7 +587,7 @@ window.CARDS = [
    ],
    [
     "Applied",
-    "Climate Change Response (Tort Liability) Amendment Act 2026 (card 8.5); Treaty clause review 2026 (card 7.7); Electoral Amendment Act 2025 (card 4.7). Māori wards: the 2024 Amendment Act forced binding polls and councils had to comply; in 2025, 24 of 42 councils dropped their wards although a national majority voted to keep them."
+    "Climate Change Response (Tort Liability) Amendment Act 2026 (card 8.5); Treaty clause Bills 2026 (card 7.7, not yet law); Electoral Amendment Act 2025 (card 4.7). Māori wards: the 2024 Amendment Act forced binding polls and councils had to comply; in 2025, 24 of 42 councils dropped their wards although a national majority voted to keep them."
    ]
   ],
   "binder": "Tab 2, p 4 (exam sheet); pp 2–3 (current issues and ready plan)",
@@ -1463,7 +1463,7 @@ window.CARDS = [
    ],
    [
     "Changed",
-    "Wai 3565 (2026) found the Treaty clause review breached Treaty principles; the Government proceeded."
+    "Wai 3565 (2026) found the Treaty clause review breached Treaty principles; the Government introduced Bills anyway (September 2026)."
    ],
    [
     "Use",
@@ -1500,7 +1500,7 @@ window.CARDS = [
    ],
    [
     "Applied",
-    "Clause strength: \"give effect to\" (Conservation Act 1987 s 4; Ngāi Tai ki Tāmaki [2018] NZSC 122: substantive) ≈ \"not inconsistent with\" (State-Owned Enterprises Act 1986 s 9: a bar, overriding in the Lands case) > \"take into account\" (2026 ceiling; weigh and balance)."
+    "Clause strength: \"give effect to\" (Conservation Act 1987 s 4; Ngāi Tai ki Tāmaki [2018] NZSC 122: substantive) ≈ \"not inconsistent with\" (State-Owned Enterprises Act 1986 s 9: a bar, overriding in the Lands case) > \"take into account\" (proposed 2026 ceiling; weigh and balance)."
    ],
    [
     "Use",
@@ -1541,7 +1541,7 @@ window.CARDS = [
    ],
    [
     "Use",
-    "What a generous Treaty clause can do, and what the 2026 review narrows. Counter: consideration is not a veto."
+    "What a generous Treaty clause can do, and what the 2026 Bills would narrow. Counter: consideration is not a veto."
    ]
   ],
   "binder": "Tab 3, p 3 (exam sheet)",
@@ -1653,7 +1653,7 @@ window.CARDS = [
   "back": [
    [
     "For Parliament",
-    "Sovereignty (card 1.1); democratic mandate; consistency and certainty. Current: Cabinet decision 23 February 2026; on 15 May 2026, changes to 19 Acts: 7 clauses repealed, 2 made more specific, 10 capped at \"take into account\" [current]."
+    "Sovereignty (card 1.1); democratic mandate; consistency and certainty. Current: Cabinet decision 23 February 2026, announced 15 May 2026 for 19 Acts: 7 clauses repealed, 2 made more specific, 10 capped at \"take into account\". Three Bills introduced 14 September 2026, first reading, Justice Committee (report due 14 March 2027): not yet law [current]."
    ],
    [
     "For courts and Tribunal",
@@ -1661,7 +1661,7 @@ window.CARDS = [
    ],
    [
     "Verdict",
-    "Legally Parliament can; the argument is legitimacy, and the shift from \"give effect to\" to \"take into account\" reverses the line from the Lands case to Trans-Tasman."
+    "Legally Parliament can; the argument is legitimacy, and the shift from \"give effect to\" to \"take into account\" would reverse the line from the Lands case to Trans-Tasman."
    ]
   ],
   "binder": "Tab 3, p 2 (exam sheet); p 6 (Joseph notes)",
