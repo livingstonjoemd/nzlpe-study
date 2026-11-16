@@ -223,7 +223,7 @@ window.ESSAYS = [
  limbs:["Effect of principles references","How Treaty references differ","Why reference Te Tiriti alongside the Treaty"],
  route:["7.2","7.3","7.6","7.7","7.1","6.1"],core:["7.2","7.6","7.7"],
  tension:"Principles developed by courts and Tribunal v the text, and which text.",
- land:[["Principles references import the case-law content (Lands case) and their force depends on clause strength.","Rank the clauses: not inconsistent with > give effect to > take into account."],["Naming Te Tiriti responds to the two-text problem and the meaning most signatories agreed to.","Contra proferentem favours te Tiriti; the Tribunal decides differences (s 5(2))."]],
+ land:[["Principles references import the case-law content (Lands case) and their force depends on clause strength.","Rank the clauses: give effect to (Ngāi Tai ki Tāmaki) ≈ not inconsistent with (a bar, Lands case) > take into account."],["Naming Te Tiriti responds to the two-text problem and the meaning most signatories agreed to.","Contra proferentem favours te Tiriti; the Tribunal decides differences (s 5(2))."]],
  traps:["Principles bind only through statute (Te Heuheu).","Use the 2026 review figures carefully: the card is flagged."]},
 {id:"J26-2",sit:"Jul 2026",q:2,topic:"Principles",title:"Comity and the three principles",
  prompt:"A judicial conduct panel found Judge Aitken's conduct toward a party leader a serious breach of comity but not misbehaviour. What is comity, and why does it matter to parliamentary supremacy, separation of powers and the rule of law?",

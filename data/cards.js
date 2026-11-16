@@ -1500,7 +1500,7 @@ window.CARDS = [
    ],
    [
     "Applied",
-    "Clause strength: \"not inconsistent with\" (State-Owned Enterprises Act 1986 s 9) > \"give effect to\" (Conservation Act 1987 s 4) > \"take into account\" (2026 ceiling; a mandatory relevant consideration in review)."
+    "Clause strength: \"give effect to\" (Conservation Act 1987 s 4; Ngāi Tai ki Tāmaki [2018] NZSC 122: substantive) ≈ \"not inconsistent with\" (State-Owned Enterprises Act 1986 s 9: a bar, overriding in the Lands case) > \"take into account\" (2026 ceiling; weigh and balance)."
    ],
    [
     "Use",
