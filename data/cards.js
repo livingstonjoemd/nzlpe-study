@@ -25,7 +25,7 @@ window.CARDS = [
    ]
   ],
   "binder": "Tab 2, p 5 (exam sheet); p 14 (Joseph notes)",
-  "links": "1.2 manner and form · 1.5 non-interference · 8.5 override",
+  "links": "→ 1.2 if the law is entrenched · → 1.5 if a court is asked to stop a Bill · → 8.5 for a live override",
   "note": ""
  },
  {
@@ -54,11 +54,11 @@ window.CARDS = [
    ],
    [
     "Use",
-    "Entrenchment problems: Electoral Act 1993 s 268(2), then single entrenchment, then manner and form, then the political reality."
+    "Entrenchment problems: Electoral Act 1993 s 268(2), then single entrenchment, then manner and form, then the political reality. Counter: it binds politically, not legally."
    ]
   ],
   "binder": "Tab 2, p 6 (exam sheet); p 14 (Joseph notes)",
-  "links": "1.11 reform · 1.3 contrast · 1.8 voting age",
+  "links": "→ 1.11 for reform debates · → 1.3 to contrast directory rules · → 1.8 for the voting age",
   "note": "Time-sensitive: the Term of Parliament Bill and the Feb 2026 referendum decision are from news reports. Check the current status before the exam."
  },
  {
@@ -91,11 +91,11 @@ window.CARDS = [
    ],
    [
     "Use",
-    "The test for any procedural rule is words, purpose and consequences. Contrast entrenchment, which is drafted to be mandatory."
+    "The test for any procedural rule is words, purpose and consequences. Contrast entrenchment, which is drafted to be mandatory. Counter: a directory label lets officials miss deadlines without consequence."
    ]
   ],
   "binder": "Tab 7, p 2 (exam sheet)",
-  "links": "1.2 contrast · 9.1 summoning",
+  "links": "→ 1.2 to contrast mandatory entrenchment · → 9.1 for summoning Parliament",
   "note": ""
  },
  {
@@ -120,7 +120,7 @@ window.CARDS = [
    ],
    [
     "Statutes",
-    "Parliament Act 2025 [new law, assent 12 Nov 2025]: Parliament Act 2025 s 13 (proceedings in Parliament); Parliament Act 2025 s 17 (effect of Bill of Rights 1688 art 9; prosecutions under Crimes Act 1961 ss 102, 103, 109 preserved); Parliament Act 2025 s 18 (prohibited uses of evidence). Replaced the Parliamentary Privilege Act 2014, which reversed Attorney-General v Leigh [2011] NZSC 106."
+    "Parliament Act 2025 [new law, assent 12 Nov 2025] s 13 (proceedings in Parliament), s 17 (effect of art 9), s 18 (prohibited uses of evidence). Replaced the Parliamentary Privilege Act 2014, which reversed Attorney-General v Leigh [2011] NZSC 106."
    ],
    [
     "Use",
@@ -128,7 +128,7 @@ window.CARDS = [
    ]
   ],
   "binder": "Tab 5, p 2 (exam sheet); p 8 (Joseph notes)",
-  "links": "1.5 non-interference · 2.8 comity",
+  "links": "→ 1.5 if a court is asked to step in · → 2.8 for comity",
   "note": ""
  },
  {
@@ -157,7 +157,7 @@ window.CARDS = [
    ],
    [
     "Applied",
-    "Ngāti Whātua Ōrākei Trust v Attorney-General [2018] NZSC 84 (card 7.4): rights may be declared before settlement legislation; the decision to legislate cannot be challenged."
+    "NWO 2018 (card 7.4): rights may be declared before legislation; the decision to legislate cannot be challenged."
    ],
    [
     "Use",
@@ -165,7 +165,7 @@ window.CARDS = [
    ]
   ],
   "binder": "Tab 2, p 5 (exam sheet); p 14 (Joseph notes)",
-  "links": "1.4 privilege · 7.4 settlements · 1.2 manner and form",
+  "links": "→ 1.4 if debates are used as evidence · → 7.4 for declarations before legislation · → 1.2 for manner and form",
   "note": ""
  },
  {
@@ -206,7 +206,7 @@ window.CARDS = [
    ]
   ],
   "binder": "Tab 9, p 3 (exam sheet); p 8 (Joseph notes)",
-  "links": "4.7 response · 1.8 Make It 16 · 4.2 step 6",
+  "links": "→ 4.7 for Parliament's answer · → 1.8 for a later declaration · → 4.2 for step 6 of Hansen",
   "note": ""
  },
  {
@@ -223,11 +223,11 @@ window.CARDS = [
    ],
    [
     "Use",
-    "Flexibility lets the constitution adapt; almost all of it can be changed by simple majority except Electoral Act 1993 s 268 (card 1.2)."
+    "Flexibility lets the constitution adapt; almost all of it can be changed by simple majority except Electoral Act 1993 s 268 (card 1.2). Counter: scattered sources are hard to find and easy to change (card 1.11)."
    ]
   ],
   "binder": "Tab 1, p 2 (exam sheet); p 11 (Joseph notes)",
-  "links": "1.10 conventions · 6.2 Imperial law · 1.11 codify?",
+  "links": "→ 1.10 for conventions · → 6.2 for Imperial law · → 1.11 for codifying",
   "note": ""
  },
  {
@@ -264,7 +264,7 @@ window.CARDS = [
    ]
   ],
   "binder": "Tab 5, p 2 (exam sheet)",
-  "links": "1.6 declarations · 1.2 reserved · 4.3 discrimination",
+  "links": "→ 1.6 for declarations · → 1.2 for the reserved voting age · → 4.3 for discrimination",
   "note": ""
  },
  {
@@ -281,11 +281,11 @@ window.CARDS = [
    ],
    [
     "Use",
-    "Urgency compresses or skips stages (July 2024 paper); Standing Orders are internal and courts do not look behind a passed Act. Parliament's five functions: provide a government; represent; consent to tax and spending; legislate; scrutinise the executive."
+    "Urgency compresses or skips stages, including select committee, the main check; Standing Orders are internal and courts do not look behind a passed Act. Parliament's five functions: provide a government; represent; consent to tax and spending; legislate; scrutinise the executive."
    ]
   ],
   "binder": "Tab 5, p 2 (exam sheet); p 4 (Joseph notes)",
-  "links": "4.7 vetting · 1.2 special majority · 9.3 supply",
+  "links": "→ 4.7 for s 7 vetting · → 1.2 for special majorities · → 9.3 for supply",
   "note": ""
  },
  {
@@ -302,7 +302,7 @@ window.CARDS = [
    ],
    [
     "Applied",
-    "Cardinal convention: the Governor-General acts on ministerial advice (card 9.1). The Prime Minister is whoever commands the confidence of the House. Collective responsibility: confidence, unanimity, confidentiality (\"agree to disagree\" under coalitions). Individual ministerial responsibility. Caretaker convention (card 9.11). No legislative judgments (Clyde Dam Empowering Act 1982; card 8.5). MPs do not attack judges (card 9.8)."
+    "Cardinal convention: the Governor-General acts on ministerial advice (card 9.1). The Prime Minister is whoever commands the confidence of the House. Collective responsibility: confidence, unanimity, confidentiality (\"agree to disagree\" under coalitions). Individual ministerial responsibility. Caretaker convention (card 9.11). No legislative judgments (Clutha Development (Clyde Dam) Empowering Act 1982; card 8.5). MPs do not attack judges (card 9.8)."
    ],
    [
     "Statutes",
@@ -314,7 +314,7 @@ window.CARDS = [
    ]
   ],
   "binder": "Tab 1, p 2 (exam sheet); p 11 (Joseph ch 10 notes)",
-  "links": "9.11 caretaker · 1.11 codify? · 6.7 Cabinet Manual",
+  "links": "→ 9.11 for the caretaker period · → 1.11 for codifying · → 6.7 for the Cabinet Manual",
   "note": ""
  },
  {
@@ -339,7 +339,7 @@ window.CARDS = [
    ]
   ],
   "binder": "Tab 1, p 2 (exam sheet); p 8 (written constitution notes)",
-  "links": "1.2 entrenchment · 1.6 dialogue · 7.6 Treaty's place",
+  "links": "→ 1.2 for entrenchment · → 1.6 for the dialogue model · → 7.6 for the Treaty's place",
   "note": ""
  },
  {
@@ -364,7 +364,7 @@ window.CARDS = [
    ]
   ],
   "binder": "Tab 5, p 2 (exam sheet); p 7 (waka-jumping notes)",
-  "links": "1.9 Parliament · 1.2 MMP rules",
+  "links": "→ 1.9 for how Parliament works · → 1.2 for electoral rules",
   "note": ""
  },
  {
@@ -385,11 +385,11 @@ window.CARDS = [
    ],
    [
     "Use",
-    "Run the checklist against any measure in a principles-lens question (card 2.7)."
+    "Run the checklist against any measure in a principles-lens question (card 2.7). Counter: on a thin view, a valid law can still be unjust."
    ]
   ],
   "binder": "Tab 2, p 4 (exam sheet); p 7 (Joseph notes)",
-  "links": "2.7 lens · 1.1 tension",
+  "links": "→ 2.7 to apply it · → 1.1 for the clash with sovereignty",
   "note": ""
  },
  {
@@ -426,7 +426,7 @@ window.CARDS = [
    ]
   ],
   "binder": "Tab 2, p 6 (exam sheet); p 8 (Joseph notes)",
-  "links": "2.5 distinguished · 2.8 separation · 6.2 Imperial law",
+  "links": "→ 2.5 to distinguish · → 2.8 for separation · → 6.2 for the Bill of Rights 1688",
   "note": ""
  },
  {
@@ -467,7 +467,7 @@ window.CARDS = [
    ]
   ],
   "binder": "Tab 2, p 4 (exam sheet); p 8 (Joseph notes)",
-  "links": "2.4 defect, not absence · 5.1 search",
+  "links": "→ 2.4 for a defective, not absent, power · → 5.1 for search",
   "note": ""
  },
  {
@@ -500,7 +500,7 @@ window.CARDS = [
    ]
   ],
   "binder": "Tab 2, p 4 (exam sheet); p 8 (Joseph notes)",
-  "links": "2.3 contrast · 5.1 search",
+  "links": "→ 2.3 for no power at all · → 5.1 for search",
   "note": ""
  },
  {
@@ -517,7 +517,7 @@ window.CARDS = [
    ],
    [
     "Issue",
-    "(1) Were the Health Act orders lawful; (2) was there unlawful delegation; (3) were the restrictions prescribed by law throughout?"
+    "(1) were the Health Act orders lawful; (2) was there unlawful delegation; (3) were the restrictions prescribed by law throughout?"
    ],
    [
     "Held",
@@ -537,7 +537,7 @@ window.CARDS = [
    ]
   ],
   "binder": "Tab 8, p 3 (exam sheet); p 7 (Joseph notes)",
-  "links": "2.2 distinguished · 4.8 prescribed by law · 3.5 declaration",
+  "links": "→ 2.2 to distinguish · → 4.8 for \"prescribed by law\" · → 3.5 for declarations",
   "note": ""
  },
  {
@@ -566,11 +566,11 @@ window.CARDS = [
    ],
    [
     "Use",
-    "A policy cannot replace the discretion Parliament gave; urgency does not change the test."
+    "A policy cannot replace the discretion Parliament gave; urgency does not change the test. Counter: officials need guidelines to decide consistently."
    ]
   ],
   "binder": "Tab 8, p 3 (exam sheet); p 7 (Joseph notes)",
-  "links": "3.1 illegality · 3.5 interim relief",
+  "links": "→ 3.1 for illegality · → 3.5 for interim relief",
   "note": ""
  },
  {
@@ -587,11 +587,11 @@ window.CARDS = [
    ],
    [
     "Applied",
-    "Climate Change Response (Tort Liability) Amendment Act 2026 (card 8.5); Treaty clause review 2026 (card 7.7); Electoral Amendment Act 2025 (card 4.7)."
+    "Climate Change Response (Tort Liability) Amendment Act 2026 (card 8.5); Treaty clause review 2026 (card 7.7); Electoral Amendment Act 2025 (card 4.7). Māori wards: the 2024 Amendment Act forced binding polls and councils had to comply; in 2025, 24 of 42 councils dropped their wards although a national majority voted to keep them."
    ]
   ],
   "binder": "Tab 2, p 4 (exam sheet); pp 2–3 (current issues and ready plan)",
-  "links": "2.1 rule of law · 2.8 separation · 1.1 sovereignty",
+  "links": "→ 2.1 for rule of law · → 2.8 for separation · → 1.1 for sovereignty",
   "note": ""
  },
  {
@@ -604,7 +604,7 @@ window.CARDS = [
   "back": [
    [
     "For",
-    "The judiciary is independent: Constitution Act 1986 ss 23–24 (card 9.8). The executive cannot legislate (Fitzgerald). Courts stay out of Parliament (Westco; Parliament Act 2025). Taylor (CA): government is a \"collaborative enterprise\", each branch sovereign in its sphere. Convention against legislative judgments (Clyde Dam Empowering Act 1982)."
+    "The judiciary is independent: Constitution Act 1986 ss 23–24 (card 9.8). The executive cannot legislate (Fitzgerald). Courts stay out of Parliament (Westco; Parliament Act 2025). Taylor (CA): government is a \"collaborative enterprise\", each branch sovereign in its sphere. Convention against legislative judgments (Clutha Development (Clyde Dam) Empowering Act 1982)."
    ],
    [
     "Against",
@@ -616,7 +616,7 @@ window.CARDS = [
    ],
    [
     "Current",
-    "Judicial Conduct Panel on Judge Ema Aitken (report 1 April 2026): \"a serious breach of comity\", not grounds for removal."
+    "The Aitken panel (2026): comity binds judges too (card 9.8)."
    ],
    [
     "Verdict",
@@ -624,7 +624,7 @@ window.CARDS = [
    ]
   ],
   "binder": "Tab 2, p 5 (exam sheet); p 8 (Joseph notes)",
-  "links": "9.8 independence · 1.4 comity · 8.5 legislative judgment",
+  "links": "→ 9.8 for judges · → 1.4 for comity · → 8.5 for a legislative judgment",
   "note": ""
  },
  {
@@ -645,15 +645,15 @@ window.CARDS = [
    ],
    [
     "Statutes",
-    "NZBORA s 27(1) (natural justice for any tribunal or public authority deciding rights); NZBORA s 27(2) (right to apply for review). Ombudsmen Act 1975 s 22 grounds go further (\"unjust\", \"wrong\"; card 9.4)."
+    "NZBORA s 27(1) (natural justice for any tribunal or public authority deciding rights); s 27(2) (right to apply for review). Ombudsmen go further (card 9.4)."
    ],
    [
     "Use",
-    "Unreasonableness is the hardest ground; lead with illegality and procedure where you can."
+    "Joseph (at 1067): unreasonableness is \"the most problematic of the grounds\"; lead with illegality and procedure."
    ]
   ],
   "binder": "Tab 8, p 2 (exam sheet); p 7 (Joseph notes)",
-  "links": "3.4 grounds split · 2.6 illegality · 9.4 wider grounds",
+  "links": "→ 3.4 for split results · → 2.6 for illegality · → 9.4 for wider grounds",
   "note": ""
  },
  {
@@ -670,15 +670,15 @@ window.CARDS = [
    ],
    [
     "Case",
-    "Attorney-General v Zaoui [2005] NZSC 38 (card 6.6): security risk certificate reviewable; Immigration Act 1987 s 72 read with NZBORA ss 8–9; no deportation to a real risk of torture or arbitrary death."
+    "Zaoui (card 6.6): even a security risk certificate is reviewable."
    ],
    [
     "Use",
-    "Deference is about appropriateness, not jurisdiction; in principle no power is unreviewable."
+    "Deference is about appropriateness, not jurisdiction; in principle no power is unreviewable. Counter: deference can become abdication (Milroy, card 3.6)."
    ]
   ],
   "binder": "Tab 8, p 3 (exam sheet); p 5 (Joseph notes)",
-  "links": "3.6 whether at all · 6.6 security",
+  "links": "→ 3.6 for whether to review at all · → 6.6 for security",
   "note": ""
  },
  {
@@ -715,7 +715,7 @@ window.CARDS = [
    ]
   ],
   "binder": "Tab 8, p 3 (exam sheet); p 7 (Joseph notes)",
-  "links": "3.4 amenability · 3.2 restraint",
+  "links": "→ 3.4 for amenability · → 3.2 for restraint",
   "note": ""
  },
  {
@@ -744,11 +744,11 @@ window.CARDS = [
    ],
    [
     "Use",
-    "The model for taking grounds one at a time; the remedy matched the ground won (consultation first, not a ban)."
+    "The model for taking grounds one at a time; the remedy matched the ground won (consultation first, not a ban). Counter: TEC could still publish after consulting."
    ]
   ],
   "binder": "Tab 8, p 2 (exam sheet); p 9 (Joseph notes)",
-  "links": "3.1 heads split · 3.3 amenability · 3.5 interim orders",
+  "links": "→ 3.1 for the heads · → 3.3 for amenability · → 3.5 for interim orders",
   "note": ""
  },
  {
@@ -773,11 +773,11 @@ window.CARDS = [
    ],
    [
     "Use",
-    "\"Is review worth it?\": interim relief and declarations shape conduct; but the decision can often be remade."
+    "\"is review worth it?\": interim relief and declarations shape conduct; but the decision can often be remade."
    ]
   ],
   "binder": "Tab 8, p 3 (exam sheet); p 6 (Joseph notes)",
-  "links": "3.4 interim orders · 5.3 compensation · 9.12 declarations",
+  "links": "→ 3.4 for interim orders · → 5.3 for compensation · → 9.12 for declarations",
   "note": ""
  },
  {
@@ -794,11 +794,11 @@ window.CARDS = [
    ],
    [
     "Against",
-    "Reviewability depends on subject matter, not source (GCHQ). Ngāti Whātua Ōrākei Trust v Attorney-General [2018] NZSC 84 (card 7.4): only decisions proximately connected to proceedings in Parliament are excluded; declarations of rights may proceed (Elias CJ would have gone further). Zaoui: security is reviewable."
+    "Reviewability depends on subject matter, not source (GCHQ). NWO 2018 (card 7.4): only decisions proximately connected to proceedings in Parliament are excluded. Zaoui: security is reviewable."
    ],
    [
     "Other",
-    "Joseph ch 22: no unreviewable power in principle; Milroy an \"abdication\"; Ngāti Whātua Ōrākei the \"quietus to the Milroy mantra\"."
+    "Joseph (at 908): courts say review is \"not in the nature of an appeal\". Joseph ch 22: no unreviewable power in principle; Milroy an \"abdication\"; Ngāti Whātua Ōrākei the \"quietus to the Milroy mantra\"."
    ],
    [
     "Verdict",
@@ -806,7 +806,7 @@ window.CARDS = [
    ]
   ],
   "binder": "Tab 8, p 2 (exam sheet); p 5 (Joseph notes)",
-  "links": "3.2 how much · 1.5 Parliament · 7.4 NWO 2018",
+  "links": "→ 3.2 for how closely · → 1.5 for Parliament · → 7.4 for NWO 2018",
   "note": ""
  },
  {
@@ -823,11 +823,11 @@ window.CARDS = [
    ],
    [
     "Use",
-    "Nov 21 Q1 (MIQ booking system) is the model problem."
+    "Answer every problem question in this order. Counter: the client may win and still get the same decision remade (card 3.5)."
    ]
   ],
   "binder": "Tab 8, p 2 (exam sheet); p 5 (Joseph notes)",
-  "links": "3.1 grounds · 3.5 remedies · 4.8 MIQ",
+  "links": "→ 3.1 for grounds · → 3.5 for remedies · → 4.8 for a worked rights claim",
   "note": ""
  },
  {
@@ -856,7 +856,7 @@ window.CARDS = [
    ]
   ],
   "binder": "Tab 9, p 2 (exam sheet); p 6 (Joseph notes)",
-  "links": "4.2 method · 6.5 parallel presumption",
+  "links": "→ 4.2 for the method · → 6.5 for the parallel treaty presumption",
   "note": ""
  },
  {
@@ -881,7 +881,7 @@ window.CARDS = [
    ]
   ],
   "binder": "Tab 9, p 2 (exam sheet); p 7 (Joseph notes)",
-  "links": "4.1 NZBORA s 6 · 4.8 proportionality · 1.6 step 6",
+  "links": "→ 4.1 for s 6 · → 4.8 for proportionality · → 1.6 at step 6",
   "note": ""
  },
  {
@@ -926,7 +926,7 @@ window.CARDS = [
    ]
   ],
   "binder": "Tab 9, p 3 (exam sheet); p 8 (Joseph notes)",
-  "links": "1.8 age ground · 2.8 override",
+  "links": "→ 1.8 for the age ground · → 2.8 for Parliament's override",
   "note": "Updated 14 Nov 2026: new front line, picture and authority. The master text's picture and authority lines are superseded by the update. Checked against NZLII on 14 Nov 2026."
  },
  {
@@ -955,11 +955,11 @@ window.CARDS = [
    ],
    [
     "Use",
-    "Threshold first: is the conduct within the right? Only then NZBORA s 5. Contrast Moonen and Brooker, where expression was plainly engaged."
+    "Threshold first: is the conduct within the right? Only then NZBORA s 5. Contrast Moonen and Brooker, where expression was plainly engaged. Counter: appearance can express identity; the threshold is contestable."
    ]
   ],
   "binder": "Tab 9, p 3 (exam sheet)",
-  "links": "4.1 Moonen · 4.8 limits",
+  "links": "→ 4.1 when expression is plainly engaged · → 4.8 for limits",
   "note": ""
  },
  {
@@ -1000,7 +1000,7 @@ window.CARDS = [
    ]
   ],
   "binder": "Tab 9, p 4 (exam sheet)",
-  "links": "8.5 retrospectivity · 9.7 legality",
+  "links": "→ 8.5 for retrospective legislation · → 9.7 for legality",
   "note": ""
  },
  {
@@ -1029,7 +1029,7 @@ window.CARDS = [
    ]
   ],
   "binder": "Tab 9, p 2 (exam sheet); p 6 (Joseph notes)",
-  "links": "5.3 liability · 3.3 public power",
+  "links": "→ 5.3 for liability · → 3.3 for public power",
   "note": ""
  },
  {
@@ -1042,7 +1042,7 @@ window.CARDS = [
   "back": [
    [
     "What",
-    "Electoral Amendment Act 2025 (assent 19 December 2025) reinstated a ban on voting by sentenced prisoners and closed enrolment 13 days before election day [new law]. The Attorney-General's NZBORA s 7 report found parts inconsistent with NZBORA s 12 (news reports). Attorney-General v Taylor [2018] NZSC 104 had declared the 2010 ban inconsistent with NZBORA s 12 (card 1.6); NZBORA ss 7A–7B require a Government response to declarations."
+    "Electoral Amendment Act 2025 (assent 19 December 2025) reinstated a ban on voting by sentenced prisoners and closed enrolment 13 days before election day [new law]. The Attorney-General's NZBORA s 7 report found parts inconsistent with NZBORA s 12 (news reports). Taylor (card 1.6) had declared the 2010 ban inconsistent; NZBORA ss 7A–7B require a Government response."
    ],
    [
     "Sov",
@@ -1062,7 +1062,7 @@ window.CARDS = [
    ]
   ],
   "binder": "Tab 9, p 2 (exam sheet); p 7 (Joseph notes)",
-  "links": "1.6 Taylor · 1.2 not reserved · 2.7 lens",
+  "links": "→ 1.6 for Taylor · → 1.2 for why s 80 is not reserved · → 2.7 for the lens",
   "note": "Current-events card: the 2025 Act and the s 7 report come from news reports. Verify the details before the exam."
  },
  {
@@ -1091,11 +1091,11 @@ window.CARDS = [
    ],
    [
     "Use",
-    "Test each component of a measure separately. Compare Borrowdale (card 2.5): failed at \"prescribed by law\"."
+    "Test each component separately. Mandates: an Order that fails s 5 can be set aside, not just declared (Yardley v Minister for Workplace Relations and Safety [2022] NZHC 291; COVID-19 Public Health Response Act 2020 s 9(1)(ba)). Counter: courts defer to health evidence in an emergency."
    ]
   ],
   "binder": "Tab 9, p 3 (exam sheet)",
-  "links": "2.5 prescribed · 4.2 method · 3.7 advice",
+  "links": "→ 2.5 for \"prescribed by law\" · → 4.2 for the method · → 3.7 to advise a client",
   "note": ""
  },
  {
@@ -1132,7 +1132,7 @@ window.CARDS = [
    ]
   ],
   "binder": "Tab 9, p 3 (exam sheet); p 8 (Joseph notes)",
-  "links": "2.3 lawful power · 2.4 warrants · 5.2 exclusion",
+  "links": "→ 2.3 for lawful power · → 2.4 for warrants · → 5.2 for exclusion",
   "note": ""
  },
  {
@@ -1161,7 +1161,7 @@ window.CARDS = [
    ]
   ],
   "binder": "Tab 9, p 2 (exam sheet); p 8 (Joseph notes)",
-  "links": "5.1 search · 5.4 lawyer",
+  "links": "→ 5.1 for search · → 5.4 for the right to a lawyer",
   "note": ""
  },
  {
@@ -1202,7 +1202,7 @@ window.CARDS = [
    ]
   ],
   "binder": "Tab 9, p 3 (exam sheet); p 8 (Joseph notes)",
-  "links": "4.6 who is bound · 3.5 remedies",
+  "links": "→ 4.6 for who is bound · → 3.5 for remedies",
   "note": ""
  },
  {
@@ -1231,11 +1231,11 @@ window.CARDS = [
    ],
    [
     "Use",
-    "The safeguards bite through exclusion of evidence (card 5.2)."
+    "The safeguards bite through exclusion of evidence (card 5.2). Counter: exclusion is a balance, not automatic."
    ]
   ],
   "binder": "Tab 9, p 3 (exam sheet); p 6 (Joseph notes)",
-  "links": "5.2 exclusion · 4.1 earlier statutes",
+  "links": "→ 5.2 for exclusion · → 4.1 for earlier statutes",
   "note": ""
  },
  {
@@ -1256,11 +1256,11 @@ window.CARDS = [
    ],
    [
     "Use",
-    "Walk the ladder rung by rung; Richardson J in Ashby (clear legislation prevails) is the anchor at the bottom."
+    "Walk the ladder rung by rung; Richardson J in Ashby (clear legislation prevails) is the anchor at the bottom. Counter: dualism lets the executive bind New Zealand abroad without Parliament."
    ]
   ],
   "binder": "Tab 10, p 2 (exam sheet); p 4 (Joseph notes)",
-  "links": "6.4 must consider · 6.5 presumption · 7.6 Treaty's status",
+  "links": "→ 6.4 for must-consider · → 6.5 for the presumption · → 7.6 for the Treaty's status",
   "note": ""
  },
  {
@@ -1289,7 +1289,7 @@ window.CARDS = [
    ]
   ],
   "binder": "Tab 1, p 2 (exam sheet); p 4 (Joseph notes)",
-  "links": "2.2 art 1 · 1.4 art 9 · 1.7 sources",
+  "links": "→ 2.2 for art 1 · → 1.4 for art 9 · → 1.7 for sources",
   "note": ""
  },
  {
@@ -1318,7 +1318,7 @@ window.CARDS = [
    ]
   ],
   "binder": "Tab 10, p 2 (exam sheet)",
-  "links": "6.5 contrast · 6.1 ladder",
+  "links": "→ 6.5 to contrast · → 6.1 for the ladder",
   "note": ""
  },
  {
@@ -1351,7 +1351,7 @@ window.CARDS = [
    ]
   ],
   "binder": "Tab 10, p 2 (exam sheet)",
-  "links": "6.1 ladder · 9.9 status of the Committee",
+  "links": "→ 6.1 for the ladder · → 9.9 for the Committee's status",
   "note": ""
  },
  {
@@ -1384,7 +1384,7 @@ window.CARDS = [
    ]
   ],
   "binder": "Tab 10, p 2 (exam sheet)",
-  "links": "6.3 contrast · 4.1 parallel",
+  "links": "→ 6.3 to contrast · → 4.1 for the parallel rights presumption",
   "note": ""
  },
  {
@@ -1409,11 +1409,11 @@ window.CARDS = [
    ],
    [
     "Use",
-    "Security attracts deference, not immunity."
+    "Security attracts deference, not immunity. Counter: courts cannot test secret intelligence."
    ]
   ],
   "binder": "Tab 10, p 2 (exam sheet)",
-  "links": "3.2 deference · 6.1 ladder",
+  "links": "→ 3.2 for deference · → 6.1 for the ladder",
   "note": ""
  },
  {
@@ -1442,7 +1442,7 @@ window.CARDS = [
    ]
   ],
   "binder": "Tab 10, p 2 (exam sheet)",
-  "links": "1.10 conventions · 6.1 ladder",
+  "links": "→ 1.10 for conventions · → 6.1 for the ladder",
   "note": ""
  },
  {
@@ -1471,7 +1471,7 @@ window.CARDS = [
    ]
   ],
   "binder": "Tab 3, p 2 (exam sheet); p 6 (Joseph notes)",
-  "links": "7.6 texts · 7.7 review",
+  "links": "→ 7.6 for the two texts · → 7.7 for the 2026 review",
   "note": ""
  },
  {
@@ -1496,7 +1496,7 @@ window.CARDS = [
    ],
    [
     "Why",
-    "The principles: partnership, acting reasonably and in utmost good faith; responsibilities analogous to fiduciary duties; active protection to the fullest extent reasonably practicable; redress. Not an absolute duty to consult."
+    "Cooke P: the Treaty \"signified a partnership between races\". The principles: partnership, acting reasonably and in utmost good faith; responsibilities analogous to fiduciary duties; active protection to the fullest extent reasonably practicable; redress. Not an absolute duty to consult."
    ],
    [
     "Applied",
@@ -1504,11 +1504,11 @@ window.CARDS = [
    ],
    [
     "Use",
-    "Principles bind only through statute (Te Heuheu, card 6.1)."
+    "Principles bind only through statute (Te Heuheu, card 6.1). Counter: the principles are judge-made and uncertain."
    ]
   ],
   "binder": "Tab 3, p 3 (exam sheet); p 5 (Joseph notes)",
-  "links": "7.3 generous reading · 7.7 review · 6.1 Te Heuheu",
+  "links": "→ 7.3 for a generous reading · → 7.7 for the 2026 review · → 6.1 for Te Heuheu",
   "note": ""
  },
  {
@@ -1545,7 +1545,7 @@ window.CARDS = [
    ]
   ],
   "binder": "Tab 3, p 3 (exam sheet)",
-  "links": "7.2 principles · 8.3 tikanga · 7.7 review",
+  "links": "→ 7.2 for the principles · → 8.3 for tikanga · → 7.7 for the 2026 review",
   "note": ""
  },
  {
@@ -1586,7 +1586,7 @@ window.CARDS = [
    ]
   ],
   "binder": "Tab 3, p 3 (exam sheet)",
-  "links": "7.5 the trial · 1.5 Parliament · 3.6 justiciability",
+  "links": "→ 7.5 for the trial · → 1.5 for Parliament · → 3.6 for justiciability",
   "note": ""
  },
  {
@@ -1619,7 +1619,7 @@ window.CARDS = [
    ]
   ],
   "binder": "Tab 3, p 4 (exam sheet)",
-  "links": "7.4 2018 · 8.3 Takamore",
+  "links": "→ 7.4 for 2018 · → 8.3 for Takamore",
   "note": ""
  },
  {
@@ -1640,7 +1640,7 @@ window.CARDS = [
    ]
   ],
   "binder": "Tab 3, p 2 (exam sheet); p 5 (Joseph notes)",
-  "links": "7.1 Tribunal · 7.2 principles",
+  "links": "→ 7.1 for the Tribunal · → 7.2 for the principles",
   "note": ""
  },
  {
@@ -1665,7 +1665,7 @@ window.CARDS = [
    ]
   ],
   "binder": "Tab 3, p 2 (exam sheet); p 6 (Joseph notes)",
-  "links": "7.2 Lands case · 7.3 Trans-Tasman · 2.7 lens",
+  "links": "→ 7.2 for the Lands case · → 7.3 for Trans-Tasman · → 2.7 for the lens",
   "note": "Time-sensitive: the 23 Feb and 15 May 2026 Cabinet changes are marked [current]. Check for later changes before the exam."
  },
  {
@@ -1698,7 +1698,7 @@ window.CARDS = [
    ]
   ],
   "binder": "Tab 4, p 2 (exam sheet); p 5 (Joseph notes)",
-  "links": "8.2 extinguishment · 9.7 clear words",
+  "links": "→ 8.2 for extinguishment · → 9.7 for clear words",
   "note": ""
  },
  {
@@ -1735,7 +1735,7 @@ window.CARDS = [
    ]
   ],
   "binder": "Tab 4, p 3 (exam sheet); p 5 (Joseph notes)",
-  "links": "8.6 test · 1.1 sovereignty",
+  "links": "→ 8.6 for the statutory test · → 1.1 for sovereignty",
   "note": ""
  },
  {
@@ -1768,11 +1768,11 @@ window.CARDS = [
    ],
    [
     "Use",
-    "Tikanga enters as a relevant consideration, not an overriding rule."
+    "Tikanga enters as a relevant consideration, not an overriding rule. Counter: Elias CJ would let tikanga shape the rule itself."
    ]
   ],
   "binder": "Tab 4, p 2 (exam sheet); p 5 (Joseph notes)",
-  "links": "8.4 Ellis · 7.5 evidence",
+  "links": "→ 8.4 for Ellis · → 7.5 for tikanga evidence",
   "note": ""
  },
  {
@@ -1801,7 +1801,7 @@ window.CARDS = [
    ],
    [
     "Other",
-    "Glazebrook J: tikanga is part of the fabric of New Zealand's law through legislation, the common law and policy. Joseph: a \"watershed\"."
+    "Glazebrook J: tikanga-derived principles are \"part of the fabric\" of New Zealand's law and public institutions through legislation, the common law and policy. Joseph: a \"watershed\"."
    ],
    [
     "Use",
@@ -1809,7 +1809,7 @@ window.CARDS = [
    ]
   ],
   "binder": "Tab 4, p 2 (exam sheet); p 4 (Joseph notes)",
-  "links": "8.3 Takamore · 8.7 three routes · 8.5 Parliament replies",
+  "links": "→ 8.3 for Takamore · → 8.7 for the three routes · → 8.5 for Parliament's reply",
   "note": ""
  },
  {
@@ -1822,7 +1822,7 @@ window.CARDS = [
   "back": [
    [
     "What",
-    "Smith v Fonterra Co-operative Group Ltd [2024] NZSC 5: Mr Smith (Ngāpuhi, Ngāti Kahu) sued seven large emitters in public nuisance, negligence and a new climate duty. High Court struck out two; Court of Appeal all three; Supreme Court reinstated all: not clearly untenable; tikanga may inform the torts. Then the Climate Change Response (Tort Liability) Amendment Act 2026 (assent 24 August 2026) inserted Climate Change Response Act 2002 s 271 (no tort liability for emissions harm) and Sch 1AA cl 53 (applies the bar to the Smith proceedings) [new law]."
+    "Smith v Fonterra Co-operative Group Ltd [2024] NZSC 5: Mr Smith (Ngāpuhi, Ngāti Kahu) sued seven large emitters in public nuisance, negligence and a new climate duty. the Supreme Court reinstated all three after the lower courts struck claims out: not clearly untenable; tikanga may inform the torts. Then the Climate Change Response (Tort Liability) Amendment Act 2026 (assent 24 August 2026) inserted Climate Change Response Act 2002 s 271 (no tort liability for emissions harm) and Sch 1AA cl 53 (applies the bar to the Smith proceedings) [new law]."
    ],
    [
     "Sov",
@@ -1830,7 +1830,7 @@ window.CARDS = [
    ],
    [
     "Sep",
-    "Parliament decided a pending case; the convention against legislative judgments (Clyde Dam Empowering Act 1982) is breached (card 2.8)."
+    "Parliament decided a pending case; the convention against legislative judgments (Clutha Development (Clyde Dam) Empowering Act 1982) is breached (card 2.8)."
    ],
    [
     "RoL",
@@ -1842,7 +1842,7 @@ window.CARDS = [
    ]
   ],
   "binder": "Tab 4, p 2 (exam sheet); p 4 (Joseph notes)",
-  "links": "2.7 lens · 1.1 sovereignty · 8.4 Ellis",
+  "links": "→ 2.7 for the lens · → 1.1 for sovereignty · → 8.4 for Ellis",
   "note": "Current-events card: the 2026 Act and its s 271 and Sch 1AA cl 53 come from recent sources. Verify the section numbers before the exam."
  },
  {
@@ -1871,7 +1871,7 @@ window.CARDS = [
    ]
   ],
   "binder": "Tab 4, p 2 (exam sheet); p 5 (Joseph notes)",
-  "links": "8.2 Ngāti Apa · 2.7 lens",
+  "links": "→ 8.2 for Ngāti Apa · → 2.7 for the lens",
   "note": ""
  },
  {
@@ -1892,11 +1892,11 @@ window.CARDS = [
    ],
    [
     "Use",
-    "Glazebrook J's three routes are the structure for any tikanga essay."
+    "Glazebrook J's three routes are the structure for any tikanga essay. Counter: each route depends on state law's permission."
    ]
   ],
   "binder": "Tab 4, p 2 (exam sheet); p 4 (Joseph notes)",
-  "links": "8.4 Ellis · 7.5 pūkenga",
+  "links": "→ 8.4 for Ellis · → 7.5 for pūkenga",
   "note": ""
  },
  {
@@ -1913,7 +1913,7 @@ window.CARDS = [
    ],
    [
     "Elements",
-    "Constitution Act 1986 s 4 (Regent), s 5 (demise of the Crown), s 16 (royal assent), s 17 (three-year term), s 18 (summoning, proroguing, dissolving). Letters Patent 1983 constitute the office; Letters Patent cl 16: the right to be consulted, to encourage and to warn. The Chief Justice is Administrator when no Governor-General is available."
+    "Constitution Act 1986 s 5 (demise of the Crown): powers pass to the successor; the Crown continues, and the Treaty partner is the Crown, not the person. Letters Patent 1983 constitute the office; Letters Patent cl 16: the right to be consulted, to encourage and to warn. The Chief Justice is Administrator when no Governor-General is available."
    ],
    [
     "Applied",
@@ -1921,11 +1921,11 @@ window.CARDS = [
    ],
    [
     "Use",
-    "Wide legal powers, narrow by convention; no court enforces the limit."
+    "Wide legal powers, narrow by convention; no court enforces the limit. Counter: nothing in law stops a rogue Governor-General."
    ]
   ],
   "binder": "Tab 6, p 2 (exam sheet); p 4 (Joseph notes)",
-  "links": "1.10 conventions · 9.11 formation",
+  "links": "→ 1.10 for conventions · → 9.11 for government formation",
   "note": ""
  },
  {
@@ -1950,11 +1950,11 @@ window.CARDS = [
    ],
    [
     "Use",
-    "Constitution Act 1986 s 6 codifies responsible government and fuses executive and legislature (card 2.8)."
+    "Constitution Act 1986 s 6 codifies responsible government and fuses executive and legislature (card 2.8). Counter: fusion lets the executive dominate the House."
    ]
   ],
   "binder": "Tab 6, p 2 (exam sheet); p 6 (Joseph notes)",
-  "links": "9.11 after the election · 2.8 fusion",
+  "links": "→ 9.11 for after the election · → 2.8 for fusion",
   "note": "Recent law: the Constitution Amendment Act 2026 (in force 10 July 2026) is marked [new law]. Check the section numbers."
  },
  {
@@ -1979,11 +1979,11 @@ window.CARDS = [
    ],
    [
     "Use",
-    "Supply is a matter of confidence; neutrality questions (Jul 24 NZ Q2) start with Public Service Act 2020 s 12."
+    "Supply is a matter of confidence; neutrality questions start with Public Service Act 2020 s 12. Counter: arm's-length bodies blur who answers to whom."
    ]
   ],
   "binder": "Tab 6, p 3 (exam sheet); p 12 (Joseph notes)",
-  "links": "2.2 Fitzgerald · 9.10 Auditor-General",
+  "links": "→ 2.2 for Fitzgerald · → 9.10 for the Auditor-General",
   "note": ""
  },
  {
@@ -2012,7 +2012,7 @@ window.CARDS = [
    ]
   ],
   "binder": "Tab 6, p 3 (exam sheet); p 13 (Joseph notes)",
-  "links": "3.1 narrower grounds · 9.10 Officers",
+  "links": "→ 3.1 for narrower grounds · → 9.10 for Officers of Parliament",
   "note": ""
  },
  {
@@ -2041,7 +2041,7 @@ window.CARDS = [
    ]
   ],
   "binder": "Tab 6, p 3 (exam sheet); p 13 (Joseph notes)",
-  "links": "9.4 review · 9.6 privacy",
+  "links": "→ 9.4 for review · → 9.6 for privacy",
   "note": ""
  },
  {
@@ -2066,7 +2066,7 @@ window.CARDS = [
    ]
   ],
   "binder": "Tab 6, p 3 (exam sheet); p 13 (Joseph notes)",
-  "links": "9.5 OIA · 9.4 Ombudsman",
+  "links": "→ 9.5 for the OIA · → 9.4 for the Ombudsman",
   "note": ""
  },
  {
@@ -2083,11 +2083,11 @@ window.CARDS = [
    ],
    [
     "Use",
-    "On meaning there is one right answer, the court's (Joseph ch 22)."
+    "On meaning there is one right answer, the court's (Joseph ch 22). Counter: purposive reading lets judges pick the purpose."
    ]
   ],
   "binder": "Tab 10, p 2 (exam sheet); p 4 (Joseph notes)",
-  "links": "4.1 NZBORA s 6 · 4.5 legality",
+  "links": "→ 4.1 for NZBORA s 6 · → 4.5 for legality",
   "note": ""
  },
  {
@@ -2116,7 +2116,7 @@ window.CARDS = [
    ]
   ],
   "binder": "Tab 7, p 2 (exam sheet); p 6 (Joseph notes)",
-  "links": "2.8 separation · 9.12 courts",
+  "links": "→ 2.8 for separation · → 9.12 for the courts",
   "note": ""
  },
  {
@@ -2153,7 +2153,7 @@ window.CARDS = [
    ]
   ],
   "binder": "Tab 7, p 2 (exam sheet)",
-  "links": "6.4 Tavita · 9.12 courts",
+  "links": "→ 6.4 for Tavita · → 9.12 for the courts",
   "note": ""
  },
  {
@@ -2182,7 +2182,7 @@ window.CARDS = [
    ]
   ],
   "binder": "Tab 6, p 3 (exam sheet); p 10 (Joseph notes)",
-  "links": "9.4 Ombudsman · 9.3 public money",
+  "links": "→ 9.4 for the Ombudsman · → 9.3 for public money",
   "note": ""
  },
  {
@@ -2195,7 +2195,7 @@ window.CARDS = [
   "back": [
    [
     "What",
-    "Election 7 November 2026; official results 27 November 2026. As reported, the preliminary count gave no clear winner: National, ACT and NZ First on a majority of about two seats, The Opportunity Party about seven seats; the Prime Minister leads a caretaker government until final results. Caretaker convention (from 1984): if the result is clear, no new policy and act on the incoming government's wishes on urgent matters; if unclear, routine business only, defer significant decisions, consult. Under MMP, formation can take weeks (1996: about eight weeks; 2017: 26 days). The Governor-General appoints whoever commands the confidence of the House. Constitution Amendment Act 2026 keeps outgoing ministers lawfully in office until the day after list members are declared [new law]."
+    "Election 7 November 2026; official results 27 November 2026. The Prime Minister leads a caretaker government until a new one is formed. Caretaker convention (from 1984): if the result is clear, no new policy and act on the incoming government's wishes on urgent matters; if unclear, routine business only, defer significant decisions, consult. Under MMP, formation can take weeks (1996: about eight weeks; 2017: 26 days). The Governor-General appoints whoever commands the confidence of the House. Constitution Amendment Act 2026 keeps outgoing ministers lawfully in office until the day after list members are declared [new law]."
    ],
    [
     "Sov",
@@ -2215,8 +2215,8 @@ window.CARDS = [
    ]
   ],
   "binder": "Tab 6, p 2 (exam sheet); p 9 (government formation)",
-  "links": "1.10 conventions · 9.2 s 6 · 9.1 Governor-General",
-  "note": "Time-sensitive: the vote count is from preliminary reports, and official results are due 27 November 2026. Update this card after the official result, and re-check the seat numbers."
+  "links": "→ 1.10 for conventions · → 9.2 for s 6 · → 9.1 for the Governor-General",
+  "note": "Time-sensitive: official results are due 27 November 2026. Update this card after the result."
  },
  {
   "id": "9.12",
@@ -2232,7 +2232,7 @@ window.CARDS = [
    ],
    [
     "Elements",
-    "Declaratory Judgments Act 1908 s 3 (a person whose acts or rights depend on legislation, a deed, will, document of title, written agreement or company constitution may apply by originating summons); Declaratory Judgments Act 1908 s 4 (the declaration binds as a judgment); Declaratory Judgments Act 1908 s 7 (removal into the Court of Appeal). Senior Courts Act 2016: Supreme Court, Court of Appeal, High Court; Senior Courts Act 2016 s 3(2) preserves the rule of law and sovereignty. District Court Act 2016: one District Court. Privy Council appeals ended for decisions after 2003."
+    "Declaratory Judgments Act 1908 s 3 (a person whose acts or rights depend on legislation, a deed, will, document of title, written agreement or company constitution may apply by originating summons); Declaratory Judgments Act 1908 s 4 (the declaration binds as a judgment); Declaratory Judgments Act 1908 s 7 (removal into the Court of Appeal). Senior Courts Act 2016: Supreme Court, Court of Appeal, High Court; Senior Courts Act 2016 s 3(2) preserves the rule of law and sovereignty. Privy Council appeals ended for decisions after 2003. Senior Courts Act 2016 s 74: Supreme Court leave only if necessary in the interests of justice; a significant Treaty issue counts as general or public importance."
    ],
    [
     "Applied",
@@ -2240,11 +2240,11 @@ window.CARDS = [
    ],
    [
     "Use",
-    "Declarations are how public law rights reach court without coercive relief."
+    "Declarations are how public law rights reach court without coercive relief. Counter: a declaration compels no one (the 2025 prisoner ban, card 4.7)."
    ]
   ],
   "binder": "Tab 7, p 2 (exam sheet)",
-  "links": "3.5 remedies · 9.8 independence · 9.9 what a court is",
+  "links": "→ 3.5 for remedies · → 9.8 for independence · → 9.9 for what a court is",
   "note": ""
  }
 ];

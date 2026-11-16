@@ -75,7 +75,7 @@ window.DRILLS = [
 {id:"2.7c",c:"2.7",q:"Principles lens on a caretaker government after an unclear election: which point is RULE OF LAW?",a:"Certainty depends on conventions in the Cabinet Manual, not enforceable law",w:["Parliament has codified only Constitution Act 1986 s 6","The Governor-General's discretion is the only check","Parliament could legislate if it chose"],why:"From card 9.11."},
 
 {id:"2.8a",c:"2.8",q:"Strongest legal evidence that executive and legislature are fused?",a:"Constitution Act 1986 s 6: ministers must be MPs",w:["Constitution Act 1986 ss 23–24","Fitzgerald v Muldoon","Westco Lagan"],why:"The other three show separation, not fusion."},
-{id:"2.8b",c:"2.8",q:"Judicial Conduct Panel on Judge Ema Aitken (report 1 April 2026) found…",a:"A serious breach of comity, but not grounds for removal",w:["Misbehaviour warranting removal","No breach at all","A breach of the sub judice rule"],why:"Jul 26 NZ Q2 quoted this finding."},
+{id:"2.8b",c:"9.8",q:"Judicial Conduct Panel on Judge Ema Aitken (report 1 April 2026) found…",a:"A serious breach of comity, but not grounds for removal",w:["Misbehaviour warranting removal","No breach at all","A breach of the sub judice rule"],why:"Jul 26 NZ Q2 quoted this finding."},
 {id:"2.8c",c:"2.8",q:"Taylor (Court of Appeal) described government as…",a:"a 'collaborative enterprise', each branch sovereign in its sphere",w:["a 'two-way street'","'window-dressing'","'lip service'"],why:"'Two-way street' is Westco on comity; 'window-dressing' is Tavita; 'lip service' is Baigent."},
 
 // ---------- Suit 3: Judicial review ----------
