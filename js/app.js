@@ -298,7 +298,6 @@
           h('p', { class: 'line', text: c.line }),
           h('p', { class: 'meta', text: 'Picture: ' + c.picture }))),
       dl,
-      h('p', { class: 'meta', text: 'Exam: ' + c.exam }),
       h('p', { class: 'meta', text: 'Binder: ' + c.binder }),
       h('p', { class: 'meta', text: 'Links: ' + c.links }),
       c.note ? h('div', { class: 'note', text: 'Open item: ' + c.note }) : null);
@@ -543,10 +542,8 @@
     setKeys(null);
     var c = byId[id];
     var count = ITEMS.filter(function (it) { return it.card === id && it.type !== 'pic'; }).length;
-    var used = ESSAYS.filter(function (e) { return e.route.indexOf(id) >= 0; });
     show(h('div', { class: 'panel' },
       cardDetail(id, true),
-      used.length ? h('p', { class: 'meta', text: 'Used in exam-room questions: ' + used.map(function (e) { return e.sit + ' ' + (e.q ? 'Q' + e.q : '') + ' (' + e.title + ')'; }).join('; ') }) : null,
       h('div', { class: 'row', style: 'margin-top:12px' },
         h('button', { onclick: function () { startSession(MIX_TYPES.concat(['pic']), 'Card ' + id, id); }, text: 'Drill this card (' + count + ' questions)' }),
         h('button', { class: 'secondary', onclick: function () { renderBrowse(); }, text: 'All cards' }))));
