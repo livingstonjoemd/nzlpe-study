@@ -2029,7 +2029,7 @@ window.CARDS = [
    ],
    [
     "Elements",
-    "Official Information Act 1982 s 6: conclusive reasons (security, defence, international relations, maintenance of the law, safety, the economy; \"likely\" means a real and substantial risk). Official Information Act 1982 s 9: other reasons, outweighed by the public interest in release, including Official Information Act 1982 s 9(2)(f) (constitutional conventions) and Official Information Act 1982 s 9(2)(g)(i) (free and frank opinions). Decision within 20 working days; Ombudsman review."
+    "Official Information Act 1982 s 6: conclusive reasons (security, defence, international relations, maintenance of the law, safety, the economy; \"likely\" means a real and substantial risk). Official Information Act 1982 s 9(2): other reasons, outweighed by the public interest in release: (a) privacy; (b)(ii) commercial position; (f) constitutional conventions, e.g. (f)(iv) confidential advice; (g)(i) free and frank opinions; (g)(ii) improper pressure or harassment; (h) legal professional privilege; (j) negotiations. Decision within 20 working days; Ombudsman review."
    ],
    [
     "Applied",
