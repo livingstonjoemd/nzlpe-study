@@ -296,7 +296,7 @@ window.ESSAYS = [
  route:["6.1","6.3","6.4","6.5","6.6","6.7","9.9"],core:["6.1","6.3","6.4","6.5"],
  tension:"Dualism and parliamentary control v obligations New Zealand has accepted.",
  land:[["Weak in law: treaties are not law until incorporated, and clear statutes prevail.","Te Heuheu, Ashby, Air Line Pilots."],["Stronger in practice: must-consider duties and the presumption of consistency do real work.","Tavita, Sellers, Zaoui."]],
- traps:["Walk the ladder in order.","No past paper has tested suit 6: it is still prescribed."]},
+ traps:["Take the card 6.1 steps in order.","No past paper has tested suit 6: it is still prescribed."]},
 {id:"P8",sit:"Practice",q:0,topic:"Bill of Rights",title:"Search, detention and remedies",
  prompt:"How effectively does the Bill of Rights protect people against police search and detention, and what remedies follow a breach?",
  limbs:["Search (s 21)","Arrest and detention (ss 22–23)","Exclusion of evidence","Compensation"],

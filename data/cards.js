@@ -1241,10 +1241,10 @@ window.CARDS = [
  {
   "id": "6.1",
   "suit": 6,
-  "name": "The international law ladder",
+  "name": "What a treaty can do in court",
   "line": "What can an international obligation do in a New Zealand court?",
   "style": "TEST",
-  "picture": "A sealed letter on a locked box low in the water: signed, sealed, not delivered: not our law until Parliament opens it.",
+  "picture": "A diplomat whispers to a judge whose hand rests on the statute book: treaties whisper; Parliament speaks.",
   "back": [
    [
     "Steps",
@@ -1256,7 +1256,7 @@ window.CARDS = [
    ],
    [
     "Use",
-    "Walk the ladder rung by rung; Richardson J in Ashby (clear legislation prevails) is the anchor at the bottom. Counter: dualism lets the executive bind New Zealand abroad without Parliament."
+    "Take the steps in order; Richardson J in Ashby (clear legislation prevails) is the anchor at the last step. Counter: dualism lets the executive bind New Zealand abroad without Parliament."
    ]
   ],
   "binder": "Tab 10, p 2 (exam sheet); p 4 (Joseph notes)",
@@ -1314,11 +1314,11 @@ window.CARDS = [
    ],
    [
     "Use",
-    "The bottom of the ladder: a presumption of consistency cannot override a clear power. Contrast Sellers (card 6.5). Counter: crash recorders lose the candour the treaty protects."
+    "The last step: a presumption of consistency cannot override a clear power. Contrast Sellers (card 6.5). Counter: crash recorders lose the candour the treaty protects."
    ]
   ],
   "binder": "Tab 10, p 2 (exam sheet)",
-  "links": "→ 6.5 to contrast · → 6.1 for the ladder",
+  "links": "→ 6.5 to contrast · → 6.1 for the steps",
   "note": ""
  },
  {
@@ -1351,7 +1351,7 @@ window.CARDS = [
    ]
   ],
   "binder": "Tab 10, p 2 (exam sheet)",
-  "links": "→ 6.1 for the ladder · → 9.9 for the Committee's status",
+  "links": "→ 6.1 for the steps · → 9.9 for the Committee's status",
   "note": ""
  },
  {
@@ -1413,7 +1413,7 @@ window.CARDS = [
    ]
   ],
   "binder": "Tab 10, p 2 (exam sheet)",
-  "links": "→ 3.2 for deference · → 6.1 for the ladder",
+  "links": "→ 3.2 for deference · → 6.1 for the steps",
   "note": ""
  },
  {
@@ -1442,7 +1442,7 @@ window.CARDS = [
    ]
   ],
   "binder": "Tab 10, p 2 (exam sheet)",
-  "links": "→ 1.10 for conventions · → 6.1 for the ladder",
+  "links": "→ 1.10 for conventions · → 6.1 for the steps",
   "note": ""
  },
  {
