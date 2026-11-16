@@ -88,7 +88,7 @@ window.ESSAYS = [
  limbs:["Prima facie discrimination","Sections 4, 5 and 6","Declarations"],
  route:["1.8","1.6","4.2","4.1","4.3"],core:["1.8","1.6","4.2"],
  tension:"Courts speaking on political questions v Parliament and voters deciding them.",
- land:[["Declarations are a valuable dialogue tool.","Parliament must respond (ss 7A–7B)."],["Declarations are weak: the Act stays valid.","NZBORA s 4."]],
+ land:[["Declarations are a valuable dialogue tool.","The responsible Minister must respond within 6 months (ss 7A–7B)."],["Declarations are weak: the Act stays valid.","NZBORA s 4."]],
  traps:["Age discrimination begins at 16 (HRA 1993 s 21(1)(i)).","The voting age is reserved (s 268).","The power to declare comes from Taylor, not s 7A."]},
 {id:"N23-1",sit:"Nov 2023",q:1,topic:"Bill of Rights",title:"Who may vote?",
  prompt:"Some groups cannot vote (under 18, some prisoners, long-term absent citizens and residents). What are the justifications in a free and democratic society? Use NZBORA and cases.",

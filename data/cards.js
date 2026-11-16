@@ -198,7 +198,7 @@ window.CARDS = [
    ],
    [
     "Statutes",
-    "NZBORA s 7A (Attorney-General presents the declaration to the House within 6 sitting days); NZBORA s 7B (Government response). Inserted 2022."
+    "NZBORA s 7A (Attorney-General notifies the House within 6 sitting days); s 7B (the responsible Minister presents the Government response within 6 months). Inserted 2022."
    ],
    [
     "Use",
