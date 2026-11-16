@@ -451,17 +451,18 @@
       (function (suit) {
         var items = core.filter(function (it) { return byId[it.card].suit === suit; });
         var m = mastery(items);
+        var once = items.length ? Math.round(items.filter(function (it) { return rec(it.key).box === 2; }).length * 100 / items.length) : 0;
         var names = CARDS.filter(function (c) { return c.suit === suit; });
         suitRows.push(h('div', { class: 'suitrow' },
           h('button', { class: 'linkbtn', onclick: function () { state.settings.suit = String(suit); save(); startSession(MIX_TYPES, 'Suit ' + suit); }, text: 'Suit ' + suit }),
-          h('div', { class: 'bar' }, h('div', { class: 'fill', style: 'width:' + m + '%' })),
+          h('div', { class: 'bar' }, h('div', { class: 'fill', style: 'width:' + m + '%' }), h('div', { class: 'fill once', style: 'width:' + once + '%' })),
           h('span', { class: 'pct', text: m + '%' }),
-          h('span', { class: 'suitname', text: SUIT_NAMES[suit] + ' · ' + names.length + ' cards' })));
+          h('span', { class: 'suitname', text: SUIT_NAMES[suit] + ' · ' + names.length + ' cards · ' + once + '% right once' })));
       })(n);
     }
     var map = h('div', { class: 'panel' },
       h('h2', { text: 'Mastery map' }),
-      h('p', { class: 'hint', text: 'Share of each suit\'s questions at box 3 or higher. Tap a suit to drill it.' }),
+      h('p', { class: 'hint', text: 'Dark bar and %: share of each suit\'s questions at box 3 or higher (right on two different days). Light bar: right once so far (box 2). Tap a suit to drill it.' }),
       suitRows,
       weakest());
 
