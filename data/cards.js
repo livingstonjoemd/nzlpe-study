@@ -711,7 +711,7 @@ window.CARDS = [
    ],
    [
     "Use",
-    "Amenability: a decision \"in substance public\" is reviewable whatever its source; intensity is another matter."
+    "Amenability: a decision \"in substance public\" is reviewable whatever its source; intensity is another matter. Counter: light review can shield how public money is spent."
    ]
   ],
   "binder": "Tab 8, p 3 (exam sheet); p 7 (Joseph notes)",
@@ -1314,7 +1314,7 @@ window.CARDS = [
    ],
    [
     "Use",
-    "The bottom of the ladder: a presumption of consistency cannot override a clear power. Contrast Sellers (card 6.5)."
+    "The bottom of the ladder: a presumption of consistency cannot override a clear power. Contrast Sellers (card 6.5). Counter: crash recorders lose the candour the treaty protects."
    ]
   ],
   "binder": "Tab 10, p 2 (exam sheet)",
