@@ -67,7 +67,7 @@ window.CARDS = [
   "name": "Directory, not mandatory",
   "line": "Does a procedural slip in calling an election invalidate Parliament and its Acts?",
   "style": "CASE",
-  "picture": "A traveller passing a signpost at dusk: better late than never. The writs went out late, but the traveller still arrived.",
+  "picture": "A traveller passing a signpost at dusk: a signpost gives directions; it doesn't close the road. The writs went out late, but the traveller still arrived.",
   "back": [
    [
     "Facts",
