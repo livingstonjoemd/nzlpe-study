@@ -1517,7 +1517,7 @@ window.CARDS = [
   "name": "Trans-Tasman: a Treaty clause read generously",
   "line": "How must a decision-maker treat the Treaty and tikanga under a Treaty clause?",
   "style": "CASE",
-  "picture": "Two people sharing one bowl of water: share the bowl: partners must genuinely weigh each other's interests.",
+  "picture": "A kuia and an official holding a bowl of black iron sand, a mining ship offshore: weigh tikanga interests before taking from the seabed.",
   "back": [
    [
     "Facts",
