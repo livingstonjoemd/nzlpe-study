@@ -97,6 +97,7 @@
   function show() {
     stopTimer();
     if (window.speechSynthesis) window.speechSynthesis.cancel();
+    if (window.__tarotAudio) { window.__tarotAudio.pause(); window.__tarotAudio = null; }
     app.replaceChildren.apply(app, [].slice.call(arguments));
     window.scrollTo(0, 0);
   }
@@ -957,7 +958,21 @@
   // being argued and the authorities cited. Card invocations ("cue") are spoken but are not part of the essay.
   function modelPlayer(sp, spread) {
     var segs = sp.model;
-    var tts = window.speechSynthesis && window.SpeechSynthesisUtterance ? window.speechSynthesis : null;
+    var rec = sp.audio && sp.audio.starts && sp.audio.starts.length === segs.length ? sp.audio : null;
+    var tts = !rec && window.speechSynthesis && window.SpeechSynthesisUtterance ? window.speechSynthesis : null;
+    var audio = null;
+    if (rec) {
+      audio = new Audio(rec.src);
+      audio.preload = 'auto';
+      audio.playbackRate = Number(state.settings.trate || 1);
+      audio.addEventListener('timeupdate', function () {
+        if (!alive()) { audio.pause(); return; }
+        var t = audio.currentTime, i = 0;
+        while (i + 1 < rec.starts.length && rec.starts[i + 1] <= t + 0.05) i++;
+        if (i !== P.i || !spans[i].classList.contains('cur')) { P.i = i; highlight(i); }
+      });
+      audio.addEventListener('ended', function () { P.playing = false; P.i = 0; playBtn.textContent = '▶ Play again'; clearHl(); cites.replaceChildren(); caption.textContent = 'Finished.'; });
+    }
     var P = { i: 0, playing: false, token: 0 };
     var cites = h('div', { class: 'tcites' });
     var caption = h('div', { class: 'tcaption', text: 'Press play to hear a model essay (' + sp.modelWords + ' words). Card names are spoken before each part.' });
@@ -1037,23 +1052,36 @@
       u.onerror = function (e) { if (e.error !== 'interrupted' && e.error !== 'canceled' && token === P.token && P.playing && alive()) speak(i + 1); };
       tts.speak(u);
     }
-    function play() { if (!tts) return; P.playing = true; playBtn.textContent = '❚❚ Pause'; P.token++; tts.cancel(); speak(P.i); }
-    function pause() { P.playing = false; P.token++; if (tts) tts.cancel(); playBtn.textContent = '▶ Resume'; }
+    function play() {
+      if (audio) {
+        P.playing = true; playBtn.textContent = '❚❚ Pause';
+        window.__tarotAudio = audio;
+        if (audio.currentTime < 0.05) highlight(P.i);
+        var pr = audio.play(); if (pr && pr.catch) pr.catch(function () { P.playing = false; playBtn.textContent = '▶ Play model essay'; caption.textContent = 'Could not start the audio. Check your connection and press play again.'; });
+        return;
+      }
+      if (!tts) return; P.playing = true; playBtn.textContent = '❚❚ Pause'; P.token++; tts.cancel(); speak(P.i);
+    }
+    function pause() { P.playing = false; P.token++; if (audio) audio.pause(); if (tts) tts.cancel(); playBtn.textContent = '▶ Resume'; }
     function toggle() { if (P.playing) pause(); else play(); }
-    function restart() { if (P.playing) { P.token++; tts.cancel(); speak(P.i); } }
+    function restart() {
+      if (audio) { audio.playbackRate = Number(state.settings.trate || 1); return; }
+      if (P.playing) { P.token++; tts.cancel(); speak(P.i); }
+    }
     function jump(i) {
       i = Math.max(0, Math.min(segs.length - 1, i));
       P.i = i;
+      if (audio) { audio.currentTime = rec.starts[i] + 0.01; highlight(i); return; }
       if (P.playing) { P.token++; tts.cancel(); speak(i); } else highlight(i);
     }
-    function stop() { P.playing = false; P.token++; if (tts) tts.cancel(); P.i = 0; clearHl(); cites.replaceChildren(); playBtn.textContent = '▶ Play model essay'; caption.textContent = 'Stopped.'; }
+    function stop() { P.playing = false; P.token++; if (audio) { audio.pause(); audio.currentTime = 0; } if (tts) tts.cancel(); P.i = 0; clearHl(); cites.replaceChildren(); playBtn.textContent = '▶ Play model essay'; caption.textContent = 'Stopped.'; }
     var bar = h('div', { class: 'tplayer' },
       h('div', { class: 'row' },
-        tts ? playBtn : h('span', { class: 'hint', text: 'This browser cannot read aloud; tap the sentences below to follow the highlights.' }),
+        (audio || tts) ? playBtn : h('span', { class: 'hint', text: 'This browser cannot read aloud; tap the sentences below to follow the highlights.' }),
         h('button', { class: 'secondary small', onclick: function () { jump(P.i - 1); }, text: '⏮', title: 'Previous sentence' }),
         h('button', { class: 'secondary small', onclick: function () { jump(P.i + 1); }, text: '⏭', title: 'Next sentence' }),
         h('button', { class: 'secondary small', onclick: stop, text: '■ Stop' }),
-        tts ? rateSel : null, tts ? voiceSel : null),
+        (audio || tts) ? rateSel : null, tts ? voiceSel : null),
       caption, cites);
     return h('div', { class: 'tmodel' },
       h('p', { class: 'hint', text: 'Model essay: listen for structure and authority. Write your own answer fresh in the exam; do not memorise these sentences.' }),
