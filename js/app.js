@@ -466,8 +466,12 @@
       suitRows,
       weakest());
 
+    var tarot = SPREADS.length ? h('div', { class: 'panel' },
+      h('h2', { text: 'Tarot essay plans' }),
+      h('p', { class: 'hint', text: 'Plan an essay with the cards: introduction and conclusion, main cards, then support cards. ' + SPREADS.length + ' spreads.' }),
+      h('div', { class: 'row' }, h('button', { onclick: renderTarotList, text: 'Plan an essay' }))) : null;
     var settings = settingsPanel();
-    show(h('section', null, stats), mix, map, modes, settings, progressPanel());
+    show(h('section', null, stats), mix, tarot, map, modes, settings, progressPanel());
   }
   var SUIT_NAMES = { 1: 'Parliament and the constitution', 2: 'Rule of law and separation', 3: 'Judicial review', 4: 'Bill of Rights', 5: 'Search, evidence, detention', 6: 'International law', 7: 'Treaty of Waitangi', 8: 'Tikanga and customary rights', 9: 'Crown, watchdogs, courts' };
 
@@ -601,6 +605,7 @@
       briefBlock(e),
       h('div', { class: 'row', style: 'margin-top:14px' },
         h('button', { onclick: function () { renderRoute(e); }, text: 'Start: route drill (3 min)' }),
+        spreadForEssay(e.id) ? h('button', { class: 'secondary', onclick: function () { startTarot(spreadForEssay(e.id)); }, text: 'Tarot plan' }) : null,
         draft && draft.text ? h('button', { class: 'secondary', onclick: function () { renderWrite(e, draft.picked || [], true); }, text: 'Resume saved draft' }) : null,
         h('button', { class: 'secondary', onclick: function () { renderExamList(); }, text: 'All questions' })),
       a.length ? h('div', { class: 'history' },
@@ -802,6 +807,190 @@
       h('button', { class: 'secondary', onclick: function () { renderEssayBrief(e.id); }, text: 'Back' })));
   }
 
+  // ---------- tarot essay plans ----------
+  // Build an essay plan as a card spread: frame (introduction and conclusion), skeleton (main cards),
+  // then support cards for each main card. Options are graded best / workable / weak, with a reason.
+  // Progress is stored as state.items['t:<spread id>'], next to the other items, so nothing else changes.
+  var SPREADS = window.SPREADS || [];
+  var TT = window.TAROT_TITLES || {};
+  var GRADES = {
+    best: { label: 'Best', pts: 2, cls: 'right' },
+    ok: { label: 'Workable', pts: 1, cls: 'okay' },
+    weak: { label: 'Weak', pts: 0, cls: 'wrong' }
+  };
+  var SECT_COL = ['#8a6d1a', '#3b5b8c', '#7a3b3b', '#2d6b6b', '#555555'];
+  var MAIN_COL = ['#3b5b8c', '#7a3b3b', '#2d6b6b', '#555555'];
+  var LENS_CARDS = ['1.1', '2.1', '2.8', '2.7'];
+
+  function ttl(id) { return TT[id] || (byId[id] ? byId[id].name : id); }
+  function spreadById(id) { for (var i = 0; i < SPREADS.length; i++) if (SPREADS[i].id === id) return SPREADS[i]; return null; }
+  function spreadForEssay(eid) { for (var i = 0; i < SPREADS.length; i++) if (SPREADS[i].essay === eid) return SPREADS[i]; return null; }
+  function tKey(sp) { return 't:' + sp.id; }
+  function tarotMax(sp) { return 2 * (2 + sp.mains.length); }
+
+  function tcard(id, cue, size) {
+    var lens = LENS_CARDS.indexOf(id) >= 0;
+    return h('figure', { class: 'tcard' + (size ? ' ' + size : '') + (lens ? ' lens' : '') },
+      h('img', { src: imgPath(id), alt: ttl(id), loading: 'lazy' }),
+      h('figcaption', null, h('b', { text: ttl(id) }), cue ? h('small', { text: cue }) : null));
+  }
+  function thumbs(ids, size) {
+    if (!ids.length) return h('div', { class: 'tnone', text: 'No support card' });
+    return h('div', { class: 'tthumbs' }, ids.map(function (id) { return tcard(id, null, size || 'sm'); }));
+  }
+
+  function renderTarotList() {
+    setKeys(null);
+    session = null;
+    show(h('div', { class: 'panel' },
+      h('h2', { text: 'Tarot essay plans' }),
+      h('p', { class: 'hint', text: 'Build an essay plan from the cards, the way you will in the five-minute planning window. Pick the introduction and conclusion, then the main card for each paragraph, then each paragraph\'s support cards. Every option is graded best, workable or weak, with the reason. The finished spread matches the printed sheet.' }),
+      h('div', { class: 'examlist' }, SPREADS.map(function (sp) {
+        var r = state.items[tKey(sp)];
+        var meta = r ? 'Best ' + (r.best || 0) + '/' + tarotMax(sp) + ' · box ' + r.box : 'Not tried yet';
+        return h('button', { class: 'examrow', onclick: function () { startTarot(sp); } },
+          h('span', { class: 'sit', text: sp.mains.length + ' paragraphs' }),
+          h('b', { text: sp.title }),
+          h('small', { text: meta }));
+      })),
+      h('div', { class: 'row', style: 'margin-top:12px' },
+        h('button', { class: 'secondary', onclick: function () { renderTarotPick(); }, text: 'See a finished spread' }))));
+  }
+
+  function renderTarotPick() {
+    setKeys(null);
+    show(h('div', { class: 'panel' },
+      h('h2', { text: 'Finished spreads' }),
+      h('div', { class: 'examlist' }, SPREADS.map(function (sp) {
+        return h('button', { class: 'examrow', onclick: function () { renderTarotReveal(sp, null); } }, h('b', { text: sp.title }));
+      })),
+      h('button', { class: 'secondary', onclick: renderTarotList, text: 'Back' })));
+  }
+
+  function startTarot(sp) {
+    var steps = [{ kind: 'frame', opts: shuffle(sp.frame) }, { kind: 'skel', opts: shuffle(sp.skel) }];
+    sp.mains.forEach(function (m, i) { steps.push({ kind: 'sup', main: m, idx: i, opts: shuffle(sp.sup[m.card]) }); });
+    renderTarotStep({ sp: sp, steps: steps, step: 0, score: 0 });
+  }
+
+  function tarotOptionBody(st, o) {
+    if (st.kind === 'frame') {
+      return h('div', { class: 'tframe' },
+        h('div', null, h('span', { class: 'tlabel', text: 'Introduction' }), thumbs(o.cards)),
+        h('div', null, h('span', { class: 'tlabel', text: 'Conclusion' }), thumbs([o.concl])));
+    }
+    return thumbs(o.cards);
+  }
+
+  function renderTarotStep(run) {
+    var sp = run.sp, st = run.steps[run.step], n = run.steps.length;
+    var heading, lead = null;
+    if (st.kind === 'frame') heading = 'Pick the introduction and conclusion';
+    else if (st.kind === 'skel') heading = 'Pick the main cards, one per paragraph, in order';
+    else {
+      heading = 'Paragraph ' + (st.idx + 1) + ': pick its support cards';
+      lead = h('div', { class: 'tmain' }, tcard(st.main.card, st.main.cue, 'md'),
+        h('p', { class: 'hint', text: 'The main card for this paragraph. Choose the cards that back it up.' }));
+    }
+    var answered = st.picked !== undefined;
+    var opts = h('div', { class: 'toptions' }, st.opts.map(function (o, i) {
+      var cls = 'option topt';
+      var g = GRADES[o.grade];
+      if (answered) cls += ' ' + g.cls + (i === st.picked ? ' picked' : ' faded');
+      return h('button', {
+        class: cls, disabled: answered ? true : null,
+        onclick: function () { pickTarot(run, i); }
+      },
+        h('span', { class: 'keynum', text: (i + 1) + '.' }),
+        tarotOptionBody(st, o),
+        answered ? h('div', { class: 'tgrade' }, h('b', { text: g.label + ': ' }), o.why) : null);
+    }));
+    var fb = null;
+    if (answered) {
+      var p = st.opts[st.picked];
+      fb = h('div', { class: 'feedback' },
+        h('div', { class: 'verdict ' + GRADES[p.grade].cls, text: GRADES[p.grade].label + ' (+' + GRADES[p.grade].pts + ')' }),
+        st.kind === 'skel' && p.grade !== 'best' ? h('p', { class: 'hint', text: 'The next steps build out the best skeleton, so you practise the strongest plan.' }) : null,
+        h('div', { class: 'row', style: 'margin-top:10px' },
+          h('button', { onclick: function () { nextTarot(run); }, text: run.step + 1 >= n ? 'See the spread (Enter)' : 'Next (Enter)' })));
+    }
+    setKeys(function (e) {
+      if (e.target && /TEXTAREA|INPUT|SELECT/.test(e.target.tagName)) return;
+      if (!answered && /^[1-4]$/.test(e.key) && st.opts[Number(e.key) - 1]) pickTarot(run, Number(e.key) - 1);
+      else if (answered && (e.key === 'Enter' || e.key === ' ')) { e.preventDefault(); nextTarot(run); }
+    });
+    show(h('div', { class: 'panel' },
+      h('div', { class: 'progress' }, h('span', { class: 'chip', text: 'Tarot plan' }), ' ' + sp.title + ' · step ' + (run.step + 1) + ' of ' + n + ' · score ' + run.score + '/' + tarotMax(sp)),
+      h('p', { class: 'prompt', text: sp.prompt }),
+      h('div', { class: 'question', text: heading }),
+      lead, opts, fb),
+      h('button', { class: 'secondary', onclick: function () { if (confirm('Leave this plan? It will not be scored.')) renderTarotList(); }, text: 'Leave' }));
+  }
+
+  function pickTarot(run, i) {
+    var st = run.steps[run.step];
+    if (st.picked !== undefined) return;
+    st.picked = i;
+    run.score += GRADES[st.opts[i].grade].pts;
+    renderTarotStep(run);
+  }
+
+  function nextTarot(run) {
+    if (run.step + 1 < run.steps.length) { run.step += 1; renderTarotStep(run); return; }
+    var sp = run.sp, max = tarotMax(sp), key = tKey(sp);
+    var good = run.score >= Math.ceil(max * 0.75);
+    var r = state.items[key] || { box: 1, due: 0, right: 0, wrong: 0, best: 0 };
+    var box = good ? Math.min((r.box || 1) + 1, 5) : 1;
+    state.items[key] = {
+      box: box, due: Date.now() + INTERVAL_DAYS[box - 1] * DAY,
+      right: (r.right || 0) + (good ? 1 : 0), wrong: (r.wrong || 0) + (good ? 0 : 1),
+      best: Math.max(r.best || 0, run.score), last: run.score
+    };
+    save();
+    renderTarotReveal(sp, run);
+  }
+
+  function tarotAuth(sp) {
+    return h('div', { class: 'tauth' }, sp.auth.map(function (g) {
+      return h('div', { class: 'tauthgroup' },
+        h('div', { class: 'tauthhead', style: 'color:' + SECT_COL[g[1]], text: g[0] }),
+        h('ul', null, g[2].map(function (a) {
+          return h('li', null, a[0], ' ', h('em', { text: a[1] }));
+        })));
+    }));
+  }
+
+  function renderTarotReveal(sp, run) {
+    setKeys(null);
+    var score = null;
+    if (run) {
+      var max = tarotMax(sp);
+      score = h('div', { class: 'feedback' },
+        h('p', { class: 'big', text: run.score + ' / ' + max }),
+        h('p', { class: 'hint', text: run.score >= Math.ceil(max * 0.75) ? 'A strong plan. This spread moves up a box and comes back later.' : 'This spread goes back to box 1 and comes back sooner. Study the finished spread below.' }));
+    }
+    var essay = essayById(sp.essay);
+    var spread = h('div', { class: 'tarot' },
+      h('div', { class: 'ttop' },
+        h('div', { class: 'tintro' }, sp.intro.map(function (c) { return tcard(c[0], c[1], 'md'); })),
+        tarotAuth(sp),
+        h('div', { class: 'tconcl' }, tcard(sp.concl[0], sp.concl[1], 'md'))),
+      h('div', { class: 'tcols' }, sp.mains.map(function (m, i) {
+        return h('div', { class: 'tcol', style: '--c:' + MAIN_COL[i % 4] },
+          tcard(m.card, m.cue, 'md'),
+          m.sup.length ? h('div', { class: 'tarrow', text: '↓' }) : null,
+          h('div', { class: 'tsups' }, m.sup.map(function (s) { return tcard(s[0], s[1], 'sm'); })));
+      })));
+    show(h('div', { class: 'panel wide' },
+      h('h2', { text: sp.title }),
+      h('p', { class: 'prompt', text: sp.prompt }),
+      score, spread,
+      h('div', { class: 'row', style: 'margin-top:14px' },
+        h('button', { onclick: function () { startTarot(sp); }, text: run ? 'Try again' : 'Build this plan' }),
+        h('button', { class: 'secondary', onclick: renderTarotList, text: 'All tarot plans' }),
+        essay ? h('button', { class: 'secondary', onclick: function () { renderEssayBrief(essay.id); }, text: 'Write this essay' }) : null)));
+  }
+
   // ---------- progress file ----------
   function progressPanel() {
     return h('div', { class: 'panel' },
@@ -846,6 +1035,8 @@
   if (nav) {
     nav.querySelector('[data-go=exam]').addEventListener('click', function (ev) { ev.preventDefault(); renderExamList(); });
     nav.querySelector('[data-go=cards]').addEventListener('click', function (ev) { ev.preventDefault(); renderBrowse(); });
+    var tnav = nav.querySelector('[data-go=tarot]');
+    if (tnav) tnav.addEventListener('click', function (ev) { ev.preventDefault(); renderTarotList(); });
   }
   renderHome();
 })();
