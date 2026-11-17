@@ -96,6 +96,7 @@
   }
   function show() {
     stopTimer();
+    if (window.speechSynthesis) window.speechSynthesis.cancel();
     app.replaceChildren.apply(app, [].slice.call(arguments));
     window.scrollTo(0, 0);
   }
@@ -828,9 +829,9 @@
   function tKey(sp) { return 't:' + sp.id; }
   function tarotMax(sp) { return 2 * (2 + sp.mains.length); }
 
-  function tcard(id, cue, size) {
+  function tcard(id, cue, size, focus) {
     var lens = LENS_CARDS.indexOf(id) >= 0;
-    return h('figure', { class: 'tcard' + (size ? ' ' + size : '') + (lens ? ' lens' : '') },
+    return h('figure', { class: 'tcard' + (size ? ' ' + size : '') + (lens ? ' lens' : ''), 'data-f': focus || null },
       h('img', { src: imgPath(id), alt: ttl(id), loading: 'lazy' }),
       h('figcaption', null, h('b', { text: ttl(id) }), cue ? h('small', { text: cue }) : null));
   }
@@ -950,12 +951,122 @@
     renderTarotReveal(sp, run);
   }
 
+
+  // ---------- spoken model essay ----------
+  // Reads the model essay aloud sentence by sentence (Web Speech API), highlighting the spread position
+  // being argued and the authorities cited. Card invocations ("cue") are spoken but are not part of the essay.
+  function modelPlayer(sp, spread) {
+    var segs = sp.model;
+    var tts = window.speechSynthesis && window.SpeechSynthesisUtterance ? window.speechSynthesis : null;
+    var P = { i: 0, playing: false, token: 0 };
+    var cites = h('div', { class: 'tcites' });
+    var caption = h('div', { class: 'tcaption', text: 'Press play to hear a model essay (' + sp.modelWords + ' words). Card names are spoken before each part.' });
+    var spans = segs.map(function (sg, i) {
+      return h('span', { class: 'tseg' + (sg.k === 'cue' ? ' cue' : ''), onclick: function () { jump(i); } }, sg.t + ' ');
+    });
+    var script = [];
+    var para = null;
+    segs.forEach(function (sg, i) {
+      if (sg.k === 'cue') { para = h('p', { class: 'tpara' }); script.push(para); }
+      para.appendChild(spans[i]);
+    });
+    var playBtn = h('button', { onclick: toggle, text: '▶ Play model essay' });
+    var voiceSel = h('select', { class: 'tvoice', onchange: function () { state.settings.tvoice = voiceSel.value; save(); restart(); } });
+    var rateSel = select([['0.9', 'Slower'], ['1', 'Normal'], ['1.1', 'Faster'], ['1.25', 'Fastest']], state.settings.trate || '1',
+      function (v) { state.settings.trate = v; save(); restart(); });
+    function englishVoices() {
+      if (!tts) return [];
+      var order = ['en-NZ', 'en-AU', 'en-GB', 'en-IE', 'en-ZA', 'en-US'];
+      return tts.getVoices().filter(function (v) { return /^en[-_]/i.test(v.lang); })
+        .sort(function (a, b) {
+          var ia = order.indexOf(a.lang.replace('_', '-')), ib = order.indexOf(b.lang.replace('_', '-'));
+          return (ia < 0 ? 9 : ia) - (ib < 0 ? 9 : ib);
+        });
+    }
+    function fillVoices() {
+      var vs = englishVoices();
+      voiceSel.replaceChildren.apply(voiceSel, vs.map(function (v) {
+        return h('option', { value: v.name, selected: v.name === state.settings.tvoice ? true : null, text: v.name + ' (' + v.lang + ')' });
+      }));
+    }
+    if (tts) { fillVoices(); tts.onvoiceschanged = fillVoices; }
+    function voice() {
+      var vs = englishVoices();
+      for (var i = 0; i < vs.length; i++) if (vs[i].name === state.settings.tvoice) return vs[i];
+      return vs[0] || null;
+    }
+    function alive() { return document.body.contains(bar); }
+    function clearHl() {
+      [].forEach.call(spread.querySelectorAll('.hl, .hl2'), function (el) { el.classList.remove('hl'); el.classList.remove('hl2'); });
+      spans.forEach(function (sp2) { sp2.classList.remove('cur'); });
+    }
+    function highlight(i) {
+      clearHl();
+      var sg = segs[i]; if (!sg) return;
+      var f = sg.f, first = null;
+      var main = f.replace(/s\d+$/, '');
+      [].forEach.call(spread.querySelectorAll('[data-f="' + f + '"]'), function (el) { el.classList.add('hl'); first = first || el; });
+      if (main !== f) [].forEach.call(spread.querySelectorAll('[data-f="' + main + '"]'), function (el) { el.classList.add('hl2'); });
+      (sg.a || []).forEach(function (a) {
+        var li = spread.querySelector('[data-a="' + a[0] + '-' + a[1] + '"]');
+        if (li) li.classList.add('hl');
+      });
+      spans[i].classList.add('cur');
+      caption.textContent = (sg.k === 'cue' ? '🂠 ' : '') + sg.t;
+      caption.className = 'tcaption' + (sg.k === 'cue' ? ' cue' : '');
+      cites.replaceChildren.apply(cites, (sg.a || []).map(function (a) {
+        var it = sp.auth[a[0]][2][a[1]];
+        return h('span', { class: 'tcite' }, it[0], ' ', h('em', { text: it[1] }));
+      }));
+      if (first) {
+        var r = first.getBoundingClientRect();
+        if (r.top < 0 || r.bottom > window.innerHeight - 140) first.scrollIntoView({ block: 'center', behavior: 'smooth' });
+      }
+    }
+    function speak(i) {
+      if (!alive()) { if (tts) tts.cancel(); return; }
+      if (i >= segs.length) { P.playing = false; P.i = 0; playBtn.textContent = '▶ Play again'; clearHl(); cites.replaceChildren(); caption.textContent = 'Finished.'; return; }
+      P.i = i; highlight(i);
+      if (!tts) return;
+      var token = ++P.token;
+      var u = new SpeechSynthesisUtterance(segs[i].t);
+      var v = voice(); if (v) { u.voice = v; u.lang = v.lang; } else u.lang = 'en-NZ';
+      u.rate = Number(state.settings.trate || 1);
+      if (segs[i].k === 'cue') u.pitch = 0.9;
+      u.onend = function () { if (token === P.token && P.playing && alive()) speak(i + 1); };
+      u.onerror = function (e) { if (e.error !== 'interrupted' && e.error !== 'canceled' && token === P.token && P.playing && alive()) speak(i + 1); };
+      tts.speak(u);
+    }
+    function play() { if (!tts) return; P.playing = true; playBtn.textContent = '❚❚ Pause'; P.token++; tts.cancel(); speak(P.i); }
+    function pause() { P.playing = false; P.token++; if (tts) tts.cancel(); playBtn.textContent = '▶ Resume'; }
+    function toggle() { if (P.playing) pause(); else play(); }
+    function restart() { if (P.playing) { P.token++; tts.cancel(); speak(P.i); } }
+    function jump(i) {
+      i = Math.max(0, Math.min(segs.length - 1, i));
+      P.i = i;
+      if (P.playing) { P.token++; tts.cancel(); speak(i); } else highlight(i);
+    }
+    function stop() { P.playing = false; P.token++; if (tts) tts.cancel(); P.i = 0; clearHl(); cites.replaceChildren(); playBtn.textContent = '▶ Play model essay'; caption.textContent = 'Stopped.'; }
+    var bar = h('div', { class: 'tplayer' },
+      h('div', { class: 'row' },
+        tts ? playBtn : h('span', { class: 'hint', text: 'This browser cannot read aloud; tap the sentences below to follow the highlights.' }),
+        h('button', { class: 'secondary small', onclick: function () { jump(P.i - 1); }, text: '⏮', title: 'Previous sentence' }),
+        h('button', { class: 'secondary small', onclick: function () { jump(P.i + 1); }, text: '⏭', title: 'Next sentence' }),
+        h('button', { class: 'secondary small', onclick: stop, text: '■ Stop' }),
+        tts ? rateSel : null, tts ? voiceSel : null),
+      caption, cites);
+    return h('div', { class: 'tmodel' },
+      h('p', { class: 'hint', text: 'Model essay: listen for structure and authority. Write your own answer fresh in the exam; do not memorise these sentences.' }),
+      bar,
+      h('details', { class: 'tscript' }, h('summary', { text: 'Full text (' + sp.modelWords + ' words; card invocations in grey). Tap a sentence to jump there.' }), script));
+  }
+
   function tarotAuth(sp) {
-    return h('div', { class: 'tauth' }, sp.auth.map(function (g) {
+    return h('div', { class: 'tauth' }, sp.auth.map(function (g, gi) {
       return h('div', { class: 'tauthgroup' },
         h('div', { class: 'tauthhead', style: 'color:' + SECT_COL[g[1]], text: g[0] }),
-        h('ul', null, g[2].map(function (a) {
-          return h('li', null, a[0], ' ', h('em', { text: a[1] }));
+        h('ul', null, g[2].map(function (a, ii) {
+          return h('li', { 'data-a': gi + '-' + ii }, a[0], ' ', h('em', { text: a[1] }));
         })));
     }));
   }
@@ -972,19 +1083,19 @@
     var essay = essayById(sp.essay);
     var spread = h('div', { class: 'tarot' },
       h('div', { class: 'ttop' },
-        h('div', { class: 'tintro' }, sp.intro.map(function (c) { return tcard(c[0], c[1], 'md'); })),
+        h('div', { class: 'tintro' }, sp.intro.map(function (c) { return tcard(c[0], c[1], 'md', 'i'); })),
         tarotAuth(sp),
-        h('div', { class: 'tconcl' }, tcard(sp.concl[0], sp.concl[1], 'md'))),
+        h('div', { class: 'tconcl' }, tcard(sp.concl[0], sp.concl[1], 'md', 'c'))),
       h('div', { class: 'tcols' }, sp.mains.map(function (m, i) {
         return h('div', { class: 'tcol', style: '--c:' + MAIN_COL[i % 4] },
-          tcard(m.card, m.cue, 'md'),
+          tcard(m.card, m.cue, 'md', 'm' + i),
           m.sup.length ? h('div', { class: 'tarrow', text: '↓' }) : null,
-          h('div', { class: 'tsups' }, m.sup.map(function (s) { return tcard(s[0], s[1], 'sm'); })));
+          h('div', { class: 'tsups' }, m.sup.map(function (s, j) { return tcard(s[0], s[1], 'sm', 'm' + i + 's' + j); })));
       })));
     show(h('div', { class: 'panel wide' },
       h('h2', { text: sp.title }),
       h('p', { class: 'prompt', text: sp.prompt }),
-      score, spread,
+      score, spread, sp.model ? modelPlayer(sp, spread) : null,
       h('div', { class: 'row', style: 'margin-top:14px' },
         h('button', { onclick: function () { startTarot(sp); }, text: run ? 'Try again' : 'Build this plan' }),
         h('button', { class: 'secondary', onclick: renderTarotList, text: 'All tarot plans' }),
