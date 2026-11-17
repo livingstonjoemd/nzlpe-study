@@ -1859,11 +1859,11 @@ window.CARDS = [
    ],
    [
     "Elements",
-    "Marine and Coastal Area (Takutai Moana) Act 2011 s 59 (relevant matters); Marine and Coastal Area (Takutai Moana) Act 2011 s 106 (burden of proof). No one owns the common marine and coastal area."
+    "Marine and Coastal Area (Takutai Moana) Act 2011 s 59 (relevant matters); Marine and Coastal Area (Takutai Moana) Act 2011 s 106 (burden of proof). s 6(1): customary interests extinguished by the 2004 Act are restored and given legal expression only under this Act (so Ngāti Apa's common law title now lives in the statute). No one owns the common marine and coastal area (s 11(2))."
    ],
    [
     "Changed",
-    "Marine and Coastal Area (Takutai Moana) (Customary Marine Title) Amendment Act 2025, in force 25 October 2025, amends ss 58, 59 and 106 and adds Sch 1AA, making title harder to prove [new law]."
+    "Marine and Coastal Area (Takutai Moana) (Customary Marine Title) Amendment Act 2025, in force 25 October 2025, amends ss 58, 59 and 106 and adds Sch 1AA, making title harder to prove [new law]. It answers Re Edwards (Whakatōhea): the Court of Appeal [2023] NZCA 504 read s 58 generously; the Supreme Court [2024] NZSC 164 and [2025] NZSC 104 corrected it; Parliament tightened the test anyway and made the amendments prevail over listed judgments' reasoning (ss 9B, 59B)."
    ],
    [
     "Use",
