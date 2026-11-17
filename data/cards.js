@@ -1727,7 +1727,7 @@ window.CARDS = [
    ],
    [
     "Changed",
-    "The Foreshore and Seabed Act 2004 vested the area in the Crown; replaced by the Marine and Coastal Area (Takutai Moana) Act 2011 (card 8.6); amended again in 2025."
+    "The Foreshore and Seabed Act 2004 vested the area in the Crown; replaced by the Marine and Coastal Area (Takutai Moana) Act 2011 (card 8.6); then the Marine and Coastal Area (Takutai Moana) (Customary Marine Title) Amendment Act 2025 (in force 25 October 2025) made title harder to prove, overrode the courts' reading of s 58 in Re Edwards (Whakatōhea) [2023] NZCA 504, and voided orders made from 25 July 2024 (Sch 1AA) [new law]."
    ],
    [
     "Use",
