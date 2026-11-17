@@ -223,3 +223,24 @@ main:has(.wide) { max-width: 1120px; }
   .tcard.md { width: 100px; }
   .tsups { gap: 5px; }
 }
+
+/* ---------- spoken model essay ---------- */
+.tmodel { margin-top: 16px; }
+.tplayer { position: sticky; bottom: 0; z-index: 5; background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 10px 12px; box-shadow: 0 -4px 14px rgba(0,0,0,0.08); }
+.tplayer select { max-width: 220px; }
+.tcaption { margin-top: 8px; font-size: 0.98rem; line-height: 1.4; min-height: 2.8em; }
+.tcaption.cue { color: var(--muted); font-style: italic; }
+.tscript { margin-top: 10px; }
+.tpara { line-height: 1.55; margin: 8px 0; }
+.tseg { cursor: pointer; border-radius: 3px; }
+.tseg.cue { color: var(--muted); font-style: italic; }
+.tseg.cur { background: #fff1b8; }
+.tcard.hl img { outline: 4px solid #f0b400; outline-offset: 2px; box-shadow: 0 0 16px rgba(240, 180, 0, 0.8); }
+.tcard.hl figcaption b { background: #fff1b8; }
+.tcard.hl2 img { outline: 2px dashed #f0b400; outline-offset: 2px; }
+.tcard img { transition: outline-color 0.2s, box-shadow 0.2s; }
+.tauth li.hl { background: #fff1b8; border-radius: 3px; box-shadow: 0 0 0 2px #fff1b8; }
+
+.tcites { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; }
+.tcite { background: #fff1b8; border-radius: 4px; padding: 2px 6px; font-size: 0.82rem; }
+.tcite em { color: #8a6d1a; }
