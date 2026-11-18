@@ -3399,5 +3399,3264 @@ window.SPREADS = [
    ],
    "voice": "Isabella (Kokoro, British English)"
   }
+ },
+ {
+  "id": "review",
+  "essay": "N24UK-2",
+  "title": "Is judicial review worth it?",
+  "prompt": "Judicial review is costly, and the decision under review is often simply remade. Is it worth pursuing? Discuss the positives and negatives, and when it is worthwhile.",
+  "intro": [
+   [
+    "3.7",
+    "the client's route"
+   ],
+   [
+    "3.1",
+    "three grounds"
+   ]
+  ],
+  "concl": [
+   "9.4",
+   "the cheaper route"
+  ],
+  "mains": [
+   {
+    "card": "2.6",
+    "cue": "speed: interim relief",
+    "sup": [
+     [
+      "4.8",
+      "rights raise intensity"
+     ]
+    ]
+   },
+   {
+    "card": "3.4",
+    "cue": "better process",
+    "sup": [
+     [
+      "3.3",
+      "public in substance"
+     ]
+    ]
+   },
+   {
+    "card": "3.5",
+    "cue": "the negatives",
+    "sup": [
+     [
+      "2.5",
+      "declaration only"
+     ]
+    ]
+   },
+   {
+    "card": "3.2",
+    "cue": "when it is worth it",
+    "sup": [
+     [
+      "3.6",
+      "the line moves out"
+     ]
+    ]
+   }
+  ],
+  "auth": [
+   [
+    "Framework",
+    0,
+    [
+     [
+      "Council of Civil Service Unions v Minister for the Civil Service [1985] AC 374 (HL) (GCHQ)",
+      "three grounds"
+     ],
+     [
+      "Judicial Review Procedure Act 2016",
+      "High Court review"
+     ],
+     [
+      "New Zealand Bill of Rights Act 1990 s 27(2)",
+      "right to apply for review"
+     ],
+     [
+      "High Court Rules 2016 Part 30",
+      "procedure and time"
+     ]
+    ]
+   ],
+   [
+    "Speed and rights",
+    1,
+    [
+     [
+      "Christiansen v Director-General of Health [2020] NZHC 887",
+      "released within days"
+     ],
+     [
+      "Judicial Review Procedure Act 2016 s 15",
+      "interim orders"
+     ],
+     [
+      "Grounded Kiwis Group Inc v Minister of Health [2022] NZHC 832",
+      "the lottery failed"
+     ],
+     [
+      "New Zealand Bill of Rights Act 1990 s 18(2)",
+      "right to enter"
+     ]
+    ]
+   ],
+   [
+    "Better process",
+    2,
+    [
+     [
+      "University of Auckland v Tertiary Education Commission [2004] 2 NZLR 668 (HC)",
+      "consult first"
+     ],
+     [
+      "New Zealand Bill of Rights Act 1990 s 27(1)",
+      "natural justice"
+     ],
+     [
+      "Lab Tests Auckland Ltd v Auckland District Health Board [2008] NZCA 385",
+      "contract reviewable, claim lost"
+     ]
+    ]
+   ],
+   [
+    "Negatives",
+    3,
+    [
+     [
+      "Judicial Review Procedure Act 2016 s 16",
+      "quash, declare, reconsider"
+     ],
+     [
+      "Borrowdale v Director-General of Health [2020] NZHC 2090",
+      "declaration only"
+     ]
+    ]
+   ],
+   [
+    "When worthwhile",
+    4,
+    [
+     [
+      "Attorney-General v Zaoui [2005] NZSC 38",
+      "security still reviewable"
+     ],
+     [
+      "Ngāti Whātua Ōrākei Trust v Attorney-General [2018] NZSC 84",
+      "only Parliament's process excluded"
+     ]
+    ]
+   ],
+   [
+    "Conclusion",
+    0,
+    [
+     [
+      "Ombudsmen Act 1975 s 13",
+      "investigates administration"
+     ],
+     [
+      "Ombudsmen Act 1975 s 22",
+      "unjust or wrong"
+     ]
+    ]
+   ]
+  ],
+  "frame": [
+   {
+    "cards": [
+     "3.7",
+     "3.1"
+    ],
+    "grade": "best",
+    "why": "The checklist frames the client's route to court and the grounds set the test. The Ombudsman conclusion answers 'when is it worthwhile' by naming the cheaper alternative.",
+    "concl": "9.4"
+   },
+   {
+    "cards": [
+     "3.1"
+    ],
+    "grade": "ok",
+    "why": "The grounds are stated, but there is no client's-eye view of cost and route. Ending on remedies repeats a negative instead of answering when review is worth it.",
+    "concl": "3.5"
+   },
+   {
+    "cards": [
+     "1.6"
+    ],
+    "grade": "weak",
+    "why": "Declarations against Acts belong to the Bill of Rights. Judicial review here is of executive decisions, not legislation.",
+    "concl": "1.11"
+   },
+   {
+    "cards": [
+     "7.1"
+    ],
+    "grade": "weak",
+    "why": "The Waitangi Tribunal is a different forum. The question is about judicial review.",
+    "concl": "7.4"
+   }
+  ],
+  "skel": [
+   {
+    "cards": [
+     "2.6",
+     "3.4",
+     "3.5",
+     "3.2"
+    ],
+    "grade": "best",
+    "why": "Two positives (urgent relief and rights; better process), the negatives, then when review is worth it: the three limbs of the question."
+   },
+   {
+    "cards": [
+     "2.6",
+     "3.4",
+     "3.5"
+    ],
+    "grade": "ok",
+    "why": "Positives and negatives, but the 'when is it worthwhile' limb has no paragraph."
+   },
+   {
+    "cards": [
+     "3.1",
+     "3.2",
+     "3.6"
+    ],
+    "grade": "weak",
+    "why": "Explains doctrine (grounds, deference, justiciability) but never weighs whether review is worth the cost."
+   },
+   {
+    "cards": [
+     "2.6",
+     "4.8",
+     "3.4",
+     "3.3"
+    ],
+    "grade": "weak",
+    "why": "A list of wins. The cost and limited-remedy problem never gets a paragraph."
+   }
+  ],
+  "sup": {
+   "2.6": [
+    {
+     "cards": [
+      "4.8"
+     ],
+     "grade": "best",
+     "why": "Grounded Kiwis adds the rights point: a right raises the intensity of review, and a declaration sets a standard for the future."
+    },
+    {
+     "cards": [
+      "4.8",
+      "2.5"
+     ],
+     "grade": "ok",
+     "why": "Borrowdale fits the negatives paragraph better, where its declaration-only result makes the point."
+    },
+    {
+     "cards": [
+      "6.4"
+     ],
+     "grade": "weak",
+     "why": "Tavita is about international obligations in removal decisions. Off point."
+    },
+    {
+     "cards": [
+      "5.1"
+     ],
+     "grade": "weak",
+     "why": "Unreasonable search is criminal procedure."
+    }
+   ],
+   "3.4": [
+    {
+     "cards": [
+      "3.3"
+     ],
+     "grade": "best",
+     "why": "Lab Tests shows amenability ('public in substance') and its limit: the claim still lost."
+    },
+    {
+     "cards": [
+      "3.3",
+      "3.1"
+     ],
+     "grade": "ok",
+     "why": "The grounds card repeats the introduction."
+    },
+    {
+     "cards": [
+      "9.5"
+     ],
+     "grade": "weak",
+     "why": "Official information is a different regime."
+    },
+    {
+     "cards": [
+      "1.4"
+     ],
+     "grade": "weak",
+     "why": "Parliamentary privilege has nothing to do with reviewing executive decisions."
+    }
+   ],
+   "3.5": [
+    {
+     "cards": [
+      "2.5"
+     ],
+     "grade": "best",
+     "why": "Borrowdale: a finely balanced declaration after the event. The clearest example of a modest payoff."
+    },
+    {
+     "cards": [
+      "2.5",
+      "5.3"
+     ],
+     "grade": "ok",
+     "why": "Baigent compensation is a Bill of Rights remedy, not the ordinary review remedy."
+    },
+    {
+     "cards": [
+      "1.6"
+     ],
+     "grade": "weak",
+     "why": "Declarations against statutes are a different remedy for a different problem."
+    },
+    {
+     "cards": [
+      "7.4"
+     ],
+     "grade": "weak",
+     "why": "Settlement declarations are a Treaty point. Off topic."
+    }
+   ],
+   "3.2": [
+    {
+     "cards": [
+      "3.6"
+     ],
+     "grade": "best",
+     "why": "Ngāti Whātua Ōrākei 2018 shows the reviewable area widening: practical advice on where review can still reach."
+    },
+    {
+     "cards": [
+      "3.6",
+      "6.6"
+     ],
+     "grade": "ok",
+     "why": "The Zaoui card repeats the case already on the deference card."
+    },
+    {
+     "cards": [
+      "1.5"
+     ],
+     "grade": "weak",
+     "why": "Westco is about Parliament's proceedings, not executive action."
+    },
+    {
+     "cards": [
+      "8.3"
+     ],
+     "grade": "weak",
+     "why": "Takamore is about tikanga and burial."
+    }
+   ]
+  },
+  "model": [
+   {
+    "f": "i",
+    "k": "cue",
+    "t": "Introduction. Review checklist: hopscotch to the courthouse, one square at a time. And the grounds of review: three lights on one decision."
+   },
+   {
+    "f": "i",
+    "k": "say",
+    "t": "Judicial review is the High Court's supervisory jurisdiction over public power.",
+    "a": []
+   },
+   {
+    "f": "i",
+    "k": "say",
+    "t": "It asks not whether a decision was right, but whether it was lawful: whether the decision-maker had the power it used, used it rationally, and followed a fair procedure.",
+    "a": []
+   },
+   {
+    "f": "i",
+    "k": "say",
+    "t": "Those are Lord Diplock's three grounds in Council of Civil Service Unions v Minister for the Civil Service: illegality, irrationality and procedural impropriety.",
+    "a": [
+     [
+      0,
+      0
+     ]
+    ]
+   },
+   {
+    "f": "i",
+    "k": "say",
+    "t": "Claims are brought in the High Court under the Judicial Review Procedure Act 2016, and section 27(2) of the New Zealand Bill of Rights Act 1990 affirms the right to apply for review of a determination affecting a person's rights.",
+    "a": [
+     [
+      0,
+      1
+     ],
+     [
+      0,
+      2
+     ]
+    ]
+   },
+   {
+    "f": "i",
+    "k": "say",
+    "t": "Review is expensive and slow, and its remedies are discretionary, so the question whether it is worth pursuing is a fair one.",
+    "a": []
+   },
+   {
+    "f": "i",
+    "k": "say",
+    "t": "This essay argues that review is worthwhile where speed, rights or fair process matter most, and least worthwhile where the claimant really wants a different result on the merits, because the court will usually send the decision back to be made again.",
+    "a": []
+   },
+   {
+    "f": "m0",
+    "k": "cue",
+    "t": "Card: Fettering a discretion. Going by the book, the wrong book."
+   },
+   {
+    "f": "m0",
+    "k": "say",
+    "t": "The strongest positive is speed.",
+    "a": []
+   },
+   {
+    "f": "m0",
+    "k": "say",
+    "t": "In Christiansen v Director-General of Health, a man in managed isolation sought an exemption to visit his dying father.",
+    "a": [
+     [
+      1,
+      0
+     ]
+    ]
+   },
+   {
+    "f": "m0",
+    "k": "say",
+    "t": "The governing order allowed exemptions on compassionate grounds and in exceptional circumstances, but officials applied a narrower Ministry framework and never addressed exceptional circumstances.",
+    "a": []
+   },
+   {
+    "f": "m0",
+    "k": "say",
+    "t": "Walker J found a strong case of error of law and of failure to consider a mandatory relevant consideration, and made an interim order under section 15 of the Judicial Review Procedure Act 2016 releasing him, on conditions, to see his father.",
+    "a": [
+     [
+      1,
+      1
+     ]
+    ]
+   },
+   {
+    "f": "m0",
+    "k": "say",
+    "t": "No complaint process could have acted in time.",
+    "a": []
+   },
+   {
+    "f": "m0",
+    "k": "say",
+    "t": "The case also shows why review matters to the rule of law: a policy cannot narrow a discretion that Parliament conferred, even in an emergency.",
+    "a": []
+   },
+   {
+    "f": "m0s0",
+    "k": "say",
+    "t": "Review is also worthwhile where rights are engaged, because rights raise the intensity of review.",
+    "a": []
+   },
+   {
+    "f": "m0s0",
+    "k": "say",
+    "t": "In Grounded Kiwis Group Inc v Minister of Health, citizens stranded abroad challenged the managed isolation booking system.",
+    "a": [
+     [
+      1,
+      2
+     ]
+    ]
+   },
+   {
+    "f": "m0s0",
+    "k": "say",
+    "t": "Mallon J held that most of the system was justified, but that the virtual lobby, which allocated rooms at random with narrow emergency criteria and no way to prioritise by need, was not a justified limit on the right of every citizen to enter New Zealand under section 18(2) of the Bill of Rights Act.",
+    "a": [
+     [
+      1,
+      3
+     ]
+    ]
+   },
+   {
+    "f": "m0s0",
+    "k": "say",
+    "t": "The court made a declaration, setting a standard for any future scheme.",
+    "a": []
+   },
+   {
+    "f": "m1",
+    "k": "cue",
+    "t": "Card: Publishing a ranking. Top of the ladder? Ask before you rank."
+   },
+   {
+    "f": "m1",
+    "k": "say",
+    "t": "A second positive is that review improves the way government decides.",
+    "a": []
+   },
+   {
+    "f": "m1",
+    "k": "say",
+    "t": "In University of Auckland v Tertiary Education Commission, the Commission planned to publish a comparison ranking New Zealand universities against British ones, and the universities learned of it only weeks before release.",
+    "a": [
+     [
+      2,
+      0
+     ]
+    ]
+   },
+   {
+    "f": "m1",
+    "k": "say",
+    "t": "Williams J held that publication was a reviewable exercise of statutory power.",
+    "a": []
+   },
+   {
+    "f": "m1",
+    "k": "say",
+    "t": "The universities won on natural justice and legitimate expectation, because they had no real notice or chance to respond and their data had been supplied for another purpose, but lost on irrationality and mistake of fact.",
+    "a": []
+   },
+   {
+    "f": "m1",
+    "k": "say",
+    "t": "Interim orders stopped publication until the Commission consulted.",
+    "a": []
+   },
+   {
+    "f": "m1",
+    "k": "say",
+    "t": "The remedy matched the ground won: the court did not ban the ranking, it required a fair process first.",
+    "a": []
+   },
+   {
+    "f": "m1",
+    "k": "say",
+    "t": "Section 27(1) of the Bill of Rights Act gives the right to natural justice statutory footing.",
+    "a": [
+     [
+      2,
+      1
+     ]
+    ]
+   },
+   {
+    "f": "m1s0",
+    "k": "say",
+    "t": "Review also reaches decisions that look commercial.",
+    "a": []
+   },
+   {
+    "f": "m1s0",
+    "k": "say",
+    "t": "In Lab Tests Auckland Ltd v Auckland District Health Board, the Court of Appeal accepted that a health board's award of a laboratory contract was reviewable, because a decision that is in substance public is reviewable whatever its source.",
+    "a": [
+     [
+      2,
+      2
+     ]
+    ]
+   },
+   {
+    "f": "m1s0",
+    "k": "say",
+    "t": "But the court held that the standard depends on the body, its function and the alleged wrong, rejected the High Court's broad probity standard, and restored the contract.",
+    "a": []
+   },
+   {
+    "f": "m1s0",
+    "k": "say",
+    "t": "Reviewability does not guarantee success.",
+    "a": []
+   },
+   {
+    "f": "m2",
+    "k": "cue",
+    "t": "Card: Remedies. Hold your horses. The court holds the rein."
+   },
+   {
+    "f": "m2",
+    "k": "say",
+    "t": "The negatives are real.",
+    "a": []
+   },
+   {
+    "f": "m2",
+    "k": "say",
+    "t": "Every remedy in judicial review is discretionary.",
+    "a": []
+   },
+   {
+    "f": "m2",
+    "k": "say",
+    "t": "Under section 16 of the Judicial Review Procedure Act 2016 the court may quash a decision, make a declaration, or set the decision aside and direct the decision-maker to reconsider it, and relief can be refused for delay, futility or the availability of another remedy.",
+    "a": [
+     [
+      3,
+      0
+     ]
+    ]
+   },
+   {
+    "f": "m2",
+    "k": "say",
+    "t": "The usual result of success is that the decision is made again, lawfully, and it may be made the same way.",
+    "a": []
+   },
+   {
+    "f": "m2",
+    "k": "say",
+    "t": "A claimant who wants a different outcome on the merits will often be disappointed, because review is not an appeal.",
+    "a": []
+   },
+   {
+    "f": "m2s0",
+    "k": "say",
+    "t": "Borrowdale v Director-General of Health shows how modest the payoff can be.",
+    "a": [
+     [
+      3,
+      1
+     ]
+    ]
+   },
+   {
+    "f": "m2s0",
+    "k": "say",
+    "t": "A full High Court held that for the first nine days of the 2020 lockdown, official announcements told people the law required them to stay home when no order yet did, so those limits were not prescribed by law, although they were necessary and proportionate.",
+    "a": []
+   },
+   {
+    "f": "m2s0",
+    "k": "say",
+    "t": "The only remedy was a declaration, and the court described the case for relief as finely balanced.",
+    "a": []
+   },
+   {
+    "f": "m2s0",
+    "k": "say",
+    "t": "Add the cost of High Court litigation, the procedure and time limits under Part 30 of the High Court Rules 2016, and the risk of paying costs if the claim fails, and review is a poor choice for many claimants.",
+    "a": [
+     [
+      0,
+      3
+     ]
+    ]
+   },
+   {
+    "f": "m3",
+    "k": "cue",
+    "t": "Card: Deference. Hands off the expert's tools."
+   },
+   {
+    "f": "m3",
+    "k": "say",
+    "t": "Whether review is worthwhile also depends on how closely the court will look.",
+    "a": []
+   },
+   {
+    "f": "m3",
+    "k": "say",
+    "t": "Courts defer more on national security, high policy and the allocation of public resources, and less where fundamental rights or fairness to an individual are at stake; on the meaning of a statute they do not defer at all.",
+    "a": []
+   },
+   {
+    "f": "m3",
+    "k": "say",
+    "t": "Even so, little is now beyond review.",
+    "a": []
+   },
+   {
+    "f": "m3",
+    "k": "say",
+    "t": "In Attorney-General v Zaoui, the Supreme Court held that a security risk certificate was reviewable, and read the immigration legislation consistently with the rights not to be deprived of life or subjected to torture.",
+    "a": [
+     [
+      4,
+      0
+     ]
+    ]
+   },
+   {
+    "f": "m3s0",
+    "k": "say",
+    "t": "The boundary of what courts will hear is also moving outward.",
+    "a": []
+   },
+   {
+    "f": "m3s0",
+    "k": "say",
+    "t": "In Ngāti Whātua Ōrākei Trust v Attorney-General, the Supreme Court held that only decisions proximately connected to proceedings in Parliament are excluded, so a claim for declarations about the trust's rights could proceed even though settlement legislation was planned.",
+    "a": [
+     [
+      4,
+      1
+     ]
+    ]
+   },
+   {
+    "f": "m3s0",
+    "k": "say",
+    "t": "For a client the lesson is practical: review is most likely to succeed where the claim is framed around legality, procedure or rights, and least likely where it asks the court to second-guess a policy judgment.",
+    "a": []
+   },
+   {
+    "f": "c",
+    "k": "cue",
+    "t": "Conclusion card: Ombudsmen. The people's ear at the window."
+   },
+   {
+    "f": "c",
+    "k": "say",
+    "t": "Judicial review is worth pursuing in identifiable situations: where urgent interim relief is needed, as in Christiansen; where a right is engaged and a declaration will shape future conduct, as in Grounded Kiwis; and where a fair process is the real goal, as in the Tertiary Education Commission case.",
+    "a": []
+   },
+   {
+    "f": "c",
+    "k": "say",
+    "t": "It is rarely worthwhile where the claimant wants a different merits result, because the remedy is discretionary and the decision is usually remade.",
+    "a": []
+   },
+   {
+    "f": "c",
+    "k": "say",
+    "t": "For many complaints a cheaper route is better.",
+    "a": []
+   },
+   {
+    "f": "c",
+    "k": "say",
+    "t": "Under section 13 of the Ombudsmen Act 1975 an Ombudsman can investigate matters of administration, and under section 22 can find a decision unreasonable, unjust or simply wrong, grounds wider than review, although the result is only a recommendation.",
+    "a": [
+     [
+      5,
+      0
+     ],
+     [
+      5,
+      1
+     ]
+    ]
+   },
+   {
+    "f": "c",
+    "k": "say",
+    "t": "The sensible advice to a client is to treat review as one tool among several: powerful when time, rights or fairness are at stake, and expensive when they are not.",
+    "a": []
+   }
+  ],
+  "modelWords": 1142,
+  "audio": {
+   "src": "data/review.mp3?v=20261118d",
+   "starts": [
+    0.0,
+    8.24,
+    13.17,
+    22.34,
+    32.22,
+    48.17,
+    55.55,
+    69.8,
+    74.05,
+    76.55,
+    84.01,
+    95.6,
+    112.02,
+    115.14,
+    123.61,
+    129.43,
+    136.83,
+    155.48,
+    160.34,
+    164.97,
+    169.26,
+    181.87,
+    186.99,
+    200.11,
+    204.2,
+    210.01,
+    215.96,
+    219.24,
+    232.83,
+    241.96,
+    245.61,
+    249.9,
+    251.86,
+    255.17,
+    272.81,
+    279.06,
+    285.25,
+    289.94,
+    304.89,
+    310.76,
+    324.24,
+    327.78,
+    332.22,
+    345.15,
+    347.99,
+    360.74,
+    364.46,
+    380.37,
+    392.89,
+    397.2,
+    415.8,
+    424.08,
+    427.05,
+    445.01
+   ],
+   "voice": ""
+  }
+ },
+ {
+  "id": "prisoner-vote",
+  "essay": "P2",
+  "title": "Prisoner voting 2025 and the Bill of Rights",
+  "prompt": "In 2025 Parliament reinstated a ban on prisoner voting, despite the declaration in Taylor and an Attorney-General's section 7 report. How far does the Bill of Rights restrain Parliament?",
+  "intro": [
+   [
+    "4.7",
+    "the 2025 ban"
+   ],
+   [
+    "1.1",
+    "section 4: Parliament wins"
+   ]
+  ],
+  "concl": [
+   "1.11",
+   "supreme law?"
+  ],
+  "mains": [
+   {
+    "card": "4.2",
+    "cue": "the method",
+    "sup": [
+     [
+      "4.1",
+      "section 6"
+     ],
+     [
+      "4.8",
+      "section 5"
+     ]
+    ]
+   },
+   {
+    "card": "1.9",
+    "cue": "the s 7 warning",
+    "sup": [
+     [
+      "1.2",
+      "s 80 not reserved"
+     ]
+    ]
+   },
+   {
+    "card": "1.6",
+    "cue": "the declaration",
+    "sup": [
+     [
+      "1.8",
+      "second declaration"
+     ]
+    ]
+   },
+   {
+    "card": "2.8",
+    "cue": "the dialogue defence",
+    "sup": []
+   }
+  ],
+  "auth": [
+   [
+    "The facts",
+    0,
+    [
+     [
+      "Attorney-General v Taylor [2018] NZSC 104",
+      "declaration, 3–2"
+     ],
+     [
+      "Electoral (Disqualification of Sentenced Prisoners) Amendment Act 2010",
+      "blanket ban"
+     ],
+     [
+      "Electoral Amendment Act 2025",
+      "ban reinstated"
+     ],
+     [
+      "New Zealand Bill of Rights Act 1990 s 12",
+      "right to vote"
+     ]
+    ]
+   ],
+   [
+    "The method",
+    1,
+    [
+     [
+      "Hansen v R [2007] NZSC 7",
+      "six steps"
+     ],
+     [
+      "New Zealand Bill of Rights Act 1990 s 5",
+      "justified limits"
+     ],
+     [
+      "New Zealand Bill of Rights Act 1990 s 6",
+      "consistent meaning"
+     ],
+     [
+      "New Zealand Bill of Rights Act 1990 s 4",
+      "Act still applies"
+     ],
+     [
+      "Moonen v Film and Literature Board of Review [2000] 2 NZLR 9 (CA)",
+      "least limiting meaning"
+     ]
+    ]
+   ],
+   [
+    "Parliament",
+    2,
+    [
+     [
+      "New Zealand Bill of Rights Act 1990 s 7",
+      "warns the House"
+     ],
+     [
+      "Constitution Act 1986 s 16",
+      "royal assent"
+     ],
+     [
+      "Electoral Act 1993 s 268",
+      "reserved provisions"
+     ],
+     [
+      "Electoral Act 1993 s 80",
+      "not reserved"
+     ]
+    ]
+   ],
+   [
+    "The courts",
+    3,
+    [
+     [
+      "New Zealand Bill of Rights Act 1990 ss 7A–7B",
+      "Government must respond"
+     ],
+     [
+      "Make It 16 Inc v Attorney-General [2022] NZSC 134",
+      "voting age declared"
+     ]
+    ]
+   ],
+   [
+    "Counter",
+    4,
+    [
+     [
+      "Taylor (Court of Appeal): a collaborative enterprise",
+      "each branch in its sphere"
+     ]
+    ]
+   ],
+   [
+    "Conclusion",
+    0,
+    [
+     [
+      "A Bill of Rights for New Zealand: A White Paper (1985)",
+      "supreme law rejected"
+     ]
+    ]
+   ]
+  ],
+  "frame": [
+   {
+    "cards": [
+     "4.7",
+     "1.1"
+    ],
+    "grade": "best",
+    "why": "The 2025 Act is the facts; section 4 and sovereignty set the legal answer. The written-constitution conclusion names the only route to a legal restraint.",
+    "concl": "1.11"
+   },
+   {
+    "cards": [
+     "4.7"
+    ],
+    "grade": "ok",
+    "why": "The facts are there, but the sovereignty frame is missing. Ending on Taylor restates instead of concluding.",
+    "concl": "1.6"
+   },
+   {
+    "cards": [
+     "5.1",
+     "5.4"
+    ],
+    "grade": "weak",
+    "why": "Search and arrest rights are criminal procedure. The question is whether the Bill of Rights restrains Parliament.",
+    "concl": "5.2"
+   },
+   {
+    "cards": [
+     "1.12"
+    ],
+    "grade": "weak",
+    "why": "Party-hopping and government formation are electoral politics, not rights.",
+    "concl": "9.11"
+   }
+  ],
+  "skel": [
+   {
+    "cards": [
+     "4.2",
+     "1.9",
+     "1.6",
+     "2.8"
+    ],
+    "grade": "best",
+    "why": "The method (ss 4–6), the warning before enactment (s 7), the declaration after it, then the dialogue defence."
+   },
+   {
+    "cards": [
+     "4.2",
+     "1.6",
+     "2.8"
+    ],
+    "grade": "ok",
+    "why": "Misses the s 7 report, the warning Parliament overrode in 2025."
+   },
+   {
+    "cards": [
+     "4.3",
+     "4.4",
+     "4.5"
+    ],
+    "grade": "weak",
+    "why": "Other rights cases. The voting ban and Parliament's response disappear."
+   },
+   {
+    "cards": [
+     "1.1",
+     "1.2",
+     "1.5",
+     "1.11"
+    ],
+    "grade": "weak",
+    "why": "Sovereignty from every angle; the Bill of Rights mechanisms are never explained."
+   }
+  ],
+  "sup": {
+   "4.2": [
+    {
+     "cards": [
+      "4.1",
+      "4.8"
+     ],
+     "grade": "best",
+     "why": "Section 6 (Moonen) is the courts' main tool; the s 5 test (Grounded Kiwis steps) shows why a blanket ban fails minimal impairment."
+    },
+    {
+     "cards": [
+      "4.1"
+     ],
+     "grade": "ok",
+     "why": "Section 6 is covered, but the s 5 test is where the ban fails."
+    },
+    {
+     "cards": [
+      "4.6"
+     ],
+     "grade": "weak",
+     "why": "Who the Bill of Rights binds is not in issue."
+    },
+    {
+     "cards": [
+      "6.5"
+     ],
+     "grade": "weak",
+     "why": "The international law presumption is a parallel you don't need."
+    }
+   ],
+   "1.9": [
+    {
+     "cards": [
+      "1.2"
+     ],
+     "grade": "best",
+     "why": "Section 268 reserves the voting age but not s 80, so a simple majority was enough."
+    },
+    {
+     "cards": [
+      "1.2",
+      "1.3"
+     ],
+     "grade": "ok",
+     "why": "Simpson is about procedural slips; it adds little."
+    },
+    {
+     "cards": [
+      "1.4"
+     ],
+     "grade": "weak",
+     "why": "Privilege is not in issue."
+    },
+    {
+     "cards": [
+      "9.3"
+     ],
+     "grade": "weak",
+     "why": "Public money is off topic."
+    }
+   ],
+   "1.6": [
+    {
+     "cards": [
+      "1.8"
+     ],
+     "grade": "best",
+     "why": "Make It 16 is the second franchise declaration: in both, the final decision stayed with Parliament."
+    },
+    {
+     "cards": [
+      "1.8",
+      "9.12"
+     ],
+     "grade": "ok",
+     "why": "The Declaratory Judgments Act is background, not needed here."
+    },
+    {
+     "cards": [
+      "5.3"
+     ],
+     "grade": "weak",
+     "why": "Baigent compensation is not a declaration about an Act."
+    },
+    {
+     "cards": [
+      "3.5"
+     ],
+     "grade": "weak",
+     "why": "Judicial review remedies concern executive decisions."
+    }
+   ],
+   "2.8": [
+    {
+     "cards": [],
+     "grade": "best",
+     "why": "No card needed. Taylor (CA)'s 'collaborative enterprise' and the dialogue model carry the counter."
+    },
+    {
+     "cards": [
+      "1.10"
+     ],
+     "grade": "ok",
+     "why": "Conventions of comity support the dialogue, but they are a side point."
+    },
+    {
+     "cards": [
+      "9.8"
+     ],
+     "grade": "weak",
+     "why": "Judicial independence is not in issue."
+    },
+    {
+     "cards": [
+      "2.3"
+     ],
+     "grade": "weak",
+     "why": "Payn is about officers on private property."
+    }
+   ]
+  },
+  "model": [
+   {
+    "f": "i",
+    "k": "cue",
+    "t": "Introduction. Prisoner voting 2025: the alarm sounded and Parliament marched on. And can Parliament do anything? The lion on the throne."
+   },
+   {
+    "f": "i",
+    "k": "say",
+    "t": "In Attorney-General v Taylor, the Supreme Court declared that the ban on all sentenced prisoners voting was inconsistent with the New Zealand Bill of Rights Act 1990.",
+    "a": [
+     [
+      0,
+      0
+     ],
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   {
+    "f": "i",
+    "k": "say",
+    "t": "In 2025 Parliament reinstated a ban.",
+    "a": []
+   },
+   {
+    "f": "i",
+    "k": "say",
+    "t": "The Electoral Amendment Act 2025 again disqualified sentenced prisoners from voting, and it passed even though the Attorney-General had reported that parts of the Bill were inconsistent with the right to vote in section 12.",
+    "a": [
+     [
+      0,
+      2
+     ],
+     [
+      0,
+      3
+     ]
+    ]
+   },
+   {
+    "f": "i",
+    "k": "say",
+    "t": "The episode tests how far the Bill of Rights restrains Parliament.",
+    "a": []
+   },
+   {
+    "f": "i",
+    "k": "say",
+    "t": "This essay argues that it does not restrain Parliament legally, because section 4 preserves every Act, but that it does impose a real political discipline: it forces Parliament to make its choice openly, after warning, and to answer for it.",
+    "a": []
+   },
+   {
+    "f": "m0",
+    "k": "cue",
+    "t": "Card: Hansen. Six stone steps; climb in order."
+   },
+   {
+    "f": "m0",
+    "k": "say",
+    "t": "The Bill of Rights works through interpretation, not invalidation.",
+    "a": []
+   },
+   {
+    "f": "m0",
+    "k": "say",
+    "t": "Hansen v R sets out the method.",
+    "a": [
+     [
+      1,
+      0
+     ]
+    ]
+   },
+   {
+    "f": "m0",
+    "k": "say",
+    "t": "The court identifies Parliament's intended meaning and asks whether it limits a right; if so, whether the limit is justified under section 5; if not, whether section 6 allows a consistent meaning; and if none is available, section 4 requires the court to apply the Act anyway.",
+    "a": [
+     [
+      1,
+      1
+     ],
+     [
+      1,
+      2
+     ],
+     [
+      1,
+      3
+     ]
+    ]
+   },
+   {
+    "f": "m0",
+    "k": "say",
+    "t": "In Hansen itself a reverse onus was an unjustified limit on the presumption of innocence, but the words could not be read down, so the Act was applied.",
+    "a": []
+   },
+   {
+    "f": "m0s0",
+    "k": "say",
+    "t": "Section 6 is the courts' main tool.",
+    "a": []
+   },
+   {
+    "f": "m0s0",
+    "k": "say",
+    "t": "In Moonen v Film and Literature Board of Review, the Court of Appeal required the Board to adopt the meaning of the classification statute that limited freedom of expression least.",
+    "a": [
+     [
+      1,
+      4
+     ]
+    ]
+   },
+   {
+    "f": "m0s0",
+    "k": "say",
+    "t": "But section 6 cannot rewrite clear words, and a blanket disqualification of prisoners admits only one meaning.",
+    "a": []
+   },
+   {
+    "f": "m0s1",
+    "k": "say",
+    "t": "Section 5 asks whether a limit is demonstrably justified: an important purpose, a rational connection, minimal impairment and proportionality.",
+    "a": []
+   },
+   {
+    "f": "m0s1",
+    "k": "say",
+    "t": "A ban that removes the vote from everyone serving a sentence, however short, is hard to defend at the minimal impairment step, which is why the Crown accepted in Taylor that the 2010 ban was not a justified limit.",
+    "a": []
+   },
+   {
+    "f": "m0s1",
+    "k": "say",
+    "t": "In practice, then, the Bill of Rights changes how statutes are read far more often than it changes whether they apply.",
+    "a": []
+   },
+   {
+    "f": "m1",
+    "k": "cue",
+    "t": "Card: Passing a Bill. No plain sailing: one lock at a time."
+   },
+   {
+    "f": "m1",
+    "k": "say",
+    "t": "The Bill of Rights also works before a Bill becomes law.",
+    "a": []
+   },
+   {
+    "f": "m1",
+    "k": "say",
+    "t": "Section 7 requires the Attorney-General to bring to the attention of the House any provision of a Bill that appears inconsistent with the Bill of Rights.",
+    "a": [
+     [
+      2,
+      0
+     ]
+    ]
+   },
+   {
+    "f": "m1",
+    "k": "say",
+    "t": "The report is a warning, not a veto.",
+    "a": []
+   },
+   {
+    "f": "m1",
+    "k": "say",
+    "t": "The 2025 Bill went through the ordinary stages, first reading, select committee, second and third readings and royal assent under section 16 of the Constitution Act 1986, with the report on the record.",
+    "a": [
+     [
+      2,
+      1
+     ]
+    ]
+   },
+   {
+    "f": "m1",
+    "k": "say",
+    "t": "The House chose to proceed.",
+    "a": []
+   },
+   {
+    "f": "m1s0",
+    "k": "say",
+    "t": "Nothing in the constitution required more.",
+    "a": []
+   },
+   {
+    "f": "m1s0",
+    "k": "say",
+    "t": "Section 268 of the Electoral Act 1993 entrenches a small set of reserved provisions, including the voting age, so that they may be changed only by 75 per cent of the House or by a referendum.",
+    "a": [
+     [
+      2,
+      2
+     ]
+    ]
+   },
+   {
+    "f": "m1s0",
+    "k": "say",
+    "t": "The disqualification of prisoners in section 80 of the Electoral Act is not reserved.",
+    "a": [
+     [
+      2,
+      3
+     ]
+    ]
+   },
+   {
+    "f": "m1s0",
+    "k": "say",
+    "t": "A simple majority could therefore reinstate the ban, as Parliament did in 2010 and again in 2025.",
+    "a": []
+   },
+   {
+    "f": "m1s0",
+    "k": "say",
+    "t": "The contrast is telling: the age at which people may vote is entrenched, but whether prisoners may vote is left to the majority of the day.",
+    "a": []
+   },
+   {
+    "f": "m2",
+    "k": "cue",
+    "t": "Card: Declaration and response. The court rings the bell; Parliament decides whether to answer."
+   },
+   {
+    "f": "m2",
+    "k": "say",
+    "t": "The courts' strongest response is the declaration of inconsistency.",
+    "a": []
+   },
+   {
+    "f": "m2",
+    "k": "say",
+    "t": "In Taylor, the Supreme Court held by three to two that senior courts have power to declare an Act inconsistent with the Bill of Rights.",
+    "a": []
+   },
+   {
+    "f": "m2",
+    "k": "say",
+    "t": "The majority reasoned that declarations fall within the courts' ordinary remedial powers, that the Bill of Rights requires an effective remedy, and that a declaration respects section 4 because the Act remains valid.",
+    "a": []
+   },
+   {
+    "f": "m2",
+    "k": "say",
+    "t": "The minority held that no such power existed without statute.",
+    "a": []
+   },
+   {
+    "f": "m2",
+    "k": "say",
+    "t": "The power matters even without a legal consequence: a declaration is a formal finding by the highest court that Parliament has limited a right without justification.",
+    "a": []
+   },
+   {
+    "f": "m2",
+    "k": "say",
+    "t": "Parliament then inserted sections 7A and 7B, which require the Attorney-General to present a declaration to the House and the Government to respond.",
+    "a": [
+     [
+      3,
+      0
+     ]
+    ]
+   },
+   {
+    "f": "m2s0",
+    "k": "say",
+    "t": "The model was used again in Make It 16 Inc v Attorney-General, where the Supreme Court declared that the voting age of 18 was an unjustified limit on freedom from age discrimination.",
+    "a": [
+     [
+      3,
+      1
+     ]
+    ]
+   },
+   {
+    "f": "m2s0",
+    "k": "say",
+    "t": "Both declarations concern the franchise, and in both the final decision stayed with Parliament.",
+    "a": []
+   },
+   {
+    "f": "m2s0",
+    "k": "say",
+    "t": "The 2025 Act shows what that means in practice: Parliament heard the bell and chose not to answer it in the way the court would have preferred.",
+    "a": []
+   },
+   {
+    "f": "m3",
+    "k": "cue",
+    "t": "Counter card: Separation of powers. Three pillars under one arch."
+   },
+   {
+    "f": "m3",
+    "k": "say",
+    "t": "There is a respectable case that this is how the system should work.",
+    "a": []
+   },
+   {
+    "f": "m3",
+    "k": "say",
+    "t": "On the dialogue model, each branch acts within its own sphere: the courts identify inconsistency and say so publicly, the Attorney-General warns the House, and elected members decide, accountable to voters.",
+    "a": []
+   },
+   {
+    "f": "m3",
+    "k": "say",
+    "t": "The Court of Appeal in Taylor described government as a collaborative enterprise in which each branch respects the others.",
+    "a": [
+     [
+      4,
+      0
+     ]
+    ]
+   },
+   {
+    "f": "m3",
+    "k": "say",
+    "t": "Parliament did not ignore the courts; it disagreed with them, on the record, after a statutory process that required it to engage.",
+    "a": []
+   },
+   {
+    "f": "m3",
+    "k": "say",
+    "t": "Under MMP a Bill that limits rights must usually win the support of more than one party, which adds a further check.",
+    "a": []
+   },
+   {
+    "f": "m3",
+    "k": "say",
+    "t": "That is accountability of a political kind, and it leaves contested social questions, such as who should vote, with the institution that voters themselves elect.",
+    "a": []
+   },
+   {
+    "f": "m3",
+    "k": "say",
+    "t": "The weakness of the answer is plain, however: the people whose rights are limited are the people who cannot vote.",
+    "a": []
+   },
+   {
+    "f": "c",
+    "k": "cue",
+    "t": "Conclusion card: Written constitution? Put it in writing, or let it blow in the wind."
+   },
+   {
+    "f": "c",
+    "k": "say",
+    "t": "The 2025 Act shows that the Bill of Rights informs Parliament but does not restrain it.",
+    "a": []
+   },
+   {
+    "f": "c",
+    "k": "say",
+    "t": "Section 4 preserves the Act, section 6 cannot rewrite clear words, section 7 reports can be overridden, and declarations leave the final word with the House.",
+    "a": []
+   },
+   {
+    "f": "c",
+    "k": "say",
+    "t": "The weakness is sharpest on the franchise, because those whose right is removed cannot vote against the government that removed it.",
+    "a": []
+   },
+   {
+    "f": "c",
+    "k": "say",
+    "t": "Anyone who wants a legal restraint must argue for supreme law, which the 1985 White Paper, A Bill of Rights for New Zealand, proposed and which was rejected in favour of an ordinary statute.",
+    "a": [
+     [
+      5,
+      0
+     ]
+    ]
+   },
+   {
+    "f": "c",
+    "k": "say",
+    "t": "Until then the Bill of Rights is a powerful guide to interpretation and a public alarm bell, but whether Parliament answers the bell is a political choice.",
+    "a": []
+   },
+   {
+    "f": "c",
+    "k": "say",
+    "t": "In 2025 that choice was made openly, and voters can judge it.",
+    "a": []
+   }
+  ],
+  "modelWords": 1012,
+  "audio": {
+   "src": "data/prisoner-vote.mp3?v=20261118d",
+   "starts": [
+    0.0,
+    10.2,
+    21.25,
+    25.22,
+    39.23,
+    43.25,
+    57.71,
+    61.53,
+    65.58,
+    68.5,
+    85.31,
+    94.49,
+    97.26,
+    107.12,
+    113.92,
+    123.14,
+    136.24,
+    143.4,
+    147.75,
+    151.17,
+    160.15,
+    162.86,
+    177.58,
+    179.69,
+    182.57,
+    197.29,
+    202.62,
+    210.65,
+    219.15,
+    225.45,
+    229.74,
+    237.23,
+    249.53,
+    253.55,
+    263.08,
+    272.32,
+    283.65,
+    289.28,
+    298.6,
+    303.27,
+    307.15,
+    320.02,
+    326.8,
+    334.35,
+    341.29,
+    350.76,
+    357.39,
+    363.07,
+    369.32,
+    379.26,
+    386.56,
+    399.25,
+    407.97
+   ],
+   "voice": ""
+  }
+ },
+ {
+  "id": "election",
+  "essay": "P3",
+  "title": "After the 2026 election",
+  "prompt": "Between the 7 November 2026 election and the formation of a new government, what rules govern the executive, and should they be codified?",
+  "intro": [
+   [
+    "9.11",
+    "the 2026 count"
+   ],
+   [
+    "2.8",
+    "executive and House"
+   ]
+  ],
+  "concl": [
+   "1.1",
+   "Parliament can codify"
+  ],
+  "mains": [
+   {
+    "card": "1.10",
+    "cue": "the caretaker rules",
+    "sup": [
+     [
+      "9.2",
+      "2026 fix for ministers"
+     ]
+    ]
+   },
+   {
+    "card": "9.1",
+    "cue": "forming a government",
+    "sup": [
+     [
+      "9.3",
+      "supply is confidence"
+     ]
+    ]
+   },
+   {
+    "card": "1.11",
+    "cue": "for codifying",
+    "sup": [
+     [
+      "1.7",
+      "scattered sources"
+     ]
+    ]
+   },
+   {
+    "card": "3.6",
+    "cue": "against: keep courts out",
+    "sup": []
+   }
+  ],
+  "auth": [
+   [
+    "The facts",
+    0,
+    [
+     [
+      "Electoral Commission preliminary results, 7 November 2026",
+      "67 of 131 seats; 66 needed"
+     ],
+     [
+      "Official results due 27 November 2026",
+      "specials counted"
+     ],
+     [
+      "Cabinet Manual 2023",
+      "conventions recorded"
+     ],
+     [
+      "Cabinet Office circular CO (23) 10",
+      "caretaker decisions"
+     ]
+    ]
+   ],
+   [
+    "Caretaker rules",
+    1,
+    [
+     [
+      "1984 constitutional crisis",
+      "origin of the rule"
+     ],
+     [
+      "Jennings test",
+      "precedent, belief, reason"
+     ],
+     [
+      "Constitution Act 1986 s 6",
+      "ministers must be MPs"
+     ],
+     [
+      "Constitution Amendment Act 2026",
+      "ministers stay until list declared"
+     ]
+    ]
+   ],
+   [
+    "Formation",
+    2,
+    [
+     [
+      "Constitution Act 1986 ss 2–3",
+      "Governor-General's powers"
+     ],
+     [
+      "Constitution Act 1986 s 22",
+      "no spending without an Act"
+     ],
+     [
+      "Public Finance Act 1989 ss 4–5",
+      "appropriations"
+     ]
+    ]
+   ],
+   [
+    "Codify?",
+    3,
+    [
+     [
+      "Letters Patent Constituting the Office of Governor-General 1983",
+      "the office"
+     ],
+     [
+      "Palmer and Butler, A Constitution for Aotearoa New Zealand (2016)",
+      "a draft"
+     ]
+    ]
+   ],
+   [
+    "Counter",
+    4,
+    [
+     [
+      "Council of Civil Service Unions v Minister for the Civil Service [1985] AC 374 (HL) (GCHQ)",
+      "unsuited prerogatives"
+     ]
+    ]
+   ],
+   [
+    "Conclusion",
+    0,
+    [
+     [
+      "Constitution Act 1986 s 15(1)",
+      "full power"
+     ]
+    ]
+   ]
+  ],
+  "frame": [
+   {
+    "cards": [
+     "9.11",
+     "2.8"
+    ],
+    "grade": "best",
+    "why": "The 2026 count is the facts; the fused executive and House frame who governs in the gap. The sovereignty conclusion says Parliament can codify whenever it chooses.",
+    "concl": "1.1"
+   },
+   {
+    "cards": [
+     "9.11"
+    ],
+    "grade": "ok",
+    "why": "The facts are there, but the frame is missing. Ending on conventions restates the problem.",
+    "concl": "1.10"
+   },
+   {
+    "cards": [
+     "1.12"
+    ],
+    "grade": "weak",
+    "why": "Party-hopping and entrenchment are electoral rules, not government formation.",
+    "concl": "1.2"
+   },
+   {
+    "cards": [
+     "9.8"
+    ],
+    "grade": "weak",
+    "why": "Courts and judicial independence are not the executive.",
+    "concl": "9.12"
+   }
+  ],
+  "skel": [
+   {
+    "cards": [
+     "1.10",
+     "9.1",
+     "1.11",
+     "3.6"
+    ],
+    "grade": "best",
+    "why": "The caretaker rules, formation under MMP, the case for codifying, then the case against."
+   },
+   {
+    "cards": [
+     "1.10",
+     "9.1",
+     "1.11"
+    ],
+    "grade": "ok",
+    "why": "No counter to codification."
+   },
+   {
+    "cards": [
+     "9.2",
+     "9.3",
+     "9.10"
+    ],
+    "grade": "weak",
+    "why": "Offices and money, but neither the caretaker convention nor formation."
+   },
+   {
+    "cards": [
+     "1.11",
+     "1.7",
+     "1.2"
+    ],
+    "grade": "weak",
+    "why": "All about codification; the actual rules are never explained."
+   }
+  ],
+  "sup": {
+   "1.10": [
+    {
+     "cards": [
+      "9.2"
+     ],
+     "grade": "best",
+     "why": "Section 6 and the 2026 amendment show Parliament fixing one gap by statute without codifying the rest."
+    },
+    {
+     "cards": [
+      "9.2",
+      "9.5"
+     ],
+     "grade": "ok",
+     "why": "OIA s 9(2)(f) protects conventions, but it is detail here."
+    },
+    {
+     "cards": [
+      "7.2"
+     ],
+     "grade": "weak",
+     "why": "The Lands case is about Treaty principles."
+    },
+    {
+     "cards": [
+      "1.4"
+     ],
+     "grade": "weak",
+     "why": "Privilege is off topic."
+    }
+   ],
+   "9.1": [
+    {
+     "cards": [
+      "9.3"
+     ],
+     "grade": "best",
+     "why": "Confidence is tested through supply: no Act, no money (Constitution Act s 22)."
+    },
+    {
+     "cards": [
+      "9.3",
+      "1.12"
+     ],
+     "grade": "ok",
+     "why": "Party-hopping protects proportionality, a side point here."
+    },
+    {
+     "cards": [
+      "6.7"
+     ],
+     "grade": "weak",
+     "why": "Treaty-making is a different convention."
+    },
+    {
+     "cards": [
+      "9.4"
+     ],
+     "grade": "weak",
+     "why": "The Ombudsman has no role in formation."
+    }
+   ],
+   "1.11": [
+    {
+     "cards": [
+      "1.7"
+     ],
+     "grade": "best",
+     "why": "The scattered sources are the argument for writing the rules down."
+    },
+    {
+     "cards": [
+      "1.7",
+      "1.2"
+     ],
+     "grade": "ok",
+     "why": "Entrenchment matters only if codified rules were also entrenched."
+    },
+    {
+     "cards": [
+      "8.6"
+     ],
+     "grade": "weak",
+     "why": "Marine title is off topic."
+    },
+    {
+     "cards": [
+      "5.2"
+     ],
+     "grade": "weak",
+     "why": "Excluding evidence is off topic."
+    }
+   ],
+   "3.6": [
+    {
+     "cards": [],
+     "grade": "best",
+     "why": "No card needed. GCHQ's list of prerogatives unsuited to review (appointing ministers, dissolution) carries the point."
+    },
+    {
+     "cards": [
+      "3.2"
+     ],
+     "grade": "ok",
+     "why": "Deference is related, but justiciability is the sharper point."
+    },
+    {
+     "cards": [
+      "3.3"
+     ],
+     "grade": "weak",
+     "why": "Lab Tests is about public contracts."
+    },
+    {
+     "cards": [
+      "4.4"
+     ],
+     "grade": "weak",
+     "why": "The prisoner's wig is off topic."
+    }
+   ]
+  },
+  "model": [
+   {
+    "f": "i",
+    "k": "cue",
+    "t": "Introduction. After the election: steady as she goes, until the new captain is chosen. And separation of powers: three pillars under one arch."
+   },
+   {
+    "f": "i",
+    "k": "say",
+    "t": "New Zealand voted on 7 November 2026.",
+    "a": []
+   },
+   {
+    "f": "i",
+    "k": "say",
+    "t": "Preliminary results gave the incumbent National, ACT and New Zealand First coalition 67 seats in a projected 131-seat House, where 66 are needed for a majority, and the official result, including special votes, will not be declared until 27 November.",
+    "a": [
+     [
+      0,
+      0
+     ],
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   {
+    "f": "i",
+    "k": "say",
+    "t": "Until a government is formed, the existing ministers continue as a caretaker government.",
+    "a": []
+   },
+   {
+    "f": "i",
+    "k": "say",
+    "t": "Almost none of the rules that govern this period are law.",
+    "a": []
+   },
+   {
+    "f": "i",
+    "k": "say",
+    "t": "They are constitutional conventions, recorded in the Cabinet Manual and in Cabinet Office guidance, and they depend on the political actors' willingness to follow them.",
+    "a": [
+     [
+      0,
+      2
+     ],
+     [
+      0,
+      3
+     ]
+    ]
+   },
+   {
+    "f": "i",
+    "k": "say",
+    "t": "Because the executive is drawn from and answerable to the House, the uncertainty in the House becomes uncertainty in government.",
+    "a": []
+   },
+   {
+    "f": "i",
+    "k": "say",
+    "t": "This essay explains who governs and under what rules, how a government is formed under MMP, and whether those rules should be codified.",
+    "a": []
+   },
+   {
+    "f": "i",
+    "k": "say",
+    "t": "It argues that the core should remain convention, with targeted statutory fixes of the kind Parliament has already made.",
+    "a": []
+   },
+   {
+    "f": "m0",
+    "k": "cue",
+    "t": "Card: Conventions. The velvet rope held by nothing. Everyone stops."
+   },
+   {
+    "f": "m0",
+    "k": "say",
+    "t": "The caretaker convention applies from an election until a new government takes office.",
+    "a": []
+   },
+   {
+    "f": "m0",
+    "k": "say",
+    "t": "Where the result is clear, the outgoing government makes no significant new policy decisions and follows the incoming government's wishes on urgent matters.",
+    "a": []
+   },
+   {
+    "f": "m0",
+    "k": "say",
+    "t": "Where, as now, the result is unclear, it continues routine business, defers significant decisions where it can, and consults other parties where a decision cannot wait.",
+    "a": []
+   },
+   {
+    "f": "m0",
+    "k": "say",
+    "t": "The convention's modern form traces to the 1984 constitutional crisis, when the outgoing Prime Minister at first refused to act on the incoming government's advice on devaluing the currency.",
+    "a": [
+     [
+      1,
+      0
+     ]
+    ]
+   },
+   {
+    "f": "m0",
+    "k": "say",
+    "t": "On the Jennings test it is a true convention: there are precedents, the actors regard themselves as bound, and there is a constitutional reason for it, because a government whose majority is uncertain should not bind its successor.",
+    "a": [
+     [
+      1,
+      1
+     ]
+    ]
+   },
+   {
+    "f": "m0",
+    "k": "say",
+    "t": "The 2026 result illustrates the difficulty of applying it: the incumbent coalition appears to have a majority, so the result is probably clear, but until special votes are counted it cannot be certain, and ministers should act accordingly.",
+    "a": []
+   },
+   {
+    "f": "m0",
+    "k": "say",
+    "t": "No court would enforce it.",
+    "a": []
+   },
+   {
+    "f": "m0s0",
+    "k": "say",
+    "t": "One part of the period is now governed by statute.",
+    "a": []
+   },
+   {
+    "f": "m0s0",
+    "k": "say",
+    "t": "Section 6 of the Constitution Act 1986 requires ministers to be members of Parliament.",
+    "a": [
+     [
+      1,
+      2
+     ]
+    ]
+   },
+   {
+    "f": "m0s0",
+    "k": "say",
+    "t": "The Constitution Amendment Act 2026 now allows a minister who vacates a seat at a general election to remain in office until the day after list members are declared elected.",
+    "a": [
+     [
+      1,
+      3
+     ]
+    ]
+   },
+   {
+    "f": "m0s0",
+    "k": "say",
+    "t": "Parliament fixed one specific gap by statute without codifying the convention around it.",
+    "a": []
+   },
+   {
+    "f": "m1",
+    "k": "cue",
+    "t": "Card: Governor-General. The candle burns, but ministers strike the match."
+   },
+   {
+    "f": "m1",
+    "k": "say",
+    "t": "Formation is governed by the principle that the Prime Minister is whoever commands the confidence of the House.",
+    "a": []
+   },
+   {
+    "f": "m1",
+    "k": "say",
+    "t": "The Governor-General, who exercises the Sovereign's powers under sections 2 and 3 of the Constitution Act 1986, appoints the Prime Minister and ministers, but by the cardinal convention acts on advice.",
+    "a": [
+     [
+      2,
+      0
+     ]
+    ]
+   },
+   {
+    "f": "m1",
+    "k": "say",
+    "t": "Under MMP the Governor-General does not choose a government.",
+    "a": []
+   },
+   {
+    "f": "m1",
+    "k": "say",
+    "t": "The parties negotiate, and the Governor-General waits for a clear public indication, usually written agreements, of who can command a majority.",
+    "a": []
+   },
+   {
+    "f": "m1",
+    "k": "say",
+    "t": "Formation can take time: about eight weeks in 1996, and 26 days in 2017.",
+    "a": []
+   },
+   {
+    "f": "m1",
+    "k": "say",
+    "t": "The Governor-General's personal discretion matters only if the parties cannot agree, and in that event it is the only real check.",
+    "a": []
+   },
+   {
+    "f": "m1s0",
+    "k": "say",
+    "t": "Confidence is ultimately tested through money.",
+    "a": []
+   },
+   {
+    "f": "m1s0",
+    "k": "say",
+    "t": "Section 22 of the Constitution Act forbids the Crown to spend public money except by or under an Act of Parliament, and the Public Finance Act 1989 requires appropriations.",
+    "a": [
+     [
+      2,
+      1
+     ],
+     [
+      2,
+      2
+     ]
+    ]
+   },
+   {
+    "f": "m1s0",
+    "k": "say",
+    "t": "A government that cannot obtain supply cannot govern.",
+    "a": []
+   },
+   {
+    "f": "m1s0",
+    "k": "say",
+    "t": "That is why confidence and supply agreements are the currency of MMP formation, and why a fresh election is possible if no government can be formed.",
+    "a": []
+   },
+   {
+    "f": "m1s0",
+    "k": "say",
+    "t": "In 2026 the arithmetic is tight: a one-seat margin means a single defection or a shift in special votes could change who commands confidence.",
+    "a": []
+   },
+   {
+    "f": "m2",
+    "k": "cue",
+    "t": "Card: Written constitution? Loose pages beside one clasped volume."
+   },
+   {
+    "f": "m2",
+    "k": "say",
+    "t": "The case for codifying these rules is certainty.",
+    "a": []
+   },
+   {
+    "f": "m2",
+    "k": "say",
+    "t": "A tight result under MMP, with a projected majority of one or two seats and an overhang that enlarges the House, is exactly when unwritten rules are most likely to be tested.",
+    "a": []
+   },
+   {
+    "f": "m2",
+    "k": "say",
+    "t": "If coalition partners fell out, or special votes changed the result, the Governor-General might have to exercise personal judgment, and the public would have no authoritative text against which to judge that decision.",
+    "a": []
+   },
+   {
+    "f": "m2",
+    "k": "say",
+    "t": "Clear written rules would also protect the Governor-General from any suggestion of partisanship.",
+    "a": []
+   },
+   {
+    "f": "m2s0",
+    "k": "say",
+    "t": "The rules are also scattered.",
+    "a": []
+   },
+   {
+    "f": "m2s0",
+    "k": "say",
+    "t": "They are found in the Constitution Act, the Electoral Act 1993, the Letters Patent constituting the office of Governor-General, the Cabinet Manual and Cabinet Office circulars, and in the practice of past formations.",
+    "a": [
+     [
+      3,
+      0
+     ]
+    ]
+   },
+   {
+    "f": "m2s0",
+    "k": "say",
+    "t": "Palmer and Butler's draft constitution would write much of this down.",
+    "a": [
+     [
+      3,
+      1
+     ]
+    ]
+   },
+   {
+    "f": "m2s0",
+    "k": "say",
+    "t": "Codification would make the rules accessible to citizens, not only to officials and party negotiators.",
+    "a": []
+   },
+   {
+    "f": "m3",
+    "k": "cue",
+    "t": "Counter card: Should courts stay out? A foot in the door."
+   },
+   {
+    "f": "m3",
+    "k": "say",
+    "t": "The case against codification is strong.",
+    "a": []
+   },
+   {
+    "f": "m3",
+    "k": "say",
+    "t": "Conventions adapt; statutes harden.",
+    "a": []
+   },
+   {
+    "f": "m3",
+    "k": "say",
+    "t": "The caretaker convention has been refined after successive MMP elections without legislation, and formation has always been resolved without crisis.",
+    "a": []
+   },
+   {
+    "f": "m3",
+    "k": "say",
+    "t": "Codification would also raise the question of enforcement.",
+    "a": []
+   },
+   {
+    "f": "m3",
+    "k": "say",
+    "t": "If the rules became law, a disappointed party could ask a court to review the Governor-General's choice of Prime Minister, a decision that the House of Lords in Council of Civil Service Unions v Minister for the Civil Service listed among the prerogative powers unsuited to judicial review by their nature, alongside dissolution and the appointment of ministers.",
+    "a": [
+     [
+      4,
+      0
+     ]
+    ]
+   },
+   {
+    "f": "m3",
+    "k": "say",
+    "t": "Moving those questions from Parliament and the voters to the courts would make government formation slower and more adversarial, and less accountable, not more.",
+    "a": []
+   },
+   {
+    "f": "m3",
+    "k": "say",
+    "t": "The current system's real safeguard is political: parties that breach the conventions answer to the House and, at the next election, to voters.",
+    "a": []
+   },
+   {
+    "f": "c",
+    "k": "cue",
+    "t": "Conclusion card: Can Parliament do anything? The lion on the throne."
+   },
+   {
+    "f": "c",
+    "k": "say",
+    "t": "The rules that govern New Zealand after an election are almost entirely convention, and so far they have worked.",
+    "a": []
+   },
+   {
+    "f": "c",
+    "k": "say",
+    "t": "Parliament has full power under section 15(1) of the Constitution Act 1986 to codify any of them at any time, and it has done so where a specific problem appeared, as with the 2026 amendment to section 6.",
+    "a": [
+     [
+      5,
+      0
+     ]
+    ]
+   },
+   {
+    "f": "c",
+    "k": "say",
+    "t": "That targeted approach is the right one.",
+    "a": []
+   },
+   {
+    "f": "c",
+    "k": "say",
+    "t": "Stating the confidence principle and the caretaker rules in a public text, without making them enforceable in court, would give certainty without inviting litigation.",
+    "a": []
+   },
+   {
+    "f": "c",
+    "k": "say",
+    "t": "The rest should remain what it is: a rope that nothing holds, but at which everyone stops.",
+    "a": []
+   }
+  ],
+  "modelWords": 1002,
+  "audio": {
+   "src": "data/election.mp3?v=20261118d",
+   "starts": [
+    0.0,
+    9.09,
+    13.38,
+    31.3,
+    36.61,
+    39.87,
+    49.37,
+    56.6,
+    64.66,
+    72.23,
+    77.19,
+    82.22,
+    91.35,
+    101.74,
+    114.56,
+    127.62,
+    142.66,
+    144.81,
+    148.29,
+    155.29,
+    167.28,
+    173.33,
+    178.11,
+    184.38,
+    197.61,
+    201.56,
+    209.83,
+    217.69,
+    225.34,
+    228.42,
+    241.26,
+    244.76,
+    253.55,
+    264.42,
+    269.52,
+    272.72,
+    283.48,
+    295.72,
+    301.2,
+    303.49,
+    317.46,
+    321.49,
+    328.74,
+    332.58,
+    335.49,
+    338.28,
+    347.45,
+    351.23,
+    371.6,
+    380.46,
+    389.24,
+    393.85,
+    400.38,
+    415.46,
+    418.21,
+    427.94
+   ],
+   "voice": ""
+  }
+ },
+ {
+  "id": "tikanga",
+  "essay": "J25-2",
+  "title": "Tikanga as part of the fabric",
+  "prompt": "Glazebrook J in Ellis said tikanga is now part of the fabric of New Zealand law and institutions through legislation, the common law and policy. Discuss how far that is true for each, with statutes, cases and examples of tikanga.",
+  "intro": [
+   [
+    "8.7",
+    "statute, common law, policy"
+   ]
+  ],
+  "concl": [
+   "1.1",
+   "Parliament holds the scissors"
+  ],
+  "mains": [
+   {
+    "card": "8.6",
+    "cue": "legislation",
+    "sup": [
+     [
+      "7.3",
+      "tikanga as applicable law"
+     ]
+    ]
+   },
+   {
+    "card": "8.4",
+    "cue": "common law",
+    "sup": [
+     [
+      "8.3",
+      "relevant consideration"
+     ],
+     [
+      "8.1",
+      "customary rights survive"
+     ]
+    ]
+   },
+   {
+    "card": "7.5",
+    "cue": "policy and practice",
+    "sup": []
+   },
+   {
+    "card": "8.2",
+    "cue": "the limit: override",
+    "sup": [
+     [
+      "8.5",
+      "2026 bar names tikanga"
+     ]
+    ]
+   }
+  ],
+  "auth": [
+   [
+    "The question",
+    0,
+    [
+     [
+      "Ellis v R [2022] NZSC 114",
+      "Glazebrook J: the fabric"
+     ],
+     [
+      "Law Commission, He Poutama (2023)",
+      "tikanga on its own terms"
+     ]
+    ]
+   ],
+   [
+    "Legislation",
+    1,
+    [
+     [
+      "Marine and Coastal Area (Takutai Moana) Act 2011 s 58",
+      "held under tikanga"
+     ],
+     [
+      "Marine and Coastal Area (Takutai Moana) (Customary Marine Title) Amendment Act 2025",
+      "harder to prove"
+     ],
+     [
+      "Trans-Tasman Resources Ltd v Taranaki-Whanganui Conservation Board [2021] NZSC 127",
+      "tikanga as applicable law"
+     ],
+     [
+      "Exclusive Economic Zone and Continental Shelf (Environmental Effects) Act 2012 s 59(2)(l)",
+      "other applicable law"
+     ]
+    ]
+   ],
+   [
+    "Common law",
+    2,
+    [
+     [
+      "Takamore v Clarke [2012] NZSC 116",
+      "relevant consideration"
+     ],
+     [
+      "Te Weehi v Regional Fisheries Officer [1986] 1 NZLR 680 (HC)",
+      "customary right survives"
+     ],
+     [
+      "Fisheries Act 1983 s 88(2)",
+      "Māori fishing rights"
+     ]
+    ]
+   ],
+   [
+    "Policy",
+    3,
+    [
+     [
+      "Te Ao Mārama (District Court)",
+      "court practice"
+     ],
+     [
+      "Cabinet Manual 2023",
+      "Treaty analysis of Bills"
+     ],
+     [
+      "Ngāti Whātua Ōrākei Trust v Attorney-General [2022] NZHC 843",
+      "pūkenga evidence"
+     ]
+    ]
+   ],
+   [
+    "The limit",
+    4,
+    [
+     [
+      "Attorney-General v Ngāti Apa [2003] 3 NZLR 643 (CA)",
+      "title survives"
+     ],
+     [
+      "Foreshore and Seabed Act 2004",
+      "vested in the Crown"
+     ],
+     [
+      "Climate Change Response Act 2002 s 271",
+      "tort bar"
+     ]
+    ]
+   ],
+   [
+    "Conclusion",
+    0,
+    [
+     [
+      "Constitution Act 1986 s 15(1)",
+      "full power"
+     ]
+    ]
+   ]
+  ],
+  "frame": [
+   {
+    "cards": [
+     "8.7"
+    ],
+    "grade": "best",
+    "why": "Glazebrook J's three routes are the structure the question gives you. The sovereignty conclusion states the limit on all three.",
+    "concl": "1.1"
+   },
+   {
+    "cards": [
+     "8.4"
+    ],
+    "grade": "ok",
+    "why": "Ellis is the source of the quote, but the three-route structure only arrives at the end.",
+    "concl": "8.7"
+   },
+   {
+    "cards": [
+     "7.6",
+     "7.2"
+    ],
+    "grade": "weak",
+    "why": "This frames a Treaty principles essay. Tikanga is distinct from the Treaty.",
+    "concl": "7.7"
+   },
+   {
+    "cards": [
+     "6.1"
+    ],
+    "grade": "weak",
+    "why": "International and Imperial law are off topic.",
+    "concl": "6.2"
+   }
+  ],
+  "skel": [
+   {
+    "cards": [
+     "8.6",
+     "8.4",
+     "7.5",
+     "8.2"
+    ],
+    "grade": "best",
+    "why": "One paragraph per route (legislation, common law, policy), then Parliament's override as the limit."
+   },
+   {
+    "cards": [
+     "8.6",
+     "8.4",
+     "7.5"
+    ],
+    "grade": "ok",
+    "why": "The three routes, but no limit, so 'how far is that true' is only half answered."
+   },
+   {
+    "cards": [
+     "8.3",
+     "8.4",
+     "8.1"
+    ],
+    "grade": "weak",
+    "why": "All common law. Legislation and policy are missing."
+   },
+   {
+    "cards": [
+     "7.2",
+     "7.3",
+     "7.4"
+    ],
+    "grade": "weak",
+    "why": "Treaty cases. The question is about tikanga."
+   }
+  ],
+  "sup": {
+   "8.6": [
+    {
+     "cards": [
+      "7.3"
+     ],
+     "grade": "best",
+     "why": "Trans-Tasman shows tikanga as 'other applicable law' in a general environmental statute."
+    },
+    {
+     "cards": [
+      "7.3",
+      "8.1"
+     ],
+     "grade": "ok",
+     "why": "Te Weehi is common law; it fits better under Ellis."
+    },
+    {
+     "cards": [
+      "6.3"
+     ],
+     "grade": "weak",
+     "why": "International treaties are off topic."
+    },
+    {
+     "cards": [
+      "9.6"
+     ],
+     "grade": "weak",
+     "why": "Privacy is off topic."
+    }
+   ],
+   "8.4": [
+    {
+     "cards": [
+      "8.3",
+      "8.1"
+     ],
+     "grade": "best",
+     "why": "Takamore (tikanga as a relevant consideration) and Te Weehi (customary rights survive) show the common law route before and after Ellis."
+    },
+    {
+     "cards": [
+      "8.3"
+     ],
+     "grade": "ok",
+     "why": "Takamore is essential; Te Weehi adds the customary-rights strand."
+    },
+    {
+     "cards": [
+      "7.7"
+     ],
+     "grade": "weak",
+     "why": "Who defines Treaty principles is a different question."
+    },
+    {
+     "cards": [
+      "4.6"
+     ],
+     "grade": "weak",
+     "why": "Who the Bill of Rights binds is off topic."
+    }
+   ],
+   "7.5": [
+    {
+     "cards": [],
+     "grade": "best",
+     "why": "No card needed. Te Ao Mārama and the Cabinet Manual are named in the paragraph itself."
+    },
+    {
+     "cards": [
+      "7.4"
+     ],
+     "grade": "ok",
+     "why": "NWO 2018 is the earlier procedural ruling; the 2022 trial is the tikanga point."
+    },
+    {
+     "cards": [
+      "3.3"
+     ],
+     "grade": "weak",
+     "why": "Lab Tests is about public contracts."
+    },
+    {
+     "cards": [
+      "9.4"
+     ],
+     "grade": "weak",
+     "why": "The Ombudsman is off topic."
+    }
+   ],
+   "8.2": [
+    {
+     "cards": [
+      "8.5"
+     ],
+     "grade": "best",
+     "why": "The 2026 bar names tikanga conceptions of harm and ended Smith: the override continues."
+    },
+    {
+     "cards": [
+      "8.5",
+      "4.3"
+     ],
+     "grade": "ok",
+     "why": "Atkinson's override is about carers, not tikanga."
+    },
+    {
+     "cards": [
+      "1.5"
+     ],
+     "grade": "weak",
+     "why": "Westco is about Parliament's proceedings."
+    },
+    {
+     "cards": [
+      "6.1"
+     ],
+     "grade": "weak",
+     "why": "The international law ladder is off topic."
+    }
+   ]
+  },
+  "model": [
+   {
+    "f": "i",
+    "k": "cue",
+    "t": "Introduction. Three routes for tikanga: three lamps light the way."
+   },
+   {
+    "f": "i",
+    "k": "say",
+    "t": "In Ellis v R, Glazebrook J observed that tikanga has become part of the fabric of New Zealand's law and institutions through legislation, the common law and policy.",
+    "a": [
+     [
+      0,
+      0
+     ]
+    ]
+   },
+   {
+    "f": "i",
+    "k": "say",
+    "t": "Tikanga is the body of Māori law and custom: values and practices such as mana, whanaungatanga and kaitiakitanga, and the tikanga that governs tangihanga and burial.",
+    "a": []
+   },
+   {
+    "f": "i",
+    "k": "say",
+    "t": "The Law Commission's study paper He Poutama urges that tikanga be understood on its own terms, not merely as a set of facts to be proved in state courts.",
+    "a": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   {
+    "f": "i",
+    "k": "say",
+    "t": "The distinction matters: tikanga treated as evidence is filtered through common law tests, while tikanga treated as law can shape the rules themselves.",
+    "a": []
+   },
+   {
+    "f": "i",
+    "k": "say",
+    "t": "This essay takes Glazebrook J's three routes in turn.",
+    "a": []
+   },
+   {
+    "f": "i",
+    "k": "say",
+    "t": "It argues that the statement is largely true for each, but that every route remains subject to Parliament, which has narrowed it more than once.",
+    "a": []
+   },
+   {
+    "f": "m0",
+    "k": "cue",
+    "t": "Card: Marine and coastal title. Plot it on the chart."
+   },
+   {
+    "f": "m0",
+    "k": "say",
+    "t": "Legislation weaves tikanga into law in several ways: as a relevant consideration, as part of the test for legal rights, and as a direction to decision-makers.",
+    "a": []
+   },
+   {
+    "f": "m0",
+    "k": "say",
+    "t": "The clearest example is section 58 of the Marine and Coastal Area (Takutai Moana) Act 2011, under which customary marine title exists only if an applicant group holds the area in accordance with tikanga and has exclusively used and occupied it from 1840 without substantial interruption.",
+    "a": [
+     [
+      1,
+      0
+     ]
+    ]
+   },
+   {
+    "f": "m0",
+    "k": "say",
+    "t": "Tikanga is part of the legal test itself.",
+    "a": []
+   },
+   {
+    "f": "m0",
+    "k": "say",
+    "t": "Yet Parliament has also narrowed that route: the Marine and Coastal Area (Takutai Moana) (Customary Marine Title) Amendment Act 2025 amended sections 58, 59 and 106 to make title harder to prove.",
+    "a": [
+     [
+      1,
+      1
+     ]
+    ]
+   },
+   {
+    "f": "m0s0",
+    "k": "say",
+    "t": "Tikanga also operates through general environmental statutes.",
+    "a": []
+   },
+   {
+    "f": "m0s0",
+    "k": "say",
+    "t": "In Trans-Tasman Resources Ltd v Taranaki-Whanganui Conservation Board, the Supreme Court held that tikanga is other applicable law under section 59(2)(l) of the Exclusive Economic Zone and Continental Shelf (Environmental Effects) Act 2012, and that interests grounded in tikanga, including kaitiakitanga over the marine environment, were existing interests the decision-making committee had to weigh.",
+    "a": [
+     [
+      1,
+      2
+     ],
+     [
+      1,
+      3
+     ]
+    ]
+   },
+   {
+    "f": "m0s0",
+    "k": "say",
+    "t": "The Court dismissed the mining company's appeal against the quashing of its consent.",
+    "a": []
+   },
+   {
+    "f": "m0s0",
+    "k": "say",
+    "t": "The statute did not mention tikanga by name; the Court read a general phrase to include it, which shows legislation and judicial interpretation working together.",
+    "a": []
+   },
+   {
+    "f": "m1",
+    "k": "cue",
+    "t": "Card: Ellis. Not set in stone. Judges are still carving the common law."
+   },
+   {
+    "f": "m1",
+    "k": "say",
+    "t": "The common law route is where the fabric metaphor is most accurate.",
+    "a": []
+   },
+   {
+    "f": "m1",
+    "k": "say",
+    "t": "In Ellis, the question was whether Peter Ellis's appeal against his 1993 convictions could continue after his death.",
+    "a": []
+   },
+   {
+    "f": "m1",
+    "k": "say",
+    "t": "The Supreme Court allowed it to continue under an interests of justice test, and all the judges accepted that tikanga has been, and will continue to be, recognised in developing the common law.",
+    "a": []
+   },
+   {
+    "f": "m1",
+    "k": "say",
+    "t": "The majority went further, holding that the colonial-era tests for recognising custom no longer apply, while warning that courts must not exceed their proper function.",
+    "a": []
+   },
+   {
+    "f": "m1s0",
+    "k": "say",
+    "t": "The earlier and more cautious approach is Takamore v Clarke.",
+    "a": [
+     [
+      2,
+      0
+     ]
+    ]
+   },
+   {
+    "f": "m1s0",
+    "k": "say",
+    "t": "James Takamore, of Tūhoe, died in Christchurch, and his whānau took his body and buried him at Kutarere urupā, against the wishes of his partner, who was his executor.",
+    "a": []
+   },
+   {
+    "f": "m1s0",
+    "k": "say",
+    "t": "The Supreme Court held that the executor has the right and duty to decide on burial, but must consider the deceased's cultural and spiritual values, including tikanga.",
+    "a": []
+   },
+   {
+    "f": "m1s0",
+    "k": "say",
+    "t": "Tikanga entered as a relevant consideration, not as a rule displacing the common law.",
+    "a": []
+   },
+   {
+    "f": "m1s1",
+    "k": "say",
+    "t": "The oldest strand is customary rights.",
+    "a": []
+   },
+   {
+    "f": "m1s1",
+    "k": "say",
+    "t": "In Te Weehi v Regional Fisheries Officer, a customary right to gather shellfish survived the Fisheries Act, because section 88(2) provided that nothing in the Act affected Māori fishing rights, and customary rights survive until clearly extinguished.",
+    "a": [
+     [
+      2,
+      1
+     ],
+     [
+      2,
+      2
+     ]
+    ]
+   },
+   {
+    "f": "m1s1",
+    "k": "say",
+    "t": "Taken together, these cases show the common law moving from recognising tikanga as a fact, to weighing it as a value, to treating it as a source of law in its own right.",
+    "a": []
+   },
+   {
+    "f": "m2",
+    "k": "cue",
+    "t": "Card: Tikanga as evidence. Listen at the fire."
+   },
+   {
+    "f": "m2",
+    "k": "say",
+    "t": "Policy and practice form the third strand.",
+    "a": []
+   },
+   {
+    "f": "m2",
+    "k": "say",
+    "t": "The District Court's Te Ao Mārama approach draws on tikanga in how courts engage with the people and communities before them, and the Cabinet Manual requires Treaty analysis of government Bills.",
+    "a": [
+     [
+      3,
+      0
+     ],
+     [
+      3,
+      1
+     ]
+    ]
+   },
+   {
+    "f": "m2",
+    "k": "say",
+    "t": "In the courts, tikanga is now proved through expert evidence from pūkenga, and it is treated as a living system rather than one frozen in 1840.",
+    "a": []
+   },
+   {
+    "f": "m2",
+    "k": "say",
+    "t": "Ngāti Whātua Ōrākei Trust v Attorney-General is the leading example.",
+    "a": [
+     [
+      3,
+      2
+     ]
+    ]
+   },
+   {
+    "f": "m2",
+    "k": "say",
+    "t": "After an eleven-week hearing with evidence from 35 pūkenga, Palmer J held that tikanga did not of itself legally bind the Crown, but that the Treaty required the Crown to understand the relevant tikanga when settling overlapping claims and to allow reasonable time for tikanga processes to run.",
+    "a": []
+   },
+   {
+    "f": "m2",
+    "k": "say",
+    "t": "The case shows tikanga shaping how the state must act, even where it does not supply an enforceable rule.",
+    "a": []
+   },
+   {
+    "f": "m2",
+    "k": "say",
+    "t": "Policy is the weakest of the three routes in legal terms, because it can be changed by a new government without legislation, but it reaches the most people day to day.",
+    "a": []
+   },
+   {
+    "f": "m3",
+    "k": "cue",
+    "t": "Counter card: Customary title and override. Still standing after the tide."
+   },
+   {
+    "f": "m3",
+    "k": "say",
+    "t": "The limit on the fabric is that Parliament holds the last word.",
+    "a": []
+   },
+   {
+    "f": "m3",
+    "k": "say",
+    "t": "In Attorney-General v Ngāti Apa, the Court of Appeal overruled In re the Ninety-Mile Beach and held that the Māori Land Court had jurisdiction to decide whether the foreshore and seabed were Māori customary land, because customary property survives the Crown's acquisition of sovereignty until it is lawfully extinguished.",
+    "a": [
+     [
+      4,
+      0
+     ]
+    ]
+   },
+   {
+    "f": "m3",
+    "k": "say",
+    "t": "Parliament responded with the Foreshore and Seabed Act 2004, which vested the area in the Crown.",
+    "a": [
+     [
+      4,
+      1
+     ]
+    ]
+   },
+   {
+    "f": "m3s0",
+    "k": "say",
+    "t": "The pattern continues.",
+    "a": []
+   },
+   {
+    "f": "m3s0",
+    "k": "say",
+    "t": "Section 271 of the Climate Change Response Act 2002, inserted in 2026, bars tort liability for emissions-related climate change effects, including harm understood through a tikanga conception, and ended the claim in Smith v Fonterra that the Supreme Court had allowed to go to trial.",
+    "a": [
+     [
+      4,
+      2
+     ]
+    ]
+   },
+   {
+    "f": "m3s0",
+    "k": "say",
+    "t": "Each override shows tikanga as a thread that Parliament can cut.",
+    "a": []
+   },
+   {
+    "f": "m3s0",
+    "k": "say",
+    "t": "The courts can weave tikanga into the common law, but they cannot protect it from a clear statute.",
+    "a": []
+   },
+   {
+    "f": "c",
+    "k": "cue",
+    "t": "Conclusion card: Can Parliament do anything? The lion on the throne."
+   },
+   {
+    "f": "c",
+    "k": "say",
+    "t": "Glazebrook J's statement is largely true.",
+    "a": []
+   },
+   {
+    "f": "c",
+    "k": "say",
+    "t": "Tikanga is part of the legal test for customary marine title, part of the applicable law in environmental decisions, a relevant consideration and a source of development in the common law, and a guide to how the Crown and the courts must act.",
+    "a": []
+   },
+   {
+    "f": "c",
+    "k": "say",
+    "t": "But it is woven into a cloth that Parliament can still cut.",
+    "a": []
+   },
+   {
+    "f": "c",
+    "k": "say",
+    "t": "Under section 15(1) of the Constitution Act 1986, Parliament can narrow or remove any statutory route, and it did so in 2004, 2025 and 2026.",
+    "a": [
+     [
+      5,
+      0
+     ]
+    ]
+   },
+   {
+    "f": "c",
+    "k": "say",
+    "t": "Tikanga is now part of the fabric of New Zealand law; whether it becomes part of its foundation depends on Parliament rather than the courts.",
+    "a": []
+   }
+  ],
+  "modelWords": 1032,
+  "audio": {
+   "src": "data/tikanga.mp3?v=20261118d",
+   "starts": [
+    0.0,
+    4.44,
+    14.85,
+    25.3,
+    34.05,
+    42.9,
+    46.51,
+    55.17,
+    59.22,
+    69.23,
+    89.64,
+    92.72,
+    107.99,
+    112.34,
+    137.86,
+    142.61,
+    152.55,
+    157.48,
+    161.49,
+    169.69,
+    180.48,
+    189.95,
+    193.6,
+    203.48,
+    213.27,
+    218.79,
+    221.55,
+    236.29,
+    247.04,
+    250.88,
+    253.8,
+    264.96,
+    275.16,
+    280.0,
+    297.43,
+    303.57,
+    313.72,
+    318.93,
+    322.77,
+    341.37,
+    347.69,
+    349.63,
+    370.0,
+    374.06,
+    380.35,
+    384.96,
+    388.16,
+    402.39,
+    405.95,
+    419.69
+   ],
+   "voice": ""
+  }
  }
 ];
