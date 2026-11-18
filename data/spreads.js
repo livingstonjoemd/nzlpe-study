@@ -6658,5 +6658,3216 @@ window.SPREADS = [
    ],
    "voice": ""
   }
+ },
+ {
+  "id": "partnership",
+  "essay": "N23OS-1",
+  "title": "Treaty partnership in 2026",
+  "prompt": "Cooke P in the Lands case said the Treaty signified a partnership between races. What does partnership mean now, and who decides? Use the quote, statutes and cases.",
+  "intro": [
+   [
+    "7.2",
+    "Cooke P's partnership"
+   ],
+   [
+    "7.6",
+    "two texts"
+   ]
+  ],
+  "concl": [
+   "1.11",
+   "settle the Treaty's place"
+  ],
+  "mains": [
+   {
+    "card": "7.3",
+    "cue": "statute gives it force",
+    "sup": [
+     [
+      "6.1",
+      "Te Heuheu: only via statute"
+     ]
+    ]
+   },
+   {
+    "card": "7.1",
+    "cue": "the Tribunal's partnership",
+    "sup": [
+     [
+      "7.4",
+      "settlements"
+     ]
+    ]
+   },
+   {
+    "card": "7.7",
+    "cue": "Parliament redefines",
+    "sup": [
+     [
+      "1.9",
+      "Bill voted down"
+     ]
+    ]
+   },
+   {
+    "card": "8.7",
+    "cue": "beyond the Crown: tikanga",
+    "sup": []
+   }
+  ],
+  "auth": [
+   [
+    "The quote",
+    0,
+    [
+     [
+      "New Zealand Maori Council v Attorney-General [1987] 1 NZLR 641 (CA) (Lands case)",
+      "partnership between races"
+     ],
+     [
+      "State-Owned Enterprises Act 1986 s 9",
+      "not inconsistent"
+     ],
+     [
+      "Treaty of Waitangi Act 1975 s 5(2)",
+      "Tribunal: both texts"
+     ]
+    ]
+   ],
+   [
+    "Statute",
+    1,
+    [
+     [
+      "Conservation Act 1987 s 4",
+      "give effect to"
+     ],
+     [
+      "Ngāi Tai ki Tāmaki Tribal Trust v Minister of Conservation [2018] NZSC 122",
+      "substantive, not procedural"
+     ],
+     [
+      "Trans-Tasman Resources Ltd v Taranaki-Whanganui Conservation Board [2021] NZSC 127",
+      "clause read broadly"
+     ],
+     [
+      "Hoani Te Heuheu Tukino v Aotea District Maori Land Board [1941] AC 308 (PC)",
+      "unenforceable unless enacted"
+     ]
+    ]
+   ],
+   [
+    "The Tribunal",
+    2,
+    [
+     [
+      "Treaty of Waitangi Act 1975 s 6",
+      "claims of prejudice"
+     ],
+     [
+      "Waitangi Tribunal, He Whakaputanga me te Tiriti (Wai 1040, 2014)",
+      "sovereignty not ceded"
+     ],
+     [
+      "Ngāti Whātua Ōrākei Trust v Attorney-General [2018] NZSC 84",
+      "rights declared first"
+     ]
+    ]
+   ],
+   [
+    "Parliament",
+    3,
+    [
+     [
+      "Principles of the Treaty of Waitangi Bill 2024",
+      "voted down 10 April 2025"
+     ],
+     [
+      "Treaty clause Bills (introduced 14 September 2026)",
+      "cap at 'take into account'"
+     ],
+     [
+      "Waitangi Tribunal, Wai 3565 (2026)",
+      "review breached principles"
+     ]
+    ]
+   ],
+   [
+    "Tikanga",
+    4,
+    [
+     [
+      "Ellis v R [2022] NZSC 114",
+      "tikanga in the common law"
+     ],
+     [
+      "Law Commission, He Poutama (2023)",
+      "tikanga on its own terms"
+     ]
+    ]
+   ],
+   [
+    "Conclusion",
+    0,
+    [
+     [
+      "Constitution Act 1986 s 15(1)",
+      "full power"
+     ]
+    ]
+   ]
+  ],
+  "frame": [
+   {
+    "cards": [
+     "7.2",
+     "7.6"
+    ],
+    "grade": "best",
+    "why": "The quote's source and the two texts set what partnership started as and why it is contested. The written-constitution conclusion asks whether its place should be settled in law.",
+    "concl": "1.11"
+   },
+   {
+    "cards": [
+     "7.2"
+    ],
+    "grade": "ok",
+    "why": "The quote is placed, but without the two texts the essay cannot say what each partner thought it agreed to.",
+    "concl": "7.7"
+   },
+   {
+    "cards": [
+     "2.1",
+     "1.1"
+    ],
+    "grade": "weak",
+    "why": "Rule of law and sovereignty frame a principles essay. This question asks what partnership means.",
+    "concl": "2.8"
+   },
+   {
+    "cards": [
+     "8.2"
+    ],
+    "grade": "weak",
+    "why": "The foreshore is one dispute, not a definition of partnership.",
+    "concl": "8.6"
+   }
+  ],
+  "skel": [
+   {
+    "cards": [
+     "7.3",
+     "7.1",
+     "7.7",
+     "8.7"
+    ],
+    "grade": "best",
+    "why": "How statute gives partnership force, how the Tribunal reads it, Parliament redefining it, then partnership beyond Crown–Māori relations through tikanga."
+   },
+   {
+    "cards": [
+     "7.3",
+     "7.1",
+     "7.7"
+    ],
+    "grade": "ok",
+    "why": "Covers who defines partnership, but not what it means beyond Crown–Māori dealings."
+   },
+   {
+    "cards": [
+     "7.4",
+     "7.5",
+     "8.1"
+    ],
+    "grade": "weak",
+    "why": "Cases on settlements and fishing. The meaning of partnership is never stated."
+   },
+   {
+    "cards": [
+     "1.1",
+     "1.2",
+     "1.11"
+    ],
+    "grade": "weak",
+    "why": "Constitutional structure, with no Treaty law."
+   }
+  ],
+  "sup": {
+   "7.3": [
+    {
+     "cards": [
+      "6.1"
+     ],
+     "grade": "best",
+     "why": "Te Heuheu: Treaty rights bind only when Parliament enacts them. Partnership is as strong as the clause."
+    },
+    {
+     "cards": [
+      "6.1",
+      "7.2"
+     ],
+     "grade": "ok",
+     "why": "The Lands case card repeats the introduction."
+    },
+    {
+     "cards": [
+      "6.4"
+     ],
+     "grade": "weak",
+     "why": "Tavita concerns international obligations to children."
+    },
+    {
+     "cards": [
+      "5.3"
+     ],
+     "grade": "weak",
+     "why": "Baigent compensation is off topic."
+    }
+   ],
+   "7.1": [
+    {
+     "cards": [
+      "7.4"
+     ],
+     "grade": "best",
+     "why": "Settlements are partnership in practice: negotiated with the Crown and enacted; NWO 2018 lets rights be declared first."
+    },
+    {
+     "cards": [
+      "7.4",
+      "7.5"
+     ],
+     "grade": "ok",
+     "why": "NWO 2022 is about overlapping claims, a narrower point."
+    },
+    {
+     "cards": [
+      "9.4"
+     ],
+     "grade": "weak",
+     "why": "The Ombudsman is a different watchdog."
+    },
+    {
+     "cards": [
+      "3.5"
+     ],
+     "grade": "weak",
+     "why": "Review remedies are off topic."
+    }
+   ],
+   "7.7": [
+    {
+     "cards": [
+      "1.9"
+     ],
+     "grade": "best",
+     "why": "The Treaty Principles Bill went through the stages and was voted down at second reading: Parliament's process deciding against redefinition."
+    },
+    {
+     "cards": [
+      "1.9",
+      "1.12"
+     ],
+     "grade": "ok",
+     "why": "Party-hopping is a side point."
+    },
+    {
+     "cards": [
+      "4.2"
+     ],
+     "grade": "weak",
+     "why": "Hansen is about the Bill of Rights."
+    },
+    {
+     "cards": [
+      "9.8"
+     ],
+     "grade": "weak",
+     "why": "Judicial independence is off topic."
+    }
+   ],
+   "8.7": [
+    {
+     "cards": [],
+     "grade": "best",
+     "why": "No card needed. Ellis and He Poutama are named in the paragraph."
+    },
+    {
+     "cards": [
+      "8.3"
+     ],
+     "grade": "ok",
+     "why": "Takamore fits, but it is a burial case; Ellis is the broader point."
+    },
+    {
+     "cards": [
+      "2.3"
+     ],
+     "grade": "weak",
+     "why": "Payn is off topic."
+    },
+    {
+     "cards": [
+      "6.2"
+     ],
+     "grade": "weak",
+     "why": "Imperial law is off topic."
+    }
+   ]
+  },
+  "model": [
+   {
+    "f": "i",
+    "k": "cue",
+    "t": "Introduction. The Lands case: tied to the post. The Crown is bound to the principles only by a statutory rope. And two texts: two scrolls, two stories. Kāwanatanga is not sovereignty."
+   },
+   {
+    "f": "i",
+    "k": "say",
+    "t": "In New Zealand Maori Council v Attorney-General, the Lands case, Cooke P said that the Treaty of Waitangi signified a partnership between races.",
+    "a": [
+     [
+      0,
+      0
+     ]
+    ]
+   },
+   {
+    "f": "i",
+    "k": "say",
+    "t": "The case arose under section 9 of the State-Owned Enterprises Act 1986, which provided that nothing in the Act permitted the Crown to act inconsistently with the principles of the Treaty.",
+    "a": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   {
+    "f": "i",
+    "k": "say",
+    "t": "The Court of Appeal held that the principles required the partners to act reasonably and in utmost good faith, imposed duties analogous to fiduciary duties, and required active protection of Māori interests to the fullest extent reasonably practicable.",
+    "a": []
+   },
+   {
+    "f": "i",
+    "k": "say",
+    "t": "Partnership was a way of reading two texts that say different things.",
+    "a": []
+   },
+   {
+    "f": "i",
+    "k": "say",
+    "t": "In the English text the chiefs ceded sovereignty; in te Tiriti they granted kāwanatanga, governance, and were guaranteed tino rangatiratanga, full chieftainship, over their lands and taonga.",
+    "a": []
+   },
+   {
+    "f": "i",
+    "k": "say",
+    "t": "The Waitangi Tribunal has exclusive authority to determine the meaning of the Treaty as embodied in both texts under section 5(2) of the Treaty of Waitangi Act 1975.",
+    "a": [
+     [
+      0,
+      2
+     ]
+    ]
+   },
+   {
+    "f": "i",
+    "k": "say",
+    "t": "This essay argues that partnership in 2026 means a legal duty only where statute imposes it, a broader relationship in the Tribunal's work and in tikanga, and a concept Parliament is now trying to narrow.",
+    "a": []
+   },
+   {
+    "f": "m0",
+    "k": "cue",
+    "t": "Card: Trans-Tasman. Weigh tikanga interests before taking from the seabed."
+   },
+   {
+    "f": "m0",
+    "k": "say",
+    "t": "Partnership has legal force only through statute.",
+    "a": []
+   },
+   {
+    "f": "m0",
+    "k": "say",
+    "t": "Treaty clauses vary in strength.",
+    "a": []
+   },
+   {
+    "f": "m0",
+    "k": "say",
+    "t": "Section 4 of the Conservation Act 1987 requires the Act to be interpreted and administered to give effect to the principles of the Treaty, and in Ngāi Tai ki Tāmaki Tribal Trust v Minister of Conservation the Supreme Court held that this requires substantive, not merely procedural, attention to Māori interests.",
+    "a": [
+     [
+      1,
+      0
+     ],
+     [
+      1,
+      1
+     ]
+    ]
+   },
+   {
+    "f": "m0",
+    "k": "say",
+    "t": "In Trans-Tasman Resources Ltd v Taranaki-Whanganui Conservation Board, the Court read the Treaty clause in the exclusive economic zone legislation broadly, so that tikanga-based interests had to be weighed in a seabed mining consent.",
+    "a": [
+     [
+      1,
+      2
+     ]
+    ]
+   },
+   {
+    "f": "m0",
+    "k": "say",
+    "t": "Partnership in these cases means a real duty to take Māori interests seriously in decisions under the statute.",
+    "a": []
+   },
+   {
+    "f": "m0s0",
+    "k": "say",
+    "t": "Without a clause, however, the Treaty is not directly enforceable.",
+    "a": []
+   },
+   {
+    "f": "m0s0",
+    "k": "say",
+    "t": "In Hoani Te Heuheu Tukino v Aotea District Maori Land Board, the Privy Council held that Treaty rights cannot be enforced in the courts unless incorporated by statute.",
+    "a": [
+     [
+      1,
+      3
+     ]
+    ]
+   },
+   {
+    "f": "m0s0",
+    "k": "say",
+    "t": "Partnership in law is therefore only as strong as the words Parliament chooses, and those words can be changed by a simple majority.",
+    "a": []
+   },
+   {
+    "f": "m1",
+    "k": "cue",
+    "t": "Card: Waitangi Tribunal. The door opens on a hall of advice, not a courtroom."
+   },
+   {
+    "f": "m1",
+    "k": "say",
+    "t": "The Tribunal takes a wider view.",
+    "a": []
+   },
+   {
+    "f": "m1",
+    "k": "say",
+    "t": "Under section 6 of the Treaty of Waitangi Act 1975, any Māori may claim to be prejudiced by legislation, policy or Crown action inconsistent with the principles.",
+    "a": [
+     [
+      2,
+      0
+     ]
+    ]
+   },
+   {
+    "f": "m1",
+    "k": "say",
+    "t": "In He Whakaputanga me te Tiriti, its report on the Te Paparahi o Te Raki inquiry, the Tribunal found that the rangatira who signed te Tiriti in February 1840 did not cede sovereignty; they agreed to share power with the Governor, each with authority over their own people.",
+    "a": [
+     [
+      2,
+      1
+     ]
+    ]
+   },
+   {
+    "f": "m1",
+    "k": "say",
+    "t": "On that view partnership is not a metaphor laid over Crown sovereignty but a description of what was actually agreed.",
+    "a": []
+   },
+   {
+    "f": "m1",
+    "k": "say",
+    "t": "The Tribunal's findings, however, are mostly recommendations.",
+    "a": []
+   },
+   {
+    "f": "m1s0",
+    "k": "say",
+    "t": "Settlements are where partnership is practised.",
+    "a": []
+   },
+   {
+    "f": "m1s0",
+    "k": "say",
+    "t": "They are negotiated directly with the Crown, enacted as full and final, and include an apology, cultural redress and commercial redress.",
+    "a": []
+   },
+   {
+    "f": "m1s0",
+    "k": "say",
+    "t": "The courts can protect the process: in Ngāti Whātua Ōrākei Trust v Attorney-General, the Supreme Court held that the trust could seek declarations of its rights before the settlement legislation for other groups was enacted.",
+    "a": [
+     [
+      2,
+      2
+     ]
+    ]
+   },
+   {
+    "f": "m1s0",
+    "k": "say",
+    "t": "Even so, the final word in each settlement belongs to Parliament.",
+    "a": []
+   },
+   {
+    "f": "m2",
+    "k": "cue",
+    "t": "Card: Who defines the principles? Too many hands on one stone."
+   },
+   {
+    "f": "m2",
+    "k": "say",
+    "t": "Parliament has twice moved to redefine partnership.",
+    "a": []
+   },
+   {
+    "f": "m2",
+    "k": "say",
+    "t": "The Principles of the Treaty of Waitangi Bill 2024 would have replaced the courts' principles with three of its own, including that the Crown has full power to govern and that everyone is equal before the law.",
+    "a": [
+     [
+      3,
+      0
+     ]
+    ]
+   },
+   {
+    "f": "m2",
+    "k": "say",
+    "t": "The second effort is the Treaty clause review: Bills introduced on 14 September 2026 would repeal some principles references and cap others at a duty to take the principles into account, even though the Waitangi Tribunal found in 2026 that the review itself breached Treaty principles.",
+    "a": [
+     [
+      3,
+      1
+     ],
+     [
+      3,
+      2
+     ]
+    ]
+   },
+   {
+    "f": "m2",
+    "k": "say",
+    "t": "Legally Parliament may do this under section 15(1) of the Constitution Act 1986.",
+    "a": []
+   },
+   {
+    "f": "m2",
+    "k": "say",
+    "t": "The objection is one of legitimacy: one partner should not unilaterally redefine a bilateral agreement.",
+    "a": []
+   },
+   {
+    "f": "m2s0",
+    "k": "say",
+    "t": "The Treaty Principles Bill shows the ordinary process working as a check.",
+    "a": []
+   },
+   {
+    "f": "m2s0",
+    "k": "say",
+    "t": "It passed its first reading under a coalition agreement, went to select committee, which received hundreds of thousands of submissions, and was voted down at its second reading on 10 April 2025.",
+    "a": []
+   },
+   {
+    "f": "m2s0",
+    "k": "say",
+    "t": "Partnership survived not because a court protected it but because a majority in the House would not abandon it.",
+    "a": []
+   },
+   {
+    "f": "m3",
+    "k": "cue",
+    "t": "Card: Three routes for tikanga. Three lamps light the way."
+   },
+   {
+    "f": "m3",
+    "k": "say",
+    "t": "Partnership in 2026 also reaches beyond the Crown's statutory duties.",
+    "a": []
+   },
+   {
+    "f": "m3",
+    "k": "say",
+    "t": "In Ellis v R, the Supreme Court accepted that tikanga has been recognised in developing the common law and will continue to be, and Glazebrook J described tikanga as part of the fabric of New Zealand law through legislation, the common law and policy.",
+    "a": [
+     [
+      4,
+      0
+     ]
+    ]
+   },
+   {
+    "f": "m3",
+    "k": "say",
+    "t": "The Law Commission's He Poutama urges that tikanga be understood on its own terms.",
+    "a": [
+     [
+      4,
+      1
+     ]
+    ]
+   },
+   {
+    "f": "m3",
+    "k": "say",
+    "t": "On this view partnership is not only a set of duties owed by the Crown to Māori, but the recognition of two legal traditions within one legal system.",
+    "a": []
+   },
+   {
+    "f": "m3",
+    "k": "say",
+    "t": "That is closer to what te Tiriti promised than the Lands case formula, because it treats tino rangatiratanga as a source of law and not merely an interest to be weighed.",
+    "a": []
+   },
+   {
+    "f": "m3",
+    "k": "say",
+    "t": "The limit, again, is that each route can be narrowed by statute, as Parliament did in the Foreshore and Seabed Act 2004 and in the 2026 climate tort bar.",
+    "a": []
+   },
+   {
+    "f": "c",
+    "k": "cue",
+    "t": "Conclusion card: Written constitution? Put it in writing, or let it blow in the wind."
+   },
+   {
+    "f": "c",
+    "k": "say",
+    "t": "Partnership in 2026 means three things.",
+    "a": []
+   },
+   {
+    "f": "c",
+    "k": "say",
+    "t": "In law, it is a duty imposed by particular statutes, as strong as their words.",
+    "a": []
+   },
+   {
+    "f": "c",
+    "k": "say",
+    "t": "In the Tribunal's reading of te Tiriti, it is a sharing of authority that was agreed in 1840.",
+    "a": []
+   },
+   {
+    "f": "c",
+    "k": "say",
+    "t": "In the common law, it is the growing recognition of tikanga as law.",
+    "a": []
+   },
+   {
+    "f": "c",
+    "k": "say",
+    "t": "What it is not is protected: Parliament can rewrite every Treaty clause by ordinary majority, as the 2026 Bills propose.",
+    "a": [
+     [
+      5,
+      0
+     ]
+    ]
+   },
+   {
+    "f": "c",
+    "k": "say",
+    "t": "The only way to give partnership a secure legal place would be a written constitution that settled the Treaty's status, which is the question on which every past constitutional review has stalled.",
+    "a": []
+   },
+   {
+    "f": "c",
+    "k": "say",
+    "t": "Until then, partnership depends on the continuing political judgment that Cooke P's description remains right.",
+    "a": []
+   }
+  ],
+  "modelWords": 1007,
+  "audio": {
+   "src": "data/partnership.mp3?v=20261118e",
+   "starts": [
+    0.0,
+    11.71,
+    20.78,
+    33.11,
+    47.92,
+    51.76,
+    63.13,
+    75.25,
+    89.92,
+    95.21,
+    98.65,
+    101.19,
+    121.99,
+    136.17,
+    142.89,
+    146.88,
+    157.21,
+    165.61,
+    171.14,
+    173.59,
+    185.56,
+    203.39,
+    209.96,
+    213.82,
+    216.81,
+    225.05,
+    237.89,
+    242.71,
+    247.12,
+    250.49,
+    263.08,
+    282.13,
+    288.87,
+    295.12,
+    299.58,
+    311.74,
+    318.54,
+    322.64,
+    328.7,
+    344.04,
+    348.93,
+    357.63,
+    367.21,
+    378.7,
+    384.38,
+    388.28,
+    393.36,
+    400.59,
+    404.69,
+    413.46,
+    424.76
+   ],
+   "voice": ""
+  }
+ },
+ {
+  "id": "unreasonable",
+  "essay": "N23-2",
+  "title": "Unreasonableness: the most problematic ground?",
+  "prompt": "Joseph says unreasonableness is 'the most problematic of the grounds' of review. Do you agree? If not, which ground is more problematic?",
+  "intro": [
+   [
+    "3.1",
+    "three grounds"
+   ]
+  ],
+  "concl": [
+   "2.1",
+   "the backstop"
+  ],
+  "mains": [
+   {
+    "card": "3.2",
+    "cue": "it edges into merits",
+    "sup": [
+     [
+      "3.6",
+      "the locked list"
+     ]
+    ]
+   },
+   {
+    "card": "3.4",
+    "cue": "claims fail on it",
+    "sup": [
+     [
+      "2.6",
+      "illegality wins"
+     ]
+    ]
+   },
+   {
+    "card": "4.8",
+    "cue": "rights sharpen it",
+    "sup": [
+     [
+      "6.6",
+      "security reviewable"
+     ]
+    ]
+   },
+   {
+    "card": "3.3",
+    "cue": "counter: context is harder",
+    "sup": [
+     [
+      "3.5",
+      "discretionary relief"
+     ]
+    ]
+   }
+  ],
+  "auth": [
+   [
+    "The grounds",
+    0,
+    [
+     [
+      "Council of Civil Service Unions v Minister for the Civil Service [1985] AC 374 (HL) (GCHQ)",
+      "Lord Diplock's three"
+     ],
+     [
+      "Associated Provincial Picture Houses Ltd v Wednesbury Corporation [1948] 1 KB 223 (CA)",
+      "no reasonable authority"
+     ],
+     [
+      "Joseph, Constitutional and Administrative Law (5th ed, 2021) at 1067",
+      "'most problematic'"
+     ],
+     [
+      "Joseph at 908",
+      "'not in the nature of an appeal'"
+     ]
+    ]
+   ],
+   [
+    "Merits",
+    1,
+    [
+     [
+      "Milroy v Attorney-General [2005] NZAR 562 (CA)",
+      "non-justiciable policy"
+     ],
+     [
+      "Ngāti Whātua Ōrākei Trust v Attorney-General [2018] NZSC 84",
+      "Milroy's quietus"
+     ]
+    ]
+   ],
+   [
+    "Claims fail",
+    2,
+    [
+     [
+      "University of Auckland v Tertiary Education Commission [2004] 2 NZLR 668 (HC)",
+      "lost on irrationality"
+     ],
+     [
+      "Christiansen v Director-General of Health [2020] NZHC 887",
+      "won on legality"
+     ]
+    ]
+   ],
+   [
+    "Rights",
+    3,
+    [
+     [
+      "Grounded Kiwis Group Inc v Minister of Health [2022] NZHC 832",
+      "structured s 5 test"
+     ],
+     [
+      "New Zealand Bill of Rights Act 1990 s 5",
+      "justified limits"
+     ],
+     [
+      "Attorney-General v Zaoui [2005] NZSC 38",
+      "security not immune"
+     ]
+    ]
+   ],
+   [
+    "Counter",
+    4,
+    [
+     [
+      "Lab Tests Auckland Ltd v Auckland District Health Board [2008] NZCA 385",
+      "standard varies"
+     ],
+     [
+      "Judicial Review Procedure Act 2016 s 16",
+      "relief discretionary"
+     ]
+    ]
+   ],
+   [
+    "Conclusion",
+    0,
+    [
+     [
+      "New Zealand Bill of Rights Act 1990 s 27(2)",
+      "right to review"
+     ]
+    ]
+   ]
+  ],
+  "frame": [
+   {
+    "cards": [
+     "3.1"
+    ],
+    "grade": "best",
+    "why": "Lord Diplock's three grounds set up the comparison the question asks for. The rule-of-law conclusion explains why the ground survives despite its problems.",
+    "concl": "2.1"
+   },
+   {
+    "cards": [
+     "3.1",
+     "3.7"
+    ],
+    "grade": "ok",
+    "why": "The checklist is a client's route, not a frame for comparing grounds.",
+    "concl": "3.5"
+   },
+   {
+    "cards": [
+     "1.1"
+    ],
+    "grade": "weak",
+    "why": "Sovereignty frames review of statutes. This question is about review of decisions.",
+    "concl": "1.6"
+   },
+   {
+    "cards": [
+     "7.1"
+    ],
+    "grade": "weak",
+    "why": "The Tribunal is a different forum.",
+    "concl": "7.4"
+   }
+  ],
+  "skel": [
+   {
+    "cards": [
+     "3.2",
+     "3.4",
+     "4.8",
+     "3.3"
+    ],
+    "grade": "best",
+    "why": "Why it is problematic (merits, deference), how claims fail on it, how rights sharpen it, then the counter: context-dependent standards are harder."
+   },
+   {
+    "cards": [
+     "3.2",
+     "3.4",
+     "4.8"
+    ],
+    "grade": "ok",
+    "why": "Explains the problem, but never answers 'which ground is more problematic?'"
+   },
+   {
+    "cards": [
+     "2.6",
+     "3.4",
+     "3.3"
+    ],
+    "grade": "weak",
+    "why": "Three cases told in turn, with no argument about the ground."
+   },
+   {
+    "cards": [
+     "3.5",
+     "3.6",
+     "3.7"
+    ],
+    "grade": "weak",
+    "why": "Remedies and justiciability. Unreasonableness itself never gets a paragraph."
+   }
+  ],
+  "sup": {
+   "3.2": [
+    {
+     "cards": [
+      "3.6"
+     ],
+     "grade": "best",
+     "why": "The shrinking list of non-justiciable matters shows deference now doing the work, which is where unreasonableness turns."
+    },
+    {
+     "cards": [
+      "3.6",
+      "3.5"
+     ],
+     "grade": "ok",
+     "why": "Remedies belong with the counter."
+    },
+    {
+     "cards": [
+      "1.4"
+     ],
+     "grade": "weak",
+     "why": "Privilege is off topic."
+    },
+    {
+     "cards": [
+      "9.5"
+     ],
+     "grade": "weak",
+     "why": "Official information is off topic."
+    }
+   ],
+   "3.4": [
+    {
+     "cards": [
+      "2.6"
+     ],
+     "grade": "best",
+     "why": "Christiansen won on illegality: claimants succeed on the clearer ground."
+    },
+    {
+     "cards": [
+      "2.6",
+      "2.5"
+     ],
+     "grade": "ok",
+     "why": "Borrowdale is a legality case, but adds little here."
+    },
+    {
+     "cards": [
+      "7.2"
+     ],
+     "grade": "weak",
+     "why": "The Lands case is Treaty law."
+    },
+    {
+     "cards": [
+      "8.3"
+     ],
+     "grade": "weak",
+     "why": "Takamore is off topic."
+    }
+   ],
+   "4.8": [
+    {
+     "cards": [
+      "6.6"
+     ],
+     "grade": "best",
+     "why": "Zaoui: even security decisions are reviewable when rights are at stake."
+    },
+    {
+     "cards": [
+      "6.6",
+      "4.2"
+     ],
+     "grade": "ok",
+     "why": "Hansen is about statutes, not decisions."
+    },
+    {
+     "cards": [
+      "1.8"
+     ],
+     "grade": "weak",
+     "why": "Make It 16 is a declaration about an Act."
+    },
+    {
+     "cards": [
+      "9.3"
+     ],
+     "grade": "weak",
+     "why": "Public money is off topic."
+    }
+   ],
+   "3.3": [
+    {
+     "cards": [
+      "3.5"
+     ],
+     "grade": "best",
+     "why": "Discretionary relief compounds the uncertainty: even a win may not change the result."
+    },
+    {
+     "cards": [
+      "3.5",
+      "3.7"
+     ],
+     "grade": "ok",
+     "why": "The checklist adds nothing to the argument."
+    },
+    {
+     "cards": [
+      "1.3"
+     ],
+     "grade": "weak",
+     "why": "Simpson is about electoral timing."
+    },
+    {
+     "cards": [
+      "8.6"
+     ],
+     "grade": "weak",
+     "why": "Marine title is off topic."
+    }
+   ]
+  },
+  "model": [
+   {
+    "f": "i",
+    "k": "cue",
+    "t": "Introduction. Grounds of review: three lights on one decision. Illegal, irrational, unfair."
+   },
+   {
+    "f": "i",
+    "k": "say",
+    "t": "Judicial review asks whether a public decision was lawful, not whether it was right.",
+    "a": []
+   },
+   {
+    "f": "i",
+    "k": "say",
+    "t": "In Council of Civil Service Unions v Minister for the Civil Service, Lord Diplock grouped the grounds under three heads: illegality, irrationality and procedural impropriety.",
+    "a": [
+     [
+      0,
+      0
+     ]
+    ]
+   },
+   {
+    "f": "i",
+    "k": "say",
+    "t": "Irrationality, or Wednesbury unreasonableness, asks whether a decision is so unreasonable that no reasonable decision-maker could have made it.",
+    "a": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   {
+    "f": "i",
+    "k": "say",
+    "t": "Joseph describes it as the most problematic of the grounds.",
+    "a": [
+     [
+      0,
+      2
+     ]
+    ]
+   },
+   {
+    "f": "i",
+    "k": "say",
+    "t": "The difficulty is plain.",
+    "a": []
+   },
+   {
+    "f": "i",
+    "k": "say",
+    "t": "Courts insist that review is not in the nature of an appeal, yet unreasonableness invites the court to look at the outcome rather than the process.",
+    "a": [
+     [
+      0,
+      3
+     ]
+    ]
+   },
+   {
+    "f": "i",
+    "k": "say",
+    "t": "This essay argues that Joseph is largely right, because unreasonableness has no fixed standard and sits closest to the merits, but that the context-dependent standard of review generally, which Lab Tests illustrates, is an equally serious problem.",
+    "a": []
+   },
+   {
+    "f": "m0",
+    "k": "cue",
+    "t": "Card: Deference. Hands off the expert's tools."
+   },
+   {
+    "f": "m0",
+    "k": "say",
+    "t": "The first problem is that unreasonableness edges into the merits.",
+    "a": []
+   },
+   {
+    "f": "m0",
+    "k": "say",
+    "t": "Illegality asks a question of law, with one right answer, the court's.",
+    "a": []
+   },
+   {
+    "f": "m0",
+    "k": "say",
+    "t": "Procedural impropriety asks whether a person was heard and whether the decision-maker was impartial, which courts are well placed to judge.",
+    "a": []
+   },
+   {
+    "f": "m0",
+    "k": "say",
+    "t": "Unreasonableness asks whether the result was within the range open to the decision-maker, and the width of that range is set by the court.",
+    "a": []
+   },
+   {
+    "f": "m0",
+    "k": "say",
+    "t": "Courts therefore vary its intensity with context.",
+    "a": []
+   },
+   {
+    "f": "m0",
+    "k": "say",
+    "t": "They defer more on national security, high policy, the allocation of public resources and the decisions of elected bodies, and less where rights or fairness to an individual are at stake.",
+    "a": []
+   },
+   {
+    "f": "m0",
+    "k": "say",
+    "t": "The result is a sliding scale with no fixed points, and claimants cannot predict where on the scale their case will fall.",
+    "a": []
+   },
+   {
+    "f": "m0",
+    "k": "say",
+    "t": "The ground also gives judges little to explain: a finding that a decision was irrational often states a conclusion rather than the reasoning behind it, which makes the result hard to test on appeal and hard for officials to learn from.",
+    "a": []
+   },
+   {
+    "f": "m0s0",
+    "k": "say",
+    "t": "The shrinking list of non-justiciable matters makes the point sharper.",
+    "a": []
+   },
+   {
+    "f": "m0s0",
+    "k": "say",
+    "t": "In Milroy v Attorney-General, the Court of Appeal treated policy preparing legislation as beyond review.",
+    "a": [
+     [
+      1,
+      0
+     ]
+    ]
+   },
+   {
+    "f": "m0s0",
+    "k": "say",
+    "t": "In Ngāti Whātua Ōrākei Trust v Attorney-General, the Supreme Court confined the exclusion to decisions proximately connected to proceedings in Parliament, which Joseph called the quietus to the Milroy mantra.",
+    "a": [
+     [
+      1,
+      1
+     ]
+    ]
+   },
+   {
+    "f": "m0s0",
+    "k": "say",
+    "t": "As fewer decisions are simply unreviewable, more work is done by deference inside the unreasonableness ground, and the uncertainty grows.",
+    "a": []
+   },
+   {
+    "f": "m1",
+    "k": "cue",
+    "t": "Card: Publishing a ranking. Top of the ladder? Ask before you rank."
+   },
+   {
+    "f": "m1",
+    "k": "say",
+    "t": "The second problem is practical: claimants rarely win on unreasonableness alone.",
+    "a": []
+   },
+   {
+    "f": "m1",
+    "k": "say",
+    "t": "In University of Auckland v Tertiary Education Commission, the universities challenged the publication of a ranking that compared them unfavourably with British universities.",
+    "a": [
+     [
+      2,
+      0
+     ]
+    ]
+   },
+   {
+    "f": "m1",
+    "k": "say",
+    "t": "Williams J held that they succeeded on natural justice and legitimate expectation, because they had had no real chance to respond and their data had been supplied for another purpose.",
+    "a": []
+   },
+   {
+    "f": "m1",
+    "k": "say",
+    "t": "But they lost on irrationality and mistake of fact: the comparison was difficult and even flawed, but not one that no reasonable commission could make.",
+    "a": []
+   },
+   {
+    "f": "m1",
+    "k": "say",
+    "t": "The case shows how high the bar sits, and why counsel lead with the clearer grounds.",
+    "a": []
+   },
+   {
+    "f": "m1s0",
+    "k": "say",
+    "t": "Christiansen v Director-General of Health is the same lesson in reverse.",
+    "a": [
+     [
+      2,
+      1
+     ]
+    ]
+   },
+   {
+    "f": "m1s0",
+    "k": "say",
+    "t": "The claimant, who wanted to visit his dying father from managed isolation, won quickly because officials had applied a narrower framework than the order allowed and had failed to consider exceptional circumstances: an error of law and a failure to consider a mandatory relevant consideration.",
+    "a": []
+   },
+   {
+    "f": "m1s0",
+    "k": "say",
+    "t": "No court needed to say the refusal was irrational.",
+    "a": []
+   },
+   {
+    "f": "m1s0",
+    "k": "say",
+    "t": "Illegality gave a cleaner answer and an urgent remedy.",
+    "a": []
+   },
+   {
+    "f": "m1s0",
+    "k": "say",
+    "t": "Experienced counsel therefore plead unreasonableness last, as a fallback.",
+    "a": []
+   },
+   {
+    "f": "m2",
+    "k": "cue",
+    "t": "Card: Justified limits. Roots, trunk, bend, break."
+   },
+   {
+    "f": "m2",
+    "k": "say",
+    "t": "Where rights are engaged, unreasonableness gives way to a more structured test.",
+    "a": []
+   },
+   {
+    "f": "m2",
+    "k": "say",
+    "t": "In Grounded Kiwis Group Inc v Minister of Health, Mallon J tested the managed isolation booking system against section 5 of the Bill of Rights Act: an important purpose, a rational connection, minimal impairment and proportionality.",
+    "a": [
+     [
+      3,
+      0
+     ],
+     [
+      3,
+      1
+     ]
+    ]
+   },
+   {
+    "f": "m2",
+    "k": "say",
+    "t": "Most of the system was justified, but the virtual lobby, which allocated rooms at random without regard to need, failed minimal impairment.",
+    "a": []
+   },
+   {
+    "f": "m2",
+    "k": "say",
+    "t": "That reasoning is far more transparent than asking whether a decision was so unreasonable that no reasonable decision-maker could make it, and it shows what proportionality could offer if it replaced Wednesbury generally, a question Lord Diplock left open in GCHQ.",
+    "a": []
+   },
+   {
+    "f": "m2s0",
+    "k": "say",
+    "t": "Rights also limit deference in the most sensitive areas.",
+    "a": []
+   },
+   {
+    "f": "m2s0",
+    "k": "say",
+    "t": "In Attorney-General v Zaoui, the Supreme Court held that a security risk certificate was reviewable and read the legislation consistently with the rights not to be deprived of life or tortured.",
+    "a": [
+     [
+      3,
+      2
+     ]
+    ]
+   },
+   {
+    "f": "m2s0",
+    "k": "say",
+    "t": "Security attracted deference, not immunity.",
+    "a": []
+   },
+   {
+    "f": "m3",
+    "k": "cue",
+    "t": "Counter card: Commercial contracts. The court reviews the process, not the bargain."
+   },
+   {
+    "f": "m3",
+    "k": "say",
+    "t": "Yet the deeper problem may lie elsewhere: in deciding what standard applies at all.",
+    "a": []
+   },
+   {
+    "f": "m3",
+    "k": "say",
+    "t": "In Lab Tests Auckland Ltd v Auckland District Health Board, the High Court applied a broad standard of probity to a health board's award of a laboratory contract and found it unlawful.",
+    "a": [
+     [
+      4,
+      0
+     ]
+    ]
+   },
+   {
+    "f": "m3",
+    "k": "say",
+    "t": "The Court of Appeal reversed, holding that the standard depends on the body, its function, the context and the alleged wrong, and restored the contract.",
+    "a": []
+   },
+   {
+    "f": "m3",
+    "k": "say",
+    "t": "The same facts produced opposite results because the two courts chose different standards.",
+    "a": []
+   },
+   {
+    "f": "m3",
+    "k": "say",
+    "t": "That problem affects every ground, not only unreasonableness, and it is arguably worse, because it determines whether there is any meaningful review.",
+    "a": []
+   },
+   {
+    "f": "m3s0",
+    "k": "say",
+    "t": "Remedies add further uncertainty.",
+    "a": []
+   },
+   {
+    "f": "m3s0",
+    "k": "say",
+    "t": "Under section 16 of the Judicial Review Procedure Act 2016 all relief is discretionary, and a successful claim often ends with the decision being remade.",
+    "a": [
+     [
+      4,
+      1
+     ]
+    ]
+   },
+   {
+    "f": "m3s0",
+    "k": "say",
+    "t": "A ground that is hard to win on is compounded by a remedy that may change little.",
+    "a": []
+   },
+   {
+    "f": "c",
+    "k": "cue",
+    "t": "Conclusion card: Rule of law. The tide rises on king and beggar alike."
+   },
+   {
+    "f": "c",
+    "k": "say",
+    "t": "Joseph's description is accurate.",
+    "a": []
+   },
+   {
+    "f": "c",
+    "k": "say",
+    "t": "Unreasonableness has no fixed standard, sits close to the merits, and rarely wins a case on its own, and where rights are engaged, courts prefer the structured proportionality test.",
+    "a": []
+   },
+   {
+    "f": "c",
+    "k": "say",
+    "t": "But the most problematic feature of review may be the variable standard that runs through all the grounds, as Lab Tests shows.",
+    "a": []
+   },
+   {
+    "f": "c",
+    "k": "say",
+    "t": "Unreasonableness should nonetheless be kept.",
+    "a": []
+   },
+   {
+    "f": "c",
+    "k": "say",
+    "t": "It is the rule of law's backstop: a decision can be within power and fairly made yet so irrational that no law could have authorised it.",
+    "a": []
+   },
+   {
+    "f": "c",
+    "k": "say",
+    "t": "Section 27(2) of the Bill of Rights Act affirms the right to apply for review, and a review that could never reach an absurd result would not be worth much.",
+    "a": [
+     [
+      5,
+      0
+     ]
+    ]
+   },
+   {
+    "f": "c",
+    "k": "say",
+    "t": "The answer is not to abolish the ground but to state more clearly when, and how intensely, it applies.",
+    "a": []
+   }
+  ],
+  "modelWords": 1009,
+  "audio": {
+   "src": "data/unreasonable.mp3?v=20261118e",
+   "starts": [
+    0.0,
+    6.38,
+    11.33,
+    21.68,
+    30.27,
+    34.16,
+    36.16,
+    44.31,
+    59.5,
+    63.04,
+    67.05,
+    71.34,
+    79.4,
+    86.91,
+    90.37,
+    101.59,
+    108.31,
+    121.62,
+    125.97,
+    132.25,
+    144.6,
+    153.41,
+    158.04,
+    162.97,
+    173.1,
+    183.85,
+    192.47,
+    197.27,
+    201.79,
+    218.54,
+    221.87,
+    225.64,
+    231.06,
+    235.26,
+    239.89,
+    254.29,
+    262.65,
+    278.29,
+    281.9,
+    293.1,
+    297.04,
+    302.33,
+    307.15,
+    317.78,
+    326.14,
+    331.24,
+    339.9,
+    342.55,
+    353.43,
+    358.84,
+    364.07,
+    366.65,
+    377.17,
+    384.68,
+    387.49,
+    395.35,
+    404.92
+   ],
+   "voice": ""
+  }
+ },
+ {
+  "id": "maori-rep",
+  "essay": "N25-1",
+  "title": "Māori representation: seats, wards, a Māori parliament",
+  "prompt": "A party has proposed a separate Māori parliament, and others want to abolish the Māori seats. How do Māori seats, wards and a Māori parliament fit with parliamentary supremacy, separation of powers and the rule of law?",
+  "intro": [
+   [
+    "2.7",
+    "the three lenses"
+   ],
+   [
+    "7.6",
+    "tino rangatiratanga"
+   ]
+  ],
+  "concl": [
+   "1.11",
+   "settle it in writing"
+  ],
+  "mains": [
+   {
+    "card": "1.2",
+    "cue": "the seats: not entrenched",
+    "sup": []
+   },
+   {
+    "card": "2.1",
+    "cue": "wards and the law",
+    "sup": [
+     [
+      "2.2",
+      "no suspending by announcement"
+     ]
+    ]
+   },
+   {
+    "card": "2.8",
+    "cue": "a Māori parliament",
+    "sup": [
+     [
+      "1.1",
+      "sovereignty"
+     ]
+    ]
+   },
+   {
+    "card": "7.7",
+    "cue": "counter: partnership",
+    "sup": [
+     [
+      "7.2",
+      "Lands case"
+     ]
+    ]
+   }
+  ],
+  "auth": [
+   [
+    "The seats",
+    0,
+    [
+     [
+      "Maori Representation Act 1867",
+      "four seats created"
+     ],
+     [
+      "Electoral Act 1993 s 45",
+      "Māori electoral districts"
+     ],
+     [
+      "Electoral Act 1993 s 268",
+      "seats not reserved"
+     ],
+     [
+      "Royal Commission on the Electoral System (1986)",
+      "recommended abolition"
+     ]
+    ]
+   ],
+   [
+    "Wards",
+    1,
+    [
+     [
+      "Local Government (Electoral Legislation and Māori Wards and Māori Constituencies) Amendment Act 2024",
+      "polls reinstated"
+     ],
+     [
+      "Fitzgerald v Muldoon [1976] 2 NZLR 615 (SC)",
+      "no suspending law"
+     ],
+     [
+      "Bill of Rights 1688 art 1",
+      "suspending power illegal"
+     ]
+    ]
+   ],
+   [
+    "Māori parliament",
+    2,
+    [
+     [
+      "Constitution Act 1986 s 15(1)",
+      "full power"
+     ],
+     [
+      "Matike Mai Aotearoa report (2016)",
+      "spheres of authority"
+     ],
+     [
+      "Waitangi Tribunal, He Whakaputanga me te Tiriti (Wai 1040, 2014)",
+      "sovereignty not ceded"
+     ]
+    ]
+   ],
+   [
+    "Counter",
+    3,
+    [
+     [
+      "New Zealand Maori Council v Attorney-General [1987] 1 NZLR 641 (CA) (Lands case)",
+      "partnership"
+     ],
+     [
+      "Treaty of Waitangi Act 1975 s 5(2)",
+      "both texts"
+     ]
+    ]
+   ],
+   [
+    "Conclusion",
+    4,
+    [
+     [
+      "A Bill of Rights for New Zealand: A White Paper (1985)",
+      "supreme law rejected"
+     ]
+    ]
+   ]
+  ],
+  "frame": [
+   {
+    "cards": [
+     "2.7",
+     "7.6"
+    ],
+    "grade": "best",
+    "why": "The three lenses answer the question's own terms; tino rangatiratanga explains why Māori seek separate representation. The written-constitution conclusion asks whether this should be settled in law.",
+    "concl": "1.11"
+   },
+   {
+    "cards": [
+     "2.7"
+    ],
+    "grade": "ok",
+    "why": "The lenses are there, but not the Treaty reason for Māori representation.",
+    "concl": "1.1"
+   },
+   {
+    "cards": [
+     "3.1"
+    ],
+    "grade": "weak",
+    "why": "Judicial review grounds are off topic.",
+    "concl": "3.5"
+   },
+   {
+    "cards": [
+     "4.2"
+    ],
+    "grade": "weak",
+    "why": "Hansen frames a Bill of Rights essay.",
+    "concl": "1.6"
+   }
+  ],
+  "skel": [
+   {
+    "cards": [
+     "1.2",
+     "2.1",
+     "2.8",
+     "7.7"
+    ],
+    "grade": "best",
+    "why": "The seats (and why they are not entrenched), wards and the rule of law, a Māori parliament against sovereignty and separation, then the partnership counter."
+   },
+   {
+    "cards": [
+     "1.2",
+     "2.1",
+     "2.8"
+    ],
+    "grade": "ok",
+    "why": "No counter: the partnership case for Māori representation is missing."
+   },
+   {
+    "cards": [
+     "7.1",
+     "7.4",
+     "7.5"
+    ],
+    "grade": "weak",
+    "why": "Tribunal and settlements. Representation never appears."
+   },
+   {
+    "cards": [
+     "1.9",
+     "1.10",
+     "1.12"
+    ],
+    "grade": "weak",
+    "why": "Parliamentary procedure, not representation."
+   }
+  ],
+  "sup": {
+   "1.2": [
+    {
+     "cards": [],
+     "grade": "best",
+     "why": "No card needed. Section 268 and the 1867 Act are named in the paragraph."
+    },
+    {
+     "cards": [
+      "1.12"
+     ],
+     "grade": "ok",
+     "why": "Party-hopping protects proportionality, a side point."
+    },
+    {
+     "cards": [
+      "5.4"
+     ],
+     "grade": "weak",
+     "why": "Arrest rights are off topic."
+    },
+    {
+     "cards": [
+      "6.7"
+     ],
+     "grade": "weak",
+     "why": "Treaty-making is off topic."
+    }
+   ],
+   "2.1": [
+    {
+     "cards": [
+      "2.2"
+     ],
+     "grade": "best",
+     "why": "Fitzgerald: no one may suspend a law by announcement. A council that refused the statutory poll would breach the same principle."
+    },
+    {
+     "cards": [
+      "2.2",
+      "2.5"
+     ],
+     "grade": "ok",
+     "why": "Borrowdale adds little here."
+    },
+    {
+     "cards": [
+      "3.3"
+     ],
+     "grade": "weak",
+     "why": "Lab Tests is about contracts."
+    },
+    {
+     "cards": [
+      "9.6"
+     ],
+     "grade": "weak",
+     "why": "Privacy is off topic."
+    }
+   ],
+   "2.8": [
+    {
+     "cards": [
+      "1.1"
+     ],
+     "grade": "best",
+     "why": "Section 15(1): only Parliament could create a second chamber, and it could abolish it again."
+    },
+    {
+     "cards": [
+      "1.1",
+      "1.5"
+     ],
+     "grade": "ok",
+     "why": "Westco is about courts and Bills, a side point."
+    },
+    {
+     "cards": [
+      "4.4"
+     ],
+     "grade": "weak",
+     "why": "The prisoner's wig is off topic."
+    },
+    {
+     "cards": [
+      "9.9"
+     ],
+     "grade": "weak",
+     "why": "Tangiora is about what a court is."
+    }
+   ],
+   "7.7": [
+    {
+     "cards": [
+      "7.2"
+     ],
+     "grade": "best",
+     "why": "The Lands case partnership grounds the case for shared constitutional authority."
+    },
+    {
+     "cards": [
+      "7.2",
+      "7.3"
+     ],
+     "grade": "ok",
+     "why": "Trans-Tasman is about resource consents."
+    },
+    {
+     "cards": [
+      "2.4"
+     ],
+     "grade": "weak",
+     "why": "Dotcom is off topic."
+    },
+    {
+     "cards": [
+      "6.3"
+     ],
+     "grade": "weak",
+     "why": "Air Line Pilots is off topic."
+    }
+   ]
+  },
+  "model": [
+   {
+    "f": "i",
+    "k": "cue",
+    "t": "Introduction. The principles lens: three lenses, one target. And two texts: kāwanatanga is not sovereignty."
+   },
+   {
+    "f": "i",
+    "k": "say",
+    "t": "Māori representation in New Zealand's institutions is again contested.",
+    "a": []
+   },
+   {
+    "f": "i",
+    "k": "say",
+    "t": "Te Pāti Māori presented a proposal in 2025 for a separate Māori parliament; others have called for a referendum to abolish the Māori seats; and in 2025 many councils dropped their Māori wards after polls required by a 2024 Act.",
+    "a": []
+   },
+   {
+    "f": "i",
+    "k": "say",
+    "t": "Each proposal can be tested against the three principles the question names: parliamentary supremacy, separation of powers and the rule of law.",
+    "a": []
+   },
+   {
+    "f": "i",
+    "k": "say",
+    "t": "Each also turns on the Treaty.",
+    "a": []
+   },
+   {
+    "f": "i",
+    "k": "say",
+    "t": "In te Tiriti the chiefs granted kāwanatanga, governance, and were guaranteed tino rangatiratanga, full chieftainship, which many Māori read as a promise of continuing self-government.",
+    "a": []
+   },
+   {
+    "f": "i",
+    "k": "say",
+    "t": "The three forms differ in kind: the seats guarantee Māori a voice inside Parliament, the wards do the same in local government, and a Māori parliament would create a separate institution altogether.",
+    "a": []
+   },
+   {
+    "f": "i",
+    "k": "say",
+    "t": "This essay argues that all three forms of representation are lawful only because Parliament allows them, that a Māori parliament would require legislation and could not escape supremacy, and that the case for it rests on partnership rather than on the existing principles.",
+    "a": []
+   },
+   {
+    "f": "m0",
+    "k": "cue",
+    "t": "Card: Entrenchment. Under lock and two keys."
+   },
+   {
+    "f": "m0",
+    "k": "say",
+    "t": "The Māori seats were created by the Maori Representation Act 1867, at first as a temporary measure, and have survived ever since.",
+    "a": [
+     [
+      0,
+      0
+     ]
+    ]
+   },
+   {
+    "f": "m0",
+    "k": "say",
+    "t": "Today section 45 of the Electoral Act 1993 provides for Māori electoral districts, whose number depends on how many Māori choose the Māori roll.",
+    "a": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   {
+    "f": "m0",
+    "k": "say",
+    "t": "The Royal Commission on the Electoral System recommended in 1986 that the seats be abolished if MMP were adopted, because proportional representation would give Māori fair representation without them.",
+    "a": [
+     [
+      0,
+      3
+     ]
+    ]
+   },
+   {
+    "f": "m0",
+    "k": "say",
+    "t": "Parliament kept them, and they remain a point of political contest.",
+    "a": []
+   },
+   {
+    "f": "m0s0",
+    "k": "say",
+    "t": "Crucially, the seats are not entrenched.",
+    "a": []
+   },
+   {
+    "f": "m0s0",
+    "k": "say",
+    "t": "Section 268 of the Electoral Act reserves the term of Parliament, the Representation Commission, the voting age and the secret ballot, so that they can be changed only by 75 per cent of the House or by a poll of electors, but section 45 is not among them.",
+    "a": [
+     [
+      0,
+      2
+     ]
+    ]
+   },
+   {
+    "f": "m0s0",
+    "k": "say",
+    "t": "A simple majority could abolish the Māori seats tomorrow.",
+    "a": []
+   },
+   {
+    "f": "m0s0",
+    "k": "say",
+    "t": "Proposals to entrench them have not been adopted.",
+    "a": []
+   },
+   {
+    "f": "m0s0",
+    "k": "say",
+    "t": "Their survival therefore rests on political convention and on the Treaty relationship, not on law.",
+    "a": []
+   },
+   {
+    "f": "m0s0",
+    "k": "say",
+    "t": "That contrast between what is reserved and what is not is itself evidence of how the constitution ranks Māori representation.",
+    "a": []
+   },
+   {
+    "f": "m0s0",
+    "k": "say",
+    "t": "Supporters of the seats reply that Māori have consistently chosen to keep them, and that the Māori roll has grown, not shrunk, since MMP was adopted.",
+    "a": []
+   },
+   {
+    "f": "m1",
+    "k": "cue",
+    "t": "Card: Rule of law. No one, not even the government, is above the law."
+   },
+   {
+    "f": "m1",
+    "k": "say",
+    "t": "Māori wards show the rule of law operating in local government.",
+    "a": []
+   },
+   {
+    "f": "m1",
+    "k": "say",
+    "t": "Councils may establish Māori wards and constituencies, and between 2021 and 2024 they could do so without a binding poll.",
+    "a": []
+   },
+   {
+    "f": "m1",
+    "k": "say",
+    "t": "The Local Government (Electoral Legislation and Māori Wards and Māori Constituencies) Amendment Act 2024 reinstated polls and required councils that had established wards without one to hold a binding poll at the 2025 local elections or disestablish them.",
+    "a": [
+     [
+      1,
+      0
+     ]
+    ]
+   },
+   {
+    "f": "m1",
+    "k": "say",
+    "t": "Many councils opposed the change, and some debated refusing to hold the poll.",
+    "a": []
+   },
+   {
+    "f": "m1",
+    "k": "say",
+    "t": "In 2025, 24 of the 42 councils that held polls lost their wards.",
+    "a": []
+   },
+   {
+    "f": "m1s0",
+    "k": "say",
+    "t": "A council could not lawfully refuse.",
+    "a": []
+   },
+   {
+    "f": "m1s0",
+    "k": "say",
+    "t": "In Fitzgerald v Muldoon, the Prime Minister's announcement that compulsory superannuation contributions would cease, before Parliament had repealed the Act, was held to be an unlawful suspension of the law, contrary to article 1 of the Bill of Rights 1688.",
+    "a": [
+     [
+      1,
+      1
+     ],
+     [
+      1,
+      2
+     ]
+    ]
+   },
+   {
+    "f": "m1s0",
+    "k": "say",
+    "t": "A council is a creature of statute and can no more suspend an Act than a Prime Minister can.",
+    "a": []
+   },
+   {
+    "f": "m1s0",
+    "k": "say",
+    "t": "Civil disobedience by a council might be a powerful protest, but it would invite judicial review and replacement by commissioners, and it would weaken the principle that protects minorities as much as majorities: that public bodies obey the law.",
+    "a": []
+   },
+   {
+    "f": "m2",
+    "k": "cue",
+    "t": "Card: Separation of powers. Take one pillar away and the roof falls."
+   },
+   {
+    "f": "m2",
+    "k": "say",
+    "t": "A separate Māori parliament raises the hardest questions.",
+    "a": []
+   },
+   {
+    "f": "m2",
+    "k": "say",
+    "t": "Te Pāti Māori's proposal drew on the Matike Mai Aotearoa report, which proposed spheres of authority: a rangatiratanga sphere for Māori, a kāwanatanga sphere for the Crown, and a relational sphere in which they meet.",
+    "a": [
+     [
+      2,
+      1
+     ]
+    ]
+   },
+   {
+    "f": "m2",
+    "k": "say",
+    "t": "It also draws on the Tribunal's finding in He Whakaputanga me te Tiriti that the rangatira who signed in 1840 did not cede sovereignty.",
+    "a": [
+     [
+      2,
+      2
+     ]
+    ]
+   },
+   {
+    "f": "m2",
+    "k": "say",
+    "t": "Supporters say a Māori parliament would restore the balance te Tiriti promised; critics say it would divide the electorate by ancestry.",
+    "a": []
+   },
+   {
+    "f": "m2s0",
+    "k": "say",
+    "t": "Legally, any such body would depend on Parliament.",
+    "a": []
+   },
+   {
+    "f": "m2s0",
+    "k": "say",
+    "t": "Under section 15(1) of the Constitution Act 1986 Parliament has full power to make laws, so a Māori parliament could only be created by statute, and whatever powers it had could be removed the same way.",
+    "a": [
+     [
+      2,
+      0
+     ]
+    ]
+   },
+   {
+    "f": "m2s0",
+    "k": "say",
+    "t": "It would not separate powers in the classical sense, because it would not be a check on the existing branches; it would divide law-making authority between two peoples.",
+    "a": []
+   },
+   {
+    "f": "m2s0",
+    "k": "say",
+    "t": "That is a new kind of constitution, not an adjustment of the present one, and it could not be achieved by ordinary legislation alone if it were to bind future Parliaments.",
+    "a": []
+   },
+   {
+    "f": "m3",
+    "k": "cue",
+    "t": "Counter card: Who defines the principles? Too many hands on one stone."
+   },
+   {
+    "f": "m3",
+    "k": "say",
+    "t": "The strongest case for Māori representation in all three forms is partnership.",
+    "a": []
+   },
+   {
+    "f": "m3",
+    "k": "say",
+    "t": "In the Lands case, Cooke P said the Treaty signified a partnership between races, and the courts have held that the principles require good faith and active protection.",
+    "a": [
+     [
+      3,
+      0
+     ]
+    ]
+   },
+   {
+    "f": "m3",
+    "k": "say",
+    "t": "A partnership in which one partner can abolish the other's seats, wards and institutions by simple majority is unequal.",
+    "a": []
+   },
+   {
+    "f": "m3",
+    "k": "say",
+    "t": "The Waitangi Tribunal, which has exclusive authority to interpret both texts under section 5(2) of the Treaty of Waitangi Act 1975, has consistently read te Tiriti as preserving Māori authority.",
+    "a": [
+     [
+      3,
+      1
+     ]
+    ]
+   },
+   {
+    "f": "m3",
+    "k": "say",
+    "t": "On that view, guaranteed representation is not a privilege but part of the bargain on which the Crown's own authority rests.",
+    "a": []
+   },
+   {
+    "f": "m3",
+    "k": "say",
+    "t": "The counter-argument is equality: every citizen has one vote, and representation by descent sits uneasily with that.",
+    "a": []
+   },
+   {
+    "f": "m3",
+    "k": "say",
+    "t": "The answer depends on whether one sees the Treaty as an agreement between peoples or as a historical event now absorbed into equal citizenship.",
+    "a": []
+   },
+   {
+    "f": "c",
+    "k": "cue",
+    "t": "Conclusion card: Written constitution? Put it in writing, or let it blow in the wind."
+   },
+   {
+    "f": "c",
+    "k": "say",
+    "t": "Māori seats, Māori wards and a Māori parliament are all compatible with parliamentary supremacy, because all exist only so long as Parliament allows.",
+    "a": []
+   },
+   {
+    "f": "c",
+    "k": "say",
+    "t": "That is also their weakness.",
+    "a": []
+   },
+   {
+    "f": "c",
+    "k": "say",
+    "t": "The seats are not entrenched, the wards were reshaped by a single Act, and a Māori parliament could be abolished by the body that created it.",
+    "a": []
+   },
+   {
+    "f": "c",
+    "k": "say",
+    "t": "The rule of law requires councils and governments to obey whatever Parliament decides, but it cannot protect Māori representation from Parliament itself.",
+    "a": []
+   },
+   {
+    "f": "c",
+    "k": "say",
+    "t": "If the Treaty partnership is to be secured, the choice is between continuing political restraint and a written constitution that settles the Treaty's place, the option the 1985 White Paper avoided and that no government has since attempted.",
+    "a": [
+     [
+      4,
+      0
+     ]
+    ]
+   }
+  ],
+  "modelWords": 1050,
+  "audio": {
+   "src": "data/maori-rep.mp3?v=20261118e",
+   "starts": [
+    0.0,
+    7.41,
+    11.97,
+    29.49,
+    37.83,
+    40.32,
+    51.54,
+    62.89,
+    78.74,
+    82.35,
+    92.18,
+    102.98,
+    116.31,
+    120.36,
+    122.97,
+    139.67,
+    143.49,
+    146.84,
+    152.6,
+    160.13,
+    169.9,
+    174.72,
+    178.75,
+    188.25,
+    206.51,
+    211.41,
+    217.62,
+    220.37,
+    237.03,
+    242.6,
+    257.43,
+    262.12,
+    265.79,
+    279.23,
+    289.32,
+    297.11,
+    300.31,
+    313.73,
+    322.84,
+    333.46,
+    338.24,
+    343.02,
+    352.62,
+    359.81,
+    373.71,
+    380.82,
+    388.43,
+    398.12,
+    403.79,
+    412.67,
+    414.8,
+    422.55,
+    431.51
+   ],
+   "voice": ""
+  }
+ },
+ {
+  "id": "law-making",
+  "essay": "J24-1",
+  "title": "Urgency, entrenchment and law-making",
+  "prompt": "Governments have made heavy use of urgency, sometimes skipping select committee, and a 2022 attempt to entrench a water provision caused uproar. How well does New Zealand control the way Parliament makes law?",
+  "intro": [
+   [
+    "1.1",
+    "sovereignty"
+   ],
+   [
+    "2.8",
+    "fused executive"
+   ]
+  ],
+  "concl": [
+   "1.11",
+   "codify the controls?"
+  ],
+  "mains": [
+   {
+    "card": "1.9",
+    "cue": "urgency",
+    "sup": [
+     [
+      "4.7",
+      "s 7 report overridden"
+     ]
+    ]
+   },
+   {
+    "card": "1.2",
+    "cue": "entrenchment",
+    "sup": [
+     [
+      "1.5",
+      "courts can't stop a Bill"
+     ]
+    ]
+   },
+   {
+    "card": "2.1",
+    "cue": "quality control",
+    "sup": [
+     [
+      "9.7",
+      "reading statutes"
+     ]
+    ]
+   },
+   {
+    "card": "1.10",
+    "cue": "counter: political checks",
+    "sup": []
+   }
+  ],
+  "auth": [
+   [
+    "Framework",
+    0,
+    [
+     [
+      "Constitution Act 1986 s 15(1)",
+      "full power"
+     ],
+     [
+      "Constitution Act 1986 s 6",
+      "ministers must be MPs"
+     ],
+     [
+      "Standing Orders of the House of Representatives",
+      "House's own rules"
+     ]
+    ]
+   ],
+   [
+    "Urgency",
+    1,
+    [
+     [
+      "Constitution Act 1986 s 16",
+      "royal assent"
+     ],
+     [
+      "New Zealand Bill of Rights Act 1990 s 7",
+      "Attorney-General's report"
+     ],
+     [
+      "Electoral Amendment Act 2025",
+      "passed despite report"
+     ],
+     [
+      "Bill of Rights 1688 art 9",
+      "proceedings not questioned"
+     ]
+    ]
+   ],
+   [
+    "Entrenchment",
+    2,
+    [
+     [
+      "Electoral Act 1993 s 268",
+      "75% or a poll"
+     ],
+     [
+      "Water Services Entities Bill 2022",
+      "60% clause dropped"
+     ],
+     [
+      "Westco Lagan Ltd v Attorney-General [2001] 1 NZLR 40 (HC)",
+      "manner and form only"
+     ],
+     [
+      "Attorney-General for New South Wales v Trethowan [1932] AC 526 (PC)",
+      "manner and form"
+     ]
+    ]
+   ],
+   [
+    "Quality",
+    3,
+    [
+     [
+      "Regulatory Standards Act 2025",
+      "principles, no teeth"
+     ],
+     [
+      "Legislation Act 2019 s 10(1)",
+      "text and purpose"
+     ]
+    ]
+   ],
+   [
+    "Counter",
+    4,
+    [
+     [
+      "Cabinet Manual 2023",
+      "conventions recorded"
+     ],
+     [
+      "Electoral Act 1993 ss 55A–55E",
+      "party discipline"
+     ]
+    ]
+   ],
+   [
+    "Conclusion",
+    0,
+    [
+     [
+      "Palmer and Butler, A Constitution for Aotearoa New Zealand (2016)",
+      "entrenched draft"
+     ]
+    ]
+   ]
+  ],
+  "frame": [
+   {
+    "cards": [
+     "1.1",
+     "2.8"
+    ],
+    "grade": "best",
+    "why": "Sovereignty says Parliament controls its own procedure; the fused executive explains why the government controls the House. The conclusion asks whether the controls should be written down.",
+    "concl": "1.11"
+   },
+   {
+    "cards": [
+     "1.1"
+    ],
+    "grade": "ok",
+    "why": "Sovereignty without the fusion point misses why urgency is the government's tool.",
+    "concl": "1.2"
+   },
+   {
+    "cards": [
+     "3.1"
+    ],
+    "grade": "weak",
+    "why": "Review of executive decisions. Courts do not review how Bills pass.",
+    "concl": "3.5"
+   },
+   {
+    "cards": [
+     "8.7"
+    ],
+    "grade": "weak",
+    "why": "Tikanga is off topic.",
+    "concl": "8.4"
+   }
+  ],
+  "skel": [
+   {
+    "cards": [
+     "1.9",
+     "1.2",
+     "2.1",
+     "1.10"
+    ],
+    "grade": "best",
+    "why": "Urgency, entrenchment, quality control, then the counter: political checks under MMP."
+   },
+   {
+    "cards": [
+     "1.9",
+     "1.2",
+     "2.1"
+    ],
+    "grade": "ok",
+    "why": "No counter: the political checks are missing."
+   },
+   {
+    "cards": [
+     "1.3",
+     "1.4",
+     "1.5"
+    ],
+    "grade": "weak",
+    "why": "Court cases on Parliament, but urgency and entrenchment are barely mentioned."
+   },
+   {
+    "cards": [
+     "4.2",
+     "4.1",
+     "4.8"
+    ],
+    "grade": "weak",
+    "why": "Bill of Rights method, not law-making."
+   }
+  ],
+  "sup": {
+   "1.9": [
+    {
+     "cards": [
+      "4.7"
+     ],
+     "grade": "best",
+     "why": "The 2025 prisoner ban passed despite an s 7 report: warnings work only if the House listens."
+    },
+    {
+     "cards": [
+      "4.7",
+      "1.6"
+     ],
+     "grade": "ok",
+     "why": "Taylor is an after-the-event check, better in the counter."
+    },
+    {
+     "cards": [
+      "6.7"
+     ],
+     "grade": "weak",
+     "why": "Treaty-making is off topic."
+    },
+    {
+     "cards": [
+      "8.1"
+     ],
+     "grade": "weak",
+     "why": "Te Weehi is off topic."
+    }
+   ],
+   "1.2": [
+    {
+     "cards": [
+      "1.5"
+     ],
+     "grade": "best",
+     "why": "Westco: courts police only mandatory manner and form, never content."
+    },
+    {
+     "cards": [
+      "1.5",
+      "1.3"
+     ],
+     "grade": "ok",
+     "why": "Simpson's directory rules are a side point."
+    },
+    {
+     "cards": [
+      "7.4"
+     ],
+     "grade": "weak",
+     "why": "Settlements are off topic."
+    },
+    {
+     "cards": [
+      "5.2"
+     ],
+     "grade": "weak",
+     "why": "Excluding evidence is off topic."
+    }
+   ],
+   "2.1": [
+    {
+     "cards": [
+      "9.7"
+     ],
+     "grade": "best",
+     "why": "Courts read statutes in the light of purpose and rights; a rushed text leaves them more to repair."
+    },
+    {
+     "cards": [
+      "9.7",
+      "2.5"
+     ],
+     "grade": "ok",
+     "why": "Borrowdale is about clarity of orders, not statutes."
+    },
+    {
+     "cards": [
+      "3.3"
+     ],
+     "grade": "weak",
+     "why": "Lab Tests is off topic."
+    },
+    {
+     "cards": [
+      "6.4"
+     ],
+     "grade": "weak",
+     "why": "Tavita is off topic."
+    }
+   ],
+   "1.10": [
+    {
+     "cards": [],
+     "grade": "best",
+     "why": "No card needed. Conventions and MMP coalition discipline carry the counter."
+    },
+    {
+     "cards": [
+      "1.12"
+     ],
+     "grade": "ok",
+     "why": "Party-hopping rules strengthen leaders, a side point."
+    },
+    {
+     "cards": [
+      "9.8"
+     ],
+     "grade": "weak",
+     "why": "Judicial independence is off topic."
+    },
+    {
+     "cards": [
+      "8.2"
+     ],
+     "grade": "weak",
+     "why": "The foreshore case is off topic."
+    }
+   ]
+  },
+  "model": [
+   {
+    "f": "i",
+    "k": "cue",
+    "t": "Introduction. Can Parliament do anything? The lion on the throne. And separation of powers: three pillars under one arch."
+   },
+   {
+    "f": "i",
+    "k": "say",
+    "t": "Parliament has full power to make laws under section 15(1) of the Constitution Act 1986, and it also controls how it makes them.",
+    "a": [
+     [
+      0,
+      0
+     ]
+    ]
+   },
+   {
+    "f": "i",
+    "k": "say",
+    "t": "The procedure for passing a Bill is set out mainly in the Standing Orders, rules the House makes for itself and can suspend or change.",
+    "a": [
+     [
+      0,
+      2
+     ]
+    ]
+   },
+   {
+    "f": "i",
+    "k": "say",
+    "t": "In New Zealand's unicameral system there is no upper house to slow legislation down, and because section 6 of the Constitution Act requires ministers to be members of Parliament, the government of the day normally controls the House.",
+    "a": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   {
+    "f": "i",
+    "k": "say",
+    "t": "The controls on law-making are therefore mostly self-imposed.",
+    "a": []
+   },
+   {
+    "f": "i",
+    "k": "say",
+    "t": "This essay considers urgency, entrenchment and the quality of legislation, then the political checks.",
+    "a": []
+   },
+   {
+    "f": "i",
+    "k": "say",
+    "t": "It argues that the controls are weak in law but real in politics, and that MMP, more than any legal rule, keeps Parliament honest.",
+    "a": []
+   },
+   {
+    "f": "m0",
+    "k": "cue",
+    "t": "Card: Passing a Bill. No plain sailing: one lock at a time."
+   },
+   {
+    "f": "m0",
+    "k": "say",
+    "t": "A Bill normally passes through introduction, first reading, select committee, second reading, committee of the whole House, third reading and royal assent under section 16 of the Constitution Act.",
+    "a": [
+     [
+      1,
+      0
+     ]
+    ]
+   },
+   {
+    "f": "m0",
+    "k": "say",
+    "t": "Select committee is the main check: the public can make submissions, experts can be heard, and members across parties scrutinise the detail.",
+    "a": []
+   },
+   {
+    "f": "m0",
+    "k": "say",
+    "t": "Urgency allows the House to sit longer and to take stages more quickly, and with the House's agreement a Bill can skip select committee altogether.",
+    "a": []
+   },
+   {
+    "f": "m0",
+    "k": "say",
+    "t": "Governments have used urgency heavily, and the coalition elected in 2023 used it to pass several Bills in its first months without public submissions.",
+    "a": []
+   },
+   {
+    "f": "m0",
+    "k": "say",
+    "t": "Supporters say urgency lets a new government implement its mandate; critics say it removes the only stage at which the public can be heard and produces errors that need later amendment.",
+    "a": []
+   },
+   {
+    "f": "m0",
+    "k": "say",
+    "t": "Urgency is not inherently improper: it has long been used for Budget legislation and for genuine emergencies, such as the early COVID-19 response.",
+    "a": []
+   },
+   {
+    "f": "m0",
+    "k": "say",
+    "t": "The problem is its routine use for ordinary policy, where there is no reason the public could not be heard.",
+    "a": []
+   },
+   {
+    "f": "m0s0",
+    "k": "say",
+    "t": "The Bill of Rights Act offers a warning, not a barrier.",
+    "a": []
+   },
+   {
+    "f": "m0s0",
+    "k": "say",
+    "t": "Under section 7 the Attorney-General must report any provision that appears inconsistent with the Bill of Rights.",
+    "a": [
+     [
+      1,
+      1
+     ]
+    ]
+   },
+   {
+    "f": "m0s0",
+    "k": "say",
+    "t": "The Electoral Amendment Act 2025, which reinstated the ban on sentenced prisoners voting, passed despite such a report.",
+    "a": [
+     [
+      1,
+      2
+     ]
+    ]
+   },
+   {
+    "f": "m0s0",
+    "k": "say",
+    "t": "And under article 9 of the Bill of Rights 1688, no court will question proceedings in Parliament, so a rushed process cannot be challenged in court.",
+    "a": [
+     [
+      1,
+      3
+     ]
+    ]
+   },
+   {
+    "f": "m1",
+    "k": "cue",
+    "t": "Card: Entrenchment. Under lock and two keys."
+   },
+   {
+    "f": "m1",
+    "k": "say",
+    "t": "Entrenchment is the main legal attempt to limit future Parliaments.",
+    "a": []
+   },
+   {
+    "f": "m1",
+    "k": "say",
+    "t": "Section 268 of the Electoral Act 1993 reserves a few provisions, including the term of Parliament and the voting age, so that they can be amended only by 75 per cent of the House or by a poll of electors.",
+    "a": [
+     [
+      2,
+      0
+     ]
+    ]
+   },
+   {
+    "f": "m1",
+    "k": "say",
+    "t": "But section 268 is itself not entrenched, so on the orthodox view a two-step repeal is possible, and it has been obeyed as a matter of political obligation.",
+    "a": []
+   },
+   {
+    "f": "m1",
+    "k": "say",
+    "t": "In 2022 the House agreed to an amendment entrenching a provision of the Water Services Entities Bill behind a 60 per cent majority.",
+    "a": [
+     [
+      2,
+      1
+     ]
+    ]
+   },
+   {
+    "f": "m1",
+    "k": "say",
+    "t": "It was widely condemned, because an ordinary majority had entrenched an ordinary policy, and it was removed before the Bill became law.",
+    "a": []
+   },
+   {
+    "f": "m1s0",
+    "k": "say",
+    "t": "Courts are reluctant to enforce entrenchment.",
+    "a": []
+   },
+   {
+    "f": "m1s0",
+    "k": "say",
+    "t": "In Westco Lagan Ltd v Attorney-General, McGechan J held that courts may rule on mandatory manner and form, but never on the content of legislation, and declined to interfere with a Bill.",
+    "a": [
+     [
+      2,
+      2
+     ]
+    ]
+   },
+   {
+    "f": "m1s0",
+    "k": "say",
+    "t": "Overseas, in Attorney-General for New South Wales v Trethowan, a court enforced a requirement for a referendum, but no New Zealand court has done so.",
+    "a": [
+     [
+      2,
+      3
+     ]
+    ]
+   },
+   {
+    "f": "m1s0",
+    "k": "say",
+    "t": "Entrenchment therefore binds politically rather than legally.",
+    "a": []
+   },
+   {
+    "f": "m1s0",
+    "k": "say",
+    "t": "After the Water Services episode, the House's rules were changed so that a proposal to entrench a provision must itself be supported by the majority it would require, a sensible safeguard that, like everything in the Standing Orders, the House could change again.",
+    "a": []
+   },
+   {
+    "f": "m2",
+    "k": "cue",
+    "t": "Card: Rule of law. No one, not even the government, is above the law."
+   },
+   {
+    "f": "m2",
+    "k": "say",
+    "t": "The quality of legislation is another control.",
+    "a": []
+   },
+   {
+    "f": "m2",
+    "k": "say",
+    "t": "The rule of law requires law that is clear, public and prospective, so that people can know what they must do.",
+    "a": []
+   },
+   {
+    "f": "m2",
+    "k": "say",
+    "t": "The Regulatory Standards Act 2025 sets out principles for responsible law-making, including rule of law principles, and requires Bills to be assessed against them.",
+    "a": [
+     [
+      3,
+      0
+     ]
+    ]
+   },
+   {
+    "f": "m2",
+    "k": "say",
+    "t": "But it creates no enforceable rights and does not affect the validity of any law.",
+    "a": []
+   },
+   {
+    "f": "m2",
+    "k": "say",
+    "t": "It is a disclosure regime, not a constraint: Parliament may still pass a law that breaches every principle in it.",
+    "a": []
+   },
+   {
+    "f": "m2s0",
+    "k": "say",
+    "t": "In practice the courts repair poorly drafted law after the event.",
+    "a": []
+   },
+   {
+    "f": "m2s0",
+    "k": "say",
+    "t": "Under section 10(1) of the Legislation Act 2019, the meaning of legislation is ascertained from its text in the light of its purpose and context, and section 6 of the Bill of Rights Act requires a rights-consistent meaning where possible.",
+    "a": [
+     [
+      3,
+      1
+     ]
+    ]
+   },
+   {
+    "f": "m2s0",
+    "k": "say",
+    "t": "A Bill rushed through under urgency leaves more for the courts to repair, and less certainty for the public in the meantime.",
+    "a": []
+   },
+   {
+    "f": "m3",
+    "k": "cue",
+    "t": "Counter card: Conventions. Nothing holds the rope, yet everyone stops."
+   },
+   {
+    "f": "m3",
+    "k": "say",
+    "t": "The real controls are political.",
+    "a": []
+   },
+   {
+    "f": "m3",
+    "k": "say",
+    "t": "Under MMP only one party, Labour in 2020, has won an outright majority, and coalition and support agreements force governments to bargain for every Bill.",
+    "a": []
+   },
+   {
+    "f": "m3",
+    "k": "say",
+    "t": "Conventions recorded in the Cabinet Manual 2023, including collective responsibility, constrain how ministers bring legislation to the House.",
+    "a": [
+     [
+      4,
+      0
+     ]
+    ]
+   },
+   {
+    "f": "m3",
+    "k": "say",
+    "t": "Opposition parties, the media and select committees expose poor process, and voters punish it.",
+    "a": []
+   },
+   {
+    "f": "m3",
+    "k": "say",
+    "t": "The reaction to the Water Services entrenchment is the clearest example: it was reversed within weeks, without any court order, because the political cost was too high.",
+    "a": []
+   },
+   {
+    "f": "m3",
+    "k": "say",
+    "t": "Rules against party-hopping in sections 55A to 55E of the Electoral Act strengthen party discipline but also preserve the proportionality voters chose.",
+    "a": [
+     [
+      4,
+      1
+     ]
+    ]
+   },
+   {
+    "f": "m3",
+    "k": "say",
+    "t": "These checks are informal, but they have been effective.",
+    "a": []
+   },
+   {
+    "f": "c",
+    "k": "cue",
+    "t": "Conclusion card: Written constitution? Put it in writing, or let it blow in the wind."
+   },
+   {
+    "f": "c",
+    "k": "say",
+    "t": "New Zealand controls how Parliament makes law mainly through politics, not law.",
+    "a": []
+   },
+   {
+    "f": "c",
+    "k": "say",
+    "t": "Urgency is limited only by the House's own will, entrenchment binds only politically, and the Regulatory Standards Act has no teeth.",
+    "a": []
+   },
+   {
+    "f": "c",
+    "k": "say",
+    "t": "The courts will not look behind a passed Act.",
+    "a": []
+   },
+   {
+    "f": "c",
+    "k": "say",
+    "t": "MMP and conventions have so far kept Parliament within acceptable bounds, but they depend on the restraint of whichever government holds a majority.",
+    "a": []
+   },
+   {
+    "f": "c",
+    "k": "say",
+    "t": "A written constitution, such as the draft proposed by Palmer and Butler, would entrench minimum procedural requirements, including a select committee stage, but would transfer some power to courts.",
+    "a": [
+     [
+      5,
+      0
+     ]
+    ]
+   },
+   {
+    "f": "c",
+    "k": "say",
+    "t": "Whether that trade is worth making depends on how much one trusts the political checks, and on the evidence so far they have worked, if imperfectly.",
+    "a": []
+   }
+  ],
+  "modelWords": 1014,
+  "audio": {
+   "src": "data/law-making.mp3?v=20261118e",
+   "starts": [
+    0.0,
+    7.62,
+    16.86,
+    24.71,
+    37.76,
+    41.71,
+    47.96,
+    56.51,
+    60.87,
+    72.26,
+    80.47,
+    88.68,
+    98.45,
+    109.25,
+    119.11,
+    125.04,
+    128.45,
+    135.4,
+    144.11,
+    155.11,
+    158.72,
+    162.9,
+    178.03,
+    188.84,
+    198.63,
+    206.68,
+    209.69,
+    221.4,
+    230.59,
+    234.33,
+    250.32,
+    255.15,
+    258.43,
+    264.62,
+    275.71,
+    280.47,
+    286.85,
+    290.86,
+    305.66,
+    312.91,
+    317.84,
+    320.17,
+    330.88,
+    340.69,
+    346.6,
+    356.14,
+    366.44,
+    370.34,
+    376.02,
+    380.88,
+    389.27,
+    392.12,
+    401.32,
+    412.86
+   ],
+   "voice": ""
+  }
  }
 ];
