@@ -8,26 +8,35 @@
   var ESSAYS = window.ESSAYS || [];
   var RUBRIC = window.RUBRIC || [];
   var CITE_KEYS = window.CITE_KEYS || {};
+  var REASON = window.REASON || [];
+  var REASON_SKILLS = window.REASON_SKILLS || {};
   var byId = {};
   CARDS.forEach(function (c) { byId[c.id] = c; });
 
-  var KEY = 'nzlpe-study-v12-game';
+  var KEY = 'nzlpe-study-v13-game';
+  var OLD_KEY = 'nzlpe-study-v12-game';
   var DAY = 24 * 60 * 60 * 1000;
-  // Review gaps in days for boxes 1 to 5. Short, because the exam is close.
-  var INTERVAL_DAYS = [0, 1, 2, 4, 8];
+  // Three-day plan. Box 1: new or missed (due now). Box 2: right once (back in 3 hours).
+  // Box 3: right twice, at least 3 hours apart = mastered (back next day). Box 4: right again a day later = locked in.
+  var HOUR = 60 * 60 * 1000;
+  var INTERVAL_HOURS = [0, 3, 20, 44];
+  var MAX_BOX = 4;
+  function dueFor(box) { return Date.now() + INTERVAL_HOURS[box - 1] * HOUR; }
+  // Scenarios whose wording gives away the card title (removed 20 Nov 2026).
+  var LEAKY_SCEN = {s03:1, s08:1, s11:1, s12:1, s14:1, s15:1, s18:1, s20:1, s23:1, s31:1, s37:1, s38:1, s42:1};
   var EXAM_DATE = new Date(2026, 10, 24); // 24 Nov 2026
   // TEST cards whose steps run in a real order (others are checklists).
   var ORDERED = ['1.9', '4.2', '3.7', '6.1', '1.10', '2.7', '3.1', '7.6', '9.7', '2.1'];
 
   var TYPES = {
+    reason: { label: 'Essay reasoning', hint: 'Think through your 12 essay plans: the real question, the thesis, which authority proves which point, the counter, the landing, the traps.' },
     drill: { label: 'Law questions', hint: 'Holdings, tests, sections and splits. Wrong options are real authorities or common slips.' },
-    facts: { label: 'Facts to case', hint: 'Read the facts of a case and name the card. Wrong options are cases from the same suit.' },
     scen: { label: 'Which card applies?', hint: 'New fact patterns, not on any card. Spot the doctrine, as in a problem question.' },
     order: { label: 'Put the test in order', hint: 'Tap the steps of a test in the order you would apply them.' },
     missing: { label: 'Find the missing step', hint: 'One step of a test or checklist is gone. Pick it.' },
     pic: { label: 'Picture warm-up', hint: 'The picture is a memory hook. Name its card.' }
   };
-  var MIX_TYPES = ['drill', 'facts', 'scen', 'order', 'missing'];
+  var MIX_TYPES = ['reason', 'drill', 'scen', 'order', 'missing'];
 
   var app = document.getElementById('app');
   var state = load();
@@ -43,6 +52,13 @@
     try {
       var raw = localStorage.getItem(KEY);
       if (raw) return normalise(JSON.parse(raw));
+      var old = localStorage.getItem(OLD_KEY);
+      if (old) {
+        // Fresh start for the rebuilt question bank; keep essays, drafts and settings.
+        var o = normalise(JSON.parse(old));
+        var b = blank(); b.essays = o.essays; b.drafts = o.drafts; b.settings = o.settings;
+        return b;
+      }
     } catch (e) { /* use defaults */ }
     return blank();
   }
@@ -143,13 +159,18 @@
   // Every item: key, type, card (for suit filter and feedback), and build() returning a fresh question.
   function allItems() {
     var list = [];
+    var spById = {};
+    (window.SPREADS || []).forEach(function (sp) { spById[sp.id] = sp; });
+    REASON.forEach(function (r) {
+      var sp = spById[r.sp];
+      if (!sp) return;
+      list.push({ key: 'r:' + r.id, type: 'reason', card: sp.intro[0][0], sp: r.sp, spread: sp, src: r });
+    });
     DRILLS.forEach(function (d) {
       list.push({ key: 'd:' + d.id, type: 'drill', card: d.c, src: d });
     });
-    CARDS.forEach(function (c) {
-      if (backField(c, 'Facts')) list.push({ key: 'f:' + c.id, type: 'facts', card: c.id });
-    });
     SCENARIOS.forEach(function (s) {
+      if (LEAKY_SCEN[s.id]) return;
       list.push({ key: 's:' + s.id, type: 'scen', card: s.a, src: s });
     });
     CARDS.forEach(function (c) {
@@ -172,6 +193,12 @@
 
   function buildQuestion(item) {
     var c = byId[item.card];
+    if (item.type === 'reason') {
+      var r = item.src;
+      var ropts = shuffle([r.a].concat(r.w)).map(function (t) { return { label: t, right: t === r.a }; });
+      return { lead: 'Essay plan: ' + item.spread.title + '. ' + item.spread.prompt, prompt: r.q,
+        tag: (REASON_SKILLS[r.k] || 'Reasoning') + ' · ' + item.spread.title, options: ropts, why: r.why };
+    }
     if (item.type === 'drill') {
       var d = item.src;
       var opts = shuffle([d.a].concat(d.w)).map(function (t) { return { label: t, right: t === d.a }; });
@@ -222,12 +249,25 @@
     var s = state.settings;
     return ITEMS.filter(function (it) {
       if (types.indexOf(it.type) < 0) return false;
+      if (cardFilter && cardFilter.indexOf('sp:') === 0) return it.sp === cardFilter.slice(3);
       if (cardFilter && cardFilter !== it.card) return false;
       var c = byId[it.card];
       if (!cardFilter && s.suit !== 'all' && String(c.suit) !== String(s.suit)) return false;
       if (!cardFilter && s.hideFlagged && c.note) return false;
       return true;
     });
+  }
+  // Alternate essay reasoning with the other types: R O R O O ...
+  function interleave(list) {
+    var r = list.filter(function (it) { return it.type === 'reason'; });
+    var o = list.filter(function (it) { return it.type !== 'reason'; });
+    if (!r.length || !o.length) return list;
+    var out = [], pattern = [1, 0, 1, 0, 0], i = 0;
+    while (r.length || o.length) {
+      var wantR = pattern[i++ % pattern.length];
+      if ((wantR && r.length) || !o.length) out.push(r.shift()); else out.push(o.shift());
+    }
+    return out;
   }
   function startSession(types, title, cardFilter) {
     var p = eligible(types, cardFilter);
@@ -241,7 +281,18 @@
     var later = p.filter(function (it) { return rec(it.key).due > now; })
       .sort(function (a, b) { return rec(a.key).due - rec(b.key).due; });
     var size = cardFilter ? p.length : state.settings.size;
-    var chosen = due.concat(later).slice(0, size);
+    var practice = !!(arguments[3]);
+    if (!due.length && later.length && !practice) {
+      var nextAt = new Date(rec(later[0].key).due);
+      show(h('div', { class: 'panel' },
+          h('h2', { text: 'Nothing due here yet' }),
+          h('p', { text: 'Every question in this set is waiting for its next review. The next one is due at ' + nextAt.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }) + (nextAt.toDateString() !== new Date().toDateString() ? ' on ' + nextAt.toLocaleDateString([], { weekday: 'long' }) : '') + '. Answering early does not move a question up a box.' }),
+          h('div', { class: 'row' },
+            h('button', { onclick: function () { startSession(types, title + ' (practice)', cardFilter, true); }, text: 'Practise anyway' }),
+            h('button', { class: 'secondary', onclick: renderHome, text: 'Home' }))));
+      return;
+    }
+    var chosen = interleave(practice ? due.concat(later) : due).slice(0, size);
     if (!chosen.length) {
       show(h('div', { class: 'panel', text: 'No questions match these settings. Change the suit or the open-item filter.' }),
         h('button', { class: 'secondary', onclick: renderHome, text: 'Back' }));
@@ -258,11 +309,13 @@
     var cur = session.items[session.idx];
     var key = cur.item.key;
     var r = rec(key);
-    var box = correct ? Math.min(r.box + 1, 5) : 1;
+    var early = correct && seen(key) && r.due > Date.now();
+    var box = early ? r.box : (correct ? Math.min(r.box + 1, MAX_BOX) : 1);
     state.items[key] = {
-      box: box, due: Date.now() + INTERVAL_DAYS[box - 1] * DAY,
+      box: box, due: early ? r.due : dueFor(box),
       right: r.right + (correct ? 1 : 0), wrong: r.wrong + (correct ? 0 : 1)
     };
+    cur.early = early;
     if (correct) session.score++; else session.misses.push(cur.item.card);
     cur.answered = true;
     cur.correct = correct;
@@ -325,9 +378,9 @@
 
     if (cur.answered) {
       body.push(h('div', { class: 'feedback' },
-        h('div', { class: 'verdict ' + (cur.correct ? 'right' : 'wrong'), text: cur.correct ? 'Correct.' : 'Not quite.' }),
+        h('div', { class: 'verdict ' + (cur.correct ? 'right' : 'wrong'), text: cur.correct ? (cur.early ? 'Correct. (Early review: box unchanged.)' : 'Correct.') : 'Not quite. Back to box 1.' }),
         q.why ? h('p', { class: 'why', text: q.why }) : null,
-        cardDetail(it.card, !cur.correct),
+        it.type === 'reason' ? null : cardDetail(it.card, !cur.correct),
         h('div', { class: 'row', style: 'margin-top:12px' },
           h('button', { onclick: next, text: session.idx + 1 >= total ? 'See result' : 'Next (Enter)' }))));
     }
@@ -427,13 +480,13 @@
     var stats = h('div', { class: 'stats' },
       stat(days >= 0 ? days : 0, days === 1 ? 'day to the exam' : 'days to the exam'),
       stat(seenN + ' / ' + core.length, 'questions seen'),
-      stat(mastery(core) + '%', 'at box 3 or higher'),
+      stat(mastery(core) + '%', 'mastered (box 3+)'),
       stat(dueN, 'due for review'),
       stat(state.essays.length, 'essays written'));
 
     var mix = h('div', { class: 'panel hero' },
       h('h2', { text: "Today's mix" }),
-      h('p', { class: 'hint', text: 'A blend of law questions, facts, scenarios and tests. Wrong answers return first; new questions fill the rest.' }),
+      h('p', { class: 'hint', text: 'Only questions that are due: essay reasoning alternates with law questions, scenarios and tests. Misses come back first. A question is mastered when you get it right twice, at least 3 hours apart; answering early does not count.' }),
       h('div', { class: 'row' },
         h('button', { onclick: function () { startSession(MIX_TYPES, "Today's mix"); }, text: 'Start (' + state.settings.size + ' questions)' }),
         h('button', { class: 'secondary', onclick: renderExamList, text: 'Exam room: write an essay' })));
@@ -454,26 +507,42 @@
         var items = core.filter(function (it) { return byId[it.card].suit === suit; });
         var m = mastery(items);
         var once = items.length ? Math.round(items.filter(function (it) { return rec(it.key).box === 2; }).length * 100 / items.length) : 0;
+        var locked = items.length ? Math.round(items.filter(function (it) { return rec(it.key).box >= 4; }).length * 100 / items.length) : 0;
         var names = CARDS.filter(function (c) { return c.suit === suit; });
         suitRows.push(h('div', { class: 'suitrow' },
           h('button', { class: 'linkbtn', onclick: function () { state.settings.suit = String(suit); save(); startSession(MIX_TYPES, 'Suit ' + suit); }, text: 'Suit ' + suit }),
-          h('div', { class: 'bar' }, h('div', { class: 'fill', style: 'width:' + m + '%' }), h('div', { class: 'fill once', style: 'width:' + once + '%' })),
+          h('div', { class: 'bar' }, h('div', { class: 'fill locked', style: 'width:' + locked + '%' }), h('div', { class: 'fill', style: 'width:' + (m - locked) + '%' }), h('div', { class: 'fill once', style: 'width:' + once + '%' })),
           h('span', { class: 'pct', text: m + '%' }),
-          h('span', { class: 'suitname', text: SUIT_NAMES[suit] + ' · ' + names.length + ' cards · ' + once + '% right once' })));
+          h('span', { class: 'suitname', text: SUIT_NAMES[suit] + ' · ' + items.length + ' questions · ' + once + '% right once · ' + locked + '% locked in' })));
       })(n);
     }
     var map = h('div', { class: 'panel' },
       h('h2', { text: 'Mastery map' }),
-      h('p', { class: 'hint', text: 'Dark bar and %: share of each suit\'s questions at box 3 or higher (right on two different days). Light bar: right once so far (box 2). Tap a suit to drill it.' }),
+      h('p', { class: 'hint', text: '% = mastered: right twice, at least 3 hours apart (box 3). Darkest bar: locked in, right again a day later (box 4). Light bar: right once (box 2). Tap a suit to drill it.' }),
       suitRows,
       weakest());
 
+    var planRows = SPREADS.map(function (sp) {
+      var items = ITEMS.filter(function (it) { return it.sp === sp.id; });
+      var m = mastery(items);
+      var locked = items.length ? Math.round(items.filter(function (it) { return rec(it.key).box >= 4; }).length * 100 / items.length) : 0;
+      var once = items.length ? Math.round(items.filter(function (it) { return rec(it.key).box === 2; }).length * 100 / items.length) : 0;
+      return h('div', { class: 'suitrow planrow' },
+        h('button', { class: 'linkbtn', onclick: function () { startSession(['reason'], sp.title, 'sp:' + sp.id); }, text: sp.title }),
+        h('div', { class: 'bar' }, h('div', { class: 'fill locked', style: 'width:' + locked + '%' }), h('div', { class: 'fill', style: 'width:' + (m - locked) + '%' }), h('div', { class: 'fill once', style: 'width:' + once + '%' })),
+        h('span', { class: 'pct', text: m + '%' }),
+        h('span', { class: 'suitname', text: items.length + ' reasoning questions · ' + once + '% right once' }));
+    });
+    var plans = planRows.length ? h('div', { class: 'panel' },
+      h('h2', { text: 'Essay plans: reasoning' }),
+      h('p', { class: 'hint', text: 'For each of your 12 tarot plans: the real question, the thesis, which authority proves which point, the counter, the landing and the traps. Tap a plan to work through it.' }),
+      planRows) : null;
     var tarot = SPREADS.length ? h('div', { class: 'panel' },
       h('h2', { text: 'Tarot essay plans' }),
       h('p', { class: 'hint', text: 'Plan an essay with the cards: introduction and conclusion, main cards, then support cards. ' + SPREADS.length + ' spreads.' }),
       h('div', { class: 'row' }, h('button', { onclick: renderTarotList, text: 'Plan an essay' }))) : null;
     var settings = settingsPanel();
-    show(h('section', null, stats), mix, tarot, map, modes, settings, progressPanel());
+    show(h('section', null, stats), mix, plans, tarot, map, modes, settings, progressPanel());
   }
   var SUIT_NAMES = { 1: 'Parliament and the constitution', 2: 'Rule of law and separation', 3: 'Judicial review', 4: 'Bill of Rights', 5: 'Search, evidence, detention', 6: 'International law', 7: 'Treaty of Waitangi', 8: 'Tikanga and customary rights', 9: 'Crown, watchdogs, courts' };
 
@@ -942,9 +1011,9 @@
     var sp = run.sp, max = tarotMax(sp), key = tKey(sp);
     var good = run.score >= Math.ceil(max * 0.75);
     var r = state.items[key] || { box: 1, due: 0, right: 0, wrong: 0, best: 0 };
-    var box = good ? Math.min((r.box || 1) + 1, 5) : 1;
+    var box = good ? Math.min((r.box || 1) + 1, MAX_BOX) : 1;
     state.items[key] = {
-      box: box, due: Date.now() + INTERVAL_DAYS[box - 1] * DAY,
+      box: box, due: dueFor(box),
       right: (r.right || 0) + (good ? 1 : 0), wrong: (r.wrong || 0) + (good ? 0 : 1),
       best: Math.max(r.best || 0, run.score), last: run.score
     };
