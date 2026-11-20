@@ -195,13 +195,15 @@
     var c = byId[item.card];
     if (item.type === 'reason') {
       var r = item.src;
-      var ropts = shuffle([r.a].concat(r.w)).map(function (t) { return { label: t, right: t === r.a }; });
+      var rx = r.x || [];
+      var ropts = shuffle([{ label: r.a, right: true }].concat(r.w.map(function (t, i) { return { label: t, right: false, note: rx[i] }; })));
       return { lead: 'Essay plan: ' + item.spread.title + '. ' + item.spread.prompt, prompt: r.q,
         tag: (REASON_SKILLS[r.k] || 'Reasoning') + ' · ' + item.spread.title, options: ropts, why: r.why };
     }
     if (item.type === 'drill') {
       var d = item.src;
-      var opts = shuffle([d.a].concat(d.w)).map(function (t) { return { label: t, right: t === d.a }; });
+      var dx = d.x || [];
+      var opts = shuffle([{ label: d.a, right: true }].concat(d.w.map(function (t, i) { return { label: t, right: false, note: dx[i] }; })));
       return { prompt: d.q, tag: 'Card ' + d.c + ' · ' + c.name, options: opts, why: d.why };
     }
     if (item.type === 'facts') {
@@ -218,17 +220,18 @@
       var sids = shuffle([s.a].concat(s.w));
       return {
         lead: s.t, prompt: 'Which card governs this?',
-        options: sids.map(function (id) { return { label: cardLabel(id), right: id === s.a }; }),
-        why: c.line
+        options: sids.map(function (id) { return { label: cardLabel(id), right: id === s.a, note: id === s.a ? null : 'That card answers a different question: ' + byId[id].line }; }),
+        why: 'The right card asks: ' + c.line
       };
     }
     if (item.type === 'missing') {
       var st = steps(c);
       var gap = Math.floor(Math.random() * st.length);
       var otherSteps = [];
-      CARDS.forEach(function (x) { if (x.id !== c.id) steps(x).forEach(function (t) { otherSteps.push(t); }); });
-      var opts2 = shuffle([st[gap]].concat(shuffle(otherSteps).slice(0, 3)))
-        .map(function (t) { return { label: t, right: t === st[gap] }; });
+      CARDS.forEach(function (x) { if (x.id !== c.id) steps(x).forEach(function (t) { otherSteps.push({ t: t, from: x }); }); });
+      var opts2 = shuffle([{ label: st[gap], right: true }].concat(shuffle(otherSteps).slice(0, 3).map(function (o) {
+        return { label: o.t, right: false, note: 'That step belongs to a different test: ' + o.from.name + '.' };
+      })));
       var shown = st.map(function (t, i) { return i === gap ? '______' : t; });
       return { list: shown, prompt: c.name + ': which step is missing?', options: opts2, why: 'Full list: ' + st.join(' → ') };
     }
@@ -239,8 +242,8 @@
     var pids = shuffle([c.id].concat(sameSuitFirst(c.id, CARDS.map(function (x) { return x.id; }), 3)));
     return {
       img: imgPath(c.id), prompt: 'Which card does this picture belong to?',
-      options: pids.map(function (id) { return { label: byId[id].name, right: id === c.id }; }),
-      why: c.picture
+      options: pids.map(function (id) { return { label: byId[id].name, right: id === c.id, note: id === c.id ? null : 'That card\'s picture is: ' + byId[id].picture }; }),
+      why: 'This picture: ' + c.picture
     };
   }
 
@@ -379,7 +382,7 @@
     if (cur.answered) {
       body.push(h('div', { class: 'feedback' },
         h('div', { class: 'verdict ' + (cur.correct ? 'right' : 'wrong'), text: cur.correct ? (cur.early ? 'Correct. (Early review: box unchanged.)' : 'Correct.') : 'Not quite. Back to box 1.' }),
-        q.why ? h('p', { class: 'why', text: q.why }) : null,
+        feedbackBody(cur),
         it.type === 'reason' ? null : cardDetail(it.card, !cur.correct),
         h('div', { class: 'row', style: 'margin-top:12px' },
           h('button', { onclick: next, text: session.idx + 1 >= total ? 'See result' : 'Next (Enter)' }))));
@@ -397,6 +400,23 @@
 
     show(h('div', { class: 'panel' }, top, body),
       h('button', { class: 'secondary', onclick: function () { if (confirm('Leave this session? Answers so far are saved.')) renderHome(); }, text: 'Leave session' }));
+  }
+
+  // On a miss: why the picked answer fails, then why the right one answers the question.
+  function feedbackBody(cur) {
+    var q = cur.q;
+    if (cur.correct || !q.options || cur.picked == null) return q.why ? h('p', { class: 'why', text: q.why }) : null;
+    var picked = q.options[cur.picked];
+    var right = q.options.filter(function (o) { return o.right; })[0];
+    return h('div', { class: 'why-pair' },
+      h('div', { class: 'why wrongwhy' },
+        h('div', { class: 'whyhead', text: 'Why your answer doesn\'t work' }),
+        h('p', { class: 'picked', text: '\u201c' + picked.label + '\u201d' }),
+        h('p', { text: picked.note || 'It isn\'t what this question is asking for. Compare it with the right answer below.' })),
+      h('div', { class: 'why rightwhy' },
+        h('div', { class: 'whyhead', text: 'Why the right answer fits' }),
+        h('p', { class: 'picked', text: '\u201c' + (right ? right.label : '') + '\u201d' }),
+        q.why ? h('p', { text: q.why }) : null));
   }
 
   function optionsWidget(cur) {
