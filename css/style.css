@@ -247,3 +247,13 @@ main:has(.wide) { max-width: 1120px; }
 .tcites { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; }
 .tcite { background: #fff1b8; border-radius: 4px; padding: 2px 6px; font-size: 0.82rem; }
 .tcite em { color: #8a6d1a; }
+
+.why-pair { display: grid; gap: 10px; margin-top: 8px; }
+.why-pair .why { margin: 0; }
+.why-pair p { margin: 4px 0 0; }
+.whyhead { font-weight: 700; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.03em; }
+.wrongwhy { border-left: 4px solid var(--wrong); }
+.wrongwhy .whyhead { color: var(--wrong); }
+.rightwhy { border-left: 4px solid var(--right); }
+.rightwhy .whyhead { color: var(--right); }
+.why-pair .picked { font-style: italic; color: var(--muted); }
