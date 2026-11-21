@@ -7496,7 +7496,7 @@ window.SPREADS = [
    },
    {
     "card": "2.6",
-    "cue": "illegality: one right answer",
+    "cue": "illegality: the court decides the law",
     "sup": [
      [
       "2.3",
@@ -7726,7 +7726,7 @@ window.SPREADS = [
       "2.3"
      ],
      "grade": "best",
-     "why": "Payn: officials need power found in law. Illegality asks a legal question with one right answer, the court's."
+     "why": "Payn: officials need power found in law. Illegality raises a question of law, which the court decides for itself."
     },
     {
      "cards": [
@@ -7986,7 +7986,7 @@ window.SPREADS = [
    {
     "f": "m1",
     "k": "cue",
-    "t": "Card: Fettering a discretion. Going by the book, the wrong book. Illegality: one right answer."
+    "t": "Card: Fettering a discretion. Going by the book, the wrong book. Illegality: the court decides the law."
    },
    {
     "f": "m1",
@@ -8008,7 +8008,7 @@ window.SPREADS = [
    {
     "f": "m1",
     "k": "say",
-    "t": "That is a question of law, and on questions of law the court does not defer: there is one right answer, the court's.",
+    "t": "That is a question of law, which the court decides for itself without deferring to the decision-maker, even where the statute is open to argument.",
     "a": []
    },
    {
@@ -8249,7 +8249,7 @@ window.SPREADS = [
    {
     "f": "c",
     "k": "say",
-    "t": "Illegality asks a question of law with one right answer, and procedural impropriety, though contextual, keeps the court on the process it knows best.",
+    "t": "Illegality raises a question of law that the court decides for itself, and procedural impropriety, though contextual, keeps the court on the process it knows best.",
     "a": []
    },
    {
@@ -8288,9 +8288,9 @@ window.SPREADS = [
     "a": []
    }
   ],
-  "modelWords": 1155,
+  "modelWords": 1159,
   "audio": {
-   "src": "data/unreasonable.mp3?v=20261120c",
+   "src": "data/unreasonable.mp3?v=20261121b",
    "starts": [
     0.0,
     6.38,
@@ -8316,49 +8316,49 @@ window.SPREADS = [
     149.95,
     155.86,
     163.75,
-    169.62,
-    172.29,
-    180.16,
-    186.58,
-    191.36,
-    196.2,
-    204.52,
-    214.57,
-    218.18,
-    222.42,
-    230.02,
-    232.53,
-    241.54,
-    251.45,
-    259.69,
-    269.87,
-    281.68,
-    286.83,
-    291.71,
-    307.01,
-    311.85,
-    319.25,
-    323.26,
-    329.42,
-    335.46,
-    340.29,
-    347.24,
-    352.38,
-    366.63,
-    375.29,
-    384.83,
-    388.37,
-    400.23,
-    403.47,
-    409.59,
-    416.44,
-    418.24,
-    431.25,
-    440.02,
-    448.79,
-    451.6,
-    459.45,
-    469.05
+    170.13,
+    172.8,
+    180.67,
+    189.03,
+    193.81,
+    198.66,
+    206.98,
+    217.02,
+    220.63,
+    224.87,
+    232.47,
+    234.99,
+    243.99,
+    253.91,
+    262.14,
+    272.32,
+    284.14,
+    289.28,
+    294.16,
+    309.46,
+    314.3,
+    321.71,
+    325.72,
+    331.88,
+    337.92,
+    342.74,
+    349.69,
+    354.83,
+    369.09,
+    377.75,
+    387.28,
+    390.82,
+    402.69,
+    405.93,
+    412.05,
+    418.9,
+    420.69,
+    433.7,
+    443.3,
+    452.07,
+    454.89,
+    462.74,
+    472.34
    ],
    "voice": "Isabella (Kokoro, British English)"
   }
