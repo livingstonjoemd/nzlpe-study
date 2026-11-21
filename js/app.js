@@ -538,7 +538,7 @@
     }
     var map = h('div', { class: 'panel' },
       h('h2', { text: 'Mastery map' }),
-      h('p', { class: 'hint', text: '% = mastered: right twice, at least 3 hours apart (box 3). Darkest bar: locked in, right again a day later (box 4). Light bar: right once (box 2). Tap a suit to drill it.' }),
+      h('p', { class: 'hint', text: '% = mastered: right twice, at least 3 hours apart (box 3). Gold bar: locked in, right again a day later (box 4). Pale bar: right once (box 2). Tap a suit to drill it.' }),
       suitRows,
       weakest());
 
@@ -551,11 +551,11 @@
         h('button', { class: 'linkbtn', onclick: function () { startSession(['reason'], sp.title, 'sp:' + sp.id); }, text: sp.title }),
         h('div', { class: 'bar' }, h('div', { class: 'fill locked', style: 'width:' + locked + '%' }), h('div', { class: 'fill', style: 'width:' + (m - locked) + '%' }), h('div', { class: 'fill once', style: 'width:' + once + '%' })),
         h('span', { class: 'pct', text: m + '%' }),
-        h('span', { class: 'suitname', text: items.length + ' reasoning questions · ' + once + '% right once' }));
+        h('span', { class: 'suitname', text: items.length + ' reasoning questions · ' + locked + '% locked in' + (once ? ' · ' + once + '% right once' : '') }));
     });
     var plans = planRows.length ? h('div', { class: 'panel' },
       h('h2', { text: 'Essay plans: reasoning' }),
-      h('p', { class: 'hint', text: 'For each of your 12 tarot plans: the real question, the thesis, which authority proves which point, the counter, the landing and the traps. Tap a plan to work through it.' }),
+      h('p', { class: 'hint', text: 'For each of your 12 tarot plans: the real question, the thesis, which authority proves which point, the counter, the landing and the traps. % = mastered (right twice, 3+ hours apart). Gold = locked in (right again a day later). Tap a plan to work through it.' }),
       planRows) : null;
     var tarot = SPREADS.length ? h('div', { class: 'panel' },
       h('h2', { text: 'Tarot essay plans' }),
