@@ -3790,7 +3790,7 @@ window.SPREADS = [
    {
     "f": "i",
     "k": "say",
-    "t": "It asks not whether a decision was right, but whether it was lawful: whether the decision-maker had the power it used, used it rationally, and followed a fair procedure.",
+    "t": "It asks not whether a decision was right, but whether it was lawful.",
     "a": []
    },
    {
@@ -3822,13 +3822,13 @@ window.SPREADS = [
    {
     "f": "i",
     "k": "say",
-    "t": "Review is expensive and slow, and its remedies are discretionary, so the question whether it is worth pursuing is a fair one.",
+    "t": "A full claim is expensive, can take months to reach a final hearing, and ends in a discretionary remedy, so the question whether it is worth pursuing is a fair one.",
     "a": []
    },
    {
     "f": "i",
     "k": "say",
-    "t": "This essay argues that review is worthwhile where speed, rights or fair process matter most, and least worthwhile where the claimant really wants a different result on the merits, because the court will usually send the decision back to be made again.",
+    "t": "This essay argues that review is worthwhile where urgent interim relief, rights or fair process matter most, and least worthwhile where the claimant really wants a different result on the merits, because the court will usually send the decision back to be made again.",
     "a": []
    },
    {
@@ -3839,7 +3839,13 @@ window.SPREADS = [
    {
     "f": "m0",
     "k": "say",
-    "t": "The strongest positive is speed.",
+    "t": "The strongest positive is that, although a full claim is slow, the court can act within days when it must.",
+    "a": []
+   },
+   {
+    "f": "m0",
+    "k": "say",
+    "t": "Section 15 of the Judicial Review Procedure Act 2016 allows interim orders to protect a claimant until the claim is decided.",
     "a": []
    },
    {
@@ -3862,7 +3868,7 @@ window.SPREADS = [
    {
     "f": "m0",
     "k": "say",
-    "t": "Walker J found a strong case of error of law and of failure to consider a mandatory relevant consideration, and made an interim order under section 15 of the Judicial Review Procedure Act 2016 releasing him, on conditions, to see his father.",
+    "t": "Walker J found a strong case of error of law and of failure to consider a mandatory relevant consideration, and made an interim order under section 15 releasing him, on conditions, to see his father.",
     "a": [
      [
       1,
@@ -3873,7 +3879,7 @@ window.SPREADS = [
    {
     "f": "m0",
     "k": "say",
-    "t": "No complaint process could have acted in time.",
+    "t": "No other process could have acted in time.",
     "a": []
    },
    {
@@ -4068,7 +4074,7 @@ window.SPREADS = [
    {
     "f": "m2s0",
     "k": "say",
-    "t": "Add the cost of High Court litigation, the procedure and time limits under Part 30 of the High Court Rules 2016, and the risk of paying costs if the claim fails, and review is a poor choice for many claimants.",
+    "t": "Add the cost of High Court litigation, the months a defended claim can take to reach a final hearing under Part 30 of the High Court Rules 2016, and the risk of paying costs if the claim fails, and review is a poor choice for many claimants whose matter is not urgent.",
     "a": [
      [
       0,
@@ -4141,7 +4147,7 @@ window.SPREADS = [
    {
     "f": "c",
     "k": "say",
-    "t": "Judicial review is worth pursuing in identifiable situations: where urgent interim relief is needed, as in Christiansen; where a right is engaged and a declaration will shape future conduct, as in Grounded Kiwis; and where a fair process is the real goal, as in the Tertiary Education Commission case.",
+    "t": "Judicial review is worth pursuing in identifiable situations: where urgent interim relief is needed, as in Christiansen, because the court can act fast even though a full claim is slow; where a right is engaged and a declaration will shape future conduct, as in Grounded Kiwis; and where a fair process is the real goal, as in the Tertiary Education Commission case.",
     "a": []
    },
    {
@@ -4178,66 +4184,67 @@ window.SPREADS = [
     "a": []
    }
   ],
-  "modelWords": 1142,
+  "modelWords": 1191,
   "audio": {
-   "src": "data/review.mp3?v=20261118d",
+   "src": "data/review.mp3?v=20261121a",
    "starts": [
     0.0,
     8.24,
     13.17,
-    22.34,
-    32.22,
-    48.17,
-    55.55,
-    69.8,
-    74.05,
-    76.55,
-    84.01,
-    95.6,
-    112.02,
-    115.14,
-    123.61,
-    129.43,
-    136.83,
-    155.48,
-    160.34,
-    164.97,
-    169.26,
-    181.87,
-    186.99,
-    200.11,
-    204.2,
-    210.01,
-    215.96,
-    219.24,
-    232.83,
-    241.96,
-    245.61,
-    249.9,
-    251.86,
-    255.17,
-    272.81,
-    279.06,
-    285.25,
-    289.94,
-    304.89,
-    310.76,
-    324.24,
-    327.78,
-    332.22,
-    345.15,
-    347.99,
-    360.74,
-    364.46,
-    380.37,
-    392.89,
-    397.2,
-    415.8,
-    424.08,
-    427.05,
-    445.01
+    17.22,
+    27.1,
+    43.05,
+    52.67,
+    67.9,
+    72.15,
+    78.15,
+    87.47,
+    94.93,
+    106.52,
+    119.11,
+    122.03,
+    130.5,
+    136.32,
+    143.72,
+    162.37,
+    167.23,
+    171.86,
+    176.15,
+    188.76,
+    193.88,
+    207.0,
+    211.09,
+    216.9,
+    222.85,
+    226.13,
+    239.72,
+    248.85,
+    252.5,
+    256.79,
+    258.75,
+    262.06,
+    279.7,
+    285.95,
+    292.14,
+    296.83,
+    311.79,
+    317.65,
+    334.57,
+    338.11,
+    342.55,
+    355.47,
+    358.31,
+    371.07,
+    374.78,
+    390.7,
+    403.21,
+    407.53,
+    429.52,
+    437.8,
+    440.76,
+    458.73
    ],
-   "voice": ""
+   "voice": "Isabella (Kokoro, British English)"
   }
  },
  {
